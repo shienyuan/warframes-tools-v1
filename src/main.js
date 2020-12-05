@@ -6,9 +6,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
-library.add(faGithub);
-
-export default function(Vue, { router, head, isClient }) {
+export default function(Vue, { _, head, __ }) {
     head.meta.push({
         name: 'keywords',
         content: 'warframe,tools,gaming,game tutorial,game tool'
@@ -29,6 +27,7 @@ export default function(Vue, { router, head, isClient }) {
         href: 'https://warframes.tools'
     });
 
+    library.add(faGithub);
     Vue.use(BootstrapVue);
     Vue.use(BootstrapVueIcons);
     Vue.component('faIcon', FontAwesomeIcon);
