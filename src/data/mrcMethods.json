@@ -1,0 +1,108 @@
+
+[
+  {
+    "category": "Warframes",
+    "count": 75,
+    "total_MP": 450000
+  },
+  {
+    "category": "Primaries",
+    "count": 139,
+    "total_MP": 426000
+  },
+  {
+    "category": "Secondaries",
+    "count": 114,
+    "total_MP": 347000
+  },
+  {
+    "category": "Melee",
+    "count": 163,
+    "total_MP": 491000
+  },
+  {
+    "category": "Kitguns",
+    "count": 6,
+    "total_MP": 18000
+  },
+  {
+    "category": "Zaws",
+    "count": 6,
+    "total_MP": 33000
+  },
+  {
+    "category": "Missions",
+    "count": 11,
+    "total_MP": 29002
+  },
+  {
+    "category": "Junctions",
+    "count": 26,
+    "total_MP": 26000
+  },
+  {
+    "category": "Intrinsics",
+    "count": 4,
+    "total_MP": 60000
+  },
+  {
+    "category": "Sentinels",
+    "count": 14,
+    "total_MP": 84000
+  },
+  {
+    "category": "Robotic Weapons",
+    "count": 18,
+    "total_MP": 54000
+  },
+  {
+    "category": "Kubrows",
+    "count": 6,
+    "total_MP": 36000
+  },
+  {
+    "category": "Kavats",
+    "count": 4,
+    "total_MP": 24000
+  },
+  {
+    "category": "Predasites",
+    "count": 3,
+    "total_MP": 18000
+  },
+  {
+    "category": "Vulpaphylas",
+    "count": 3,
+    "total_MP": 18000
+  },
+  {
+    "category": "MOAs",
+    "count": 4,
+    "total_MP": 24000
+  },
+  {
+    "category": "Archwings",
+    "count": 5,
+    "total_MP": 30000
+  },
+  {
+    "category": "Archwing Weapons",
+    "count": 23,
+    "total_MP": 70000
+  },
+  {
+    "category": "Amps",
+    "count": 8,
+    "total_MP": 24000
+  },
+  {
+    "category": "K-Drives",
+    "count": 5,
+    "total_MP": 30000
+  },
+  {
+    "category": "Necramechs",
+    "count": 2,
+    "total_MP": 16000
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "name": "warframes-tools-v1",
+  "private": true,
+  "version": "0.2.0",
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "bootstrap": "^4.5.3",
+    "bootstrap-vue": "^2.20.1",
+    "gridsome": "^0.7.0",
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "@fortawesome/vue-fontawesome": "^2.0.0"
+  }
+}
