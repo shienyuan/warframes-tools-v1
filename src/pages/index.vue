@@ -51,7 +51,8 @@
                     </b-form-group>
                 </b-card>
             </b-col>
-            <b-col cols="6">
+
+            <b-col cols="4">
                 <b-card
                     bg-variant="dark text-white"
                     class="text-center h-100 d-flex flex-column align-self-center"
@@ -59,24 +60,24 @@
                     <b-card-body
                         class="d-flex flex-column justify-content-center h-100"
                     >
-                        <h1 class="display-1 font-weight-bold">
+                        <h1 class="display-4 font-weight-bold">
                             {{ targetMp || 0 }}
                         </h1>
                         <p class="text-info mb-0">MP required</p>
                     </b-card-body>
                 </b-card>
             </b-col>
-            <b-col cols="2">
-                <b-card>
-                    {{ $page.ranks.edges[targetMr].node.level }}
-                </b-card>
-                <!--                <div>{{ getMrDetails }}</div>-->
+
+            <b-col cols="4">
+                <rank :rank="$page.ranks.edges[targetMr].node"></rank>
             </b-col>
         </b-row>
 
-        <b-card title="Mastery Point Table" bg-variant="dark text-white">
+        <b-card header="Mastery Point Table" bg-variant="dark text-white">
             <b-table
-                class="mt-3 text-white"
+                dark
+                bordered
+                hover
                 :fields="methodFields"
                 :items="$page.methods.edges"
                 sort-by="node.total_MP"
@@ -106,6 +107,7 @@ query {
         level
         test
         test_url
+        img_url
       }
     }
   }
@@ -117,6 +119,9 @@ export default {
     name: 'MasteryRank',
     metaInfo: {
         title: 'Mastery Calculator'
+    },
+    components: {
+        rank: () => import('../components/masteryCalculator/rank')
     },
     created() {},
     data() {

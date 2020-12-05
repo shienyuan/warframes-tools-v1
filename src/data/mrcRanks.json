@@ -3,186 +3,218 @@
     "name": "Unranked",
     "level": 0,
     "test": "None",
-    "test_url": ""
-  },{
+    "test_url": "",
+    "img_url": ""
+  },
+  {
     "name": "Initiate",
     "level": 1,
     "test": "Primary Test",
-    "test_url": "https://www.youtube.com/watch?v=3XOsVGfQghY"
+    "test_url": "https://www.youtube.com/watch?v=3XOsVGfQghY",
+    "img_url": "/Initiate_TMpHI25KI5.jpg"
   },
   {
     "name": "Silver Initiate",
     "level": 2,
     "test": "Sidearm Test",
-    "test_url": "https://www.youtube.com/watch?v=2bz5DkOlsRE"
+    "test_url": "https://www.youtube.com/watch?v=2bz5DkOlsRE",
+    "img_url": "/Silver-initiate_J6GvDnsjCT.jpg"
   },
   {
     "name": "Gold Initiate",
     "level": 3,
     "test": "Melee Test",
-    "test_url": "https://www.youtube.com/watch?v=rYIXigmFZUs"
+    "test_url": "https://www.youtube.com/watch?v=rYIXigmFZUs",
+    "img_url": "/Gold-initiate_ss1sJKlVfq.jpg"
   },
   {
     "name": "Novice",
     "level": 4,
     "test": "Survival Test",
-    "test_url": "https://www.youtube.com/watch?v=v_SY3UYGYUk"
+    "test_url": "https://www.youtube.com/watch?v=v_SY3UYGYUk",
+    "img_url": "/Novice_ShHFiExNTl.jpg"
   },
   {
     "name": "Silver Novice",
     "level": 5,
     "test": "Terminal Hacking Test",
-    "test_url": "https://www.youtube.com/watch?v=T42Bp1WuKi0"
+    "test_url": "https://www.youtube.com/watch?v=T42Bp1WuKi0",
+    "img_url": "/Silver-novice__f12Sj_XQH.jpg"
   },
   {
     "name": "Gold Novice",
     "level": 6,
     "test": "Target Tracking Test",
-    "test_url": "https://www.youtube.com/watch?v=4YWSMhYKZOU"
+    "test_url": "https://www.youtube.com/watch?v=4YWSMhYKZOU",
+    "img_url": "/Gold-novice_nWbtFRHpG.jpg"
   },
   {
     "name": "Disciple",
     "level": 7,
     "test": "Timed Exterminate Test",
-    "test_url": "https://www.youtube.com/watch?v=BrwlTYtw"
+    "test_url": "https://www.youtube.com/watch?v=BrwlTYtw",
+    "img_url": "/Disciple_hFKZu9yA6.jpg"
   },
   {
     "name": "Silver Disciple",
     "level": 8,
     "test": "Wall Dash Test",
-    "test_url": "https://www.youtube.com/watch?v=FiTWPl1QD6I"
+    "test_url": "https://www.youtube.com/watch?v=FiTWPl1QD6I",
+    "img_url": "/Silver-disciple_F4Gcyg50mP.jpg"
   },
   {
     "name": "Gold Disciple",
     "level": 9,
     "test": "Stealth Test",
-    "test_url": "https://www.youtube.com/watch?v=nNG-iE4VvOk"
+    "test_url": "https://www.youtube.com/watch?v=nNG-iE4VvOk",
+    "img_url": "/Gold-disciple_sv_NeGq81A.jpg"
   },
   {
     "name": "Seeker",
     "level": 10,
     "test": "Disappearing Platform Test",
-    "test_url": "https://www.youtube.com/watch?v=XEva0Ivs4tc"
+    "test_url": "https://www.youtube.com/watch?v=XEva0Ivs4tc",
+    "img_url": "/Seeker_pi-ux4688X.jpg"
   },
   {
     "name": "Silver Seeker",
     "level": 11,
     "test": "Time Trial Test",
-    "test_url": "https://www.youtube.com/watch?v=cfTd6L7RL2s"
+    "test_url": "https://www.youtube.com/watch?v=cfTd6L7RL2s",
+    "img_url": "/Silver-seeker_q-l0aVyxpa.jpg"
   },
   {
     "name": "Gold Seeker",
     "level": 12,
     "test": "Carousel Test",
-    "test_url": "https://www.youtube.com/watch?v=b-U8PvLouxI"
+    "test_url": "https://www.youtube.com/watch?v=b-U8PvLouxI",
+    "img_url": "/Gold-seeker_YmjFTW3Nnn.jpg"
   },
   {
     "name": "Hunter",
     "level": 13,
     "test": "Advanced Disappearing Platform Test",
-    "test_url": "https://www.youtube.com/watch?v=48YN5H9uw8Q"
+    "test_url": "https://www.youtube.com/watch?v=48YN5H9uw8Q",
+    "img_url": "/Hunter_sq12PbLobKq.jpg"
   },
   {
     "name": "Silver Hunter",
     "level": 14,
     "test": "Advanced Exterminate Test",
-    "test_url": "https://www.youtube.com/watch?v=nwjybt1pnrE"
+    "test_url": "https://www.youtube.com/watch?v=nwjybt1pnrE",
+    "img_url": "/Silver-hunter_IgHCRBFvq8.jpg"
   },
   {
     "name": "Gold Hunter",
     "level": 15,
     "test": "Interception Test",
-    "test_url": "https://www.youtube.com/watch?v=Za4c1M5ICcU"
+    "test_url": "https://www.youtube.com/watch?v=Za4c1M5ICcU",
+    "img_url": "/Gold-hunter_uX6ZW8LGpv.jpg"
   },
   {
     "name": "Eagle",
     "level": 16,
     "test": "Defense Test",
-    "test_url": "https://www.youtube.com/watch?v=n7e6x_-zq-k"
+    "test_url": "https://www.youtube.com/watch?v=n7e6x_-zq-k",
+    "img_url": "/Eagle_kBp_ytRfDj.jpg"
   },
   {
     "name": "Silver Eagle",
     "level": 17,
     "test": "Advanced Timed Exterminate Test",
-    "test_url": "https://www.youtube.com/watch?v=htrtXYMHZ5M"
+    "test_url": "https://www.youtube.com/watch?v=htrtXYMHZ5M",
+    "img_url": "/Silver-eagle_A8rItKSkSV.jpg"
   },
   {
     "name": "Gold Eagle",
     "level": 18,
     "test": "Advanced Defense Test",
-    "test_url": "https://www.youtube.com/watch?v=FxMdsIZOGwM"
+    "test_url": "https://www.youtube.com/watch?v=FxMdsIZOGwM",
+    "img_url": "/Gold-eagle_8T0GD_1lS-.jpg"
   },
   {
     "name": "Tiger",
     "level": 19,
     "test": "Stealth Rescue Test",
-    "test_url": "https://www.youtube.com/watch?v=h0D-3X69Qkk"
+    "test_url": "https://www.youtube.com/watch?v=h0D-3X69Qkk",
+    "img_url": "/Tiger_KDR5gWCkNP.jpg"
   },
   {
     "name": "Silver Tiger",
     "level": 20,
     "test": "Archwing Time Trial Test",
-    "test_url": "https://www.youtube.com/watch?v=8jN2Ps9eKSo"
+    "test_url": "https://www.youtube.com/watch?v=8jN2Ps9eKSo",
+    "img_url": "/Silver-tiger_dnicxWcG-o.jpg"
   },
   {
     "name": "Gold Tiger",
     "level": 21,
     "test": "Timed Exterminate Test",
-    "test_url": "https://www.youtube.com/watch?v=UxigE-FKAeg"
+    "test_url": "https://www.youtube.com/watch?v=UxigE-FKAeg",
+    "img_url": "/Gold-tiger_ZKf5nydAu_.jpg"
   },
   {
     "name": "Dragon",
     "level": 22,
     "test": "Arena Test",
-    "test_url": "https://www.youtube.com/watch?v=SbaClSk9kAc"
+    "test_url": "https://www.youtube.com/watch?v=SbaClSk9kAc",
+    "img_url": "/Dragon_TJRvLCVGNs.jpg"
   },
   {
     "name": "Silver Dragon",
     "level": 23,
     "test": "Mobile Point Capture Test",
-    "test_url": "https://www.youtube.com/watch?v=1bkbBW376VE"
+    "test_url": "https://www.youtube.com/watch?v=1bkbBW376VE",
+    "img_url": "/Silver-dragon_iNT_JQEQET.jpg"
   },
   {
     "name": "Gold Dragon",
     "level": 24,
     "test": "Operator Test",
-    "test_url": "https://www.youtube.com/watch?v=S82Cm2VYxIw"
+    "test_url": "https://www.youtube.com/watch?v=S82Cm2VYxIw",
+    "img_url": "/Gold-dragon_uzQa_VPUIJ.jpg"
   },
   {
     "name": "Sage",
     "level": 25,
     "test": "Deployable Archwing Exterminate Test",
-    "test_url": "https://www.youtube.com/watch?v=Ov7bPTIv5Mc"
+    "test_url": "https://www.youtube.com/watch?v=Ov7bPTIv5Mc",
+    "img_url": "/Sage_I516-7XY53.jpg"
   },
   {
     "name": "Silver Sage",
     "level": 26,
     "test": "Advanced Mobile Point Capture Test",
-    "test_url": "https://www.youtube.com/watch?v=yI2TMmMytlg"
+    "test_url": "https://www.youtube.com/watch?v=yI2TMmMytlg",
+    "img_url": "/Silver-sage_EzwC2pytAG.jpg"
   },
   {
     "name": "Gold Sage",
     "level": 27,
     "test": "Index Banking Test",
-    "test_url": ""
+    "test_url": "",
+    "img_url": "/Gold-sage_ctjfuBH03D.jpg"
   },
   {
     "name": "Master",
     "level": 28,
     "test": "Condensed Thermia Extermination Test",
-    "test_url": ""
+    "test_url": "",
+    "img_url": "/Master_zLozFakDe-5.jpg"
   },
   {
     "name": "Middle Master",
     "level": 29,
     "test": "Advanced Timed Extermination Test",
-    "test_url": ""
+    "test_url": "",
+    "img_url": "/Middle-master_IH2dJXHOB.jpg"
   },
   {
     "name": "True Master",
     "level": 30,
     "test": "Advanced Survival Test",
-    "test_url": "https://www.youtube.com/watch?v=MNTxIAENcQ4"
+    "test_url": "https://www.youtube.com/watch?v=MNTxIAENcQ4",
+    "img_url": "/Grand-master_q3pfLtM07I.jpg"
   }
 ]
 
