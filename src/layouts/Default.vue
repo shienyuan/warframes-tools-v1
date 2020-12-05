@@ -33,7 +33,10 @@
                         <span class="mr-2"
                             >v{{ $static.metadata.version.version }}</span
                         >
-                        <fa-icon :icon="['fab', 'github']" />
+                        <fa-icon
+                            style="width: 16px"
+                            :icon="['fab', 'github']"
+                        />
                     </b-nav-item>
                 </b-navbar-nav>
             </b-collapse>
