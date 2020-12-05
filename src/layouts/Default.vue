@@ -18,7 +18,7 @@
                     <b-nav-item
                         v-for="(n, i) in navs"
                         :key="i"
-                        :active="n.isActive"
+                        :active="$route.path === n.path"
                         :to="n.path"
                         >{{ n.label }}</b-nav-item
                     >
@@ -84,19 +84,14 @@ export default {
             navs: [
                 {
                     label: 'Mastery Calculator',
-                    path: '/',
-                    isActive: false
+                    path: '/'
                 },
                 {
                     label: 'Tutorials',
-                    path: '/tutorial',
-                    isActive: false
+                    path: '/tutorial'
                 }
             ]
         };
-    },
-    created() {
-        this.navs.find(n => n.path === this.$route.path).isActive = true;
     }
 };
 </script>
