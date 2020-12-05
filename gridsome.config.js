@@ -17,5 +17,9 @@ module.exports = {
     siteDescription:
         'Warframes tools is a website that contains several Warframe third-party tools to' +
         ' help Warframe players having a better Warframe gaming expreience ',
-    plugins: []
+    plugins: [
+	    {
+      use: '@gridsome/plugin-sitemap',
+      }
+	]
 };
