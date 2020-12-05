@@ -3,8 +3,8 @@
         <b-navbar class="bg-dark" toggleable="lg" type="dark">
             <b-navbar-brand class="d-flex" href="#">
                 <img
+                    style="height: 30px"
                     class="mr-3"
-                    height="30"
                     src="../assets/logo.png"
                     alt="warframes-tools-logo"
                 />
@@ -27,7 +27,7 @@
                 <b-navbar-nav class="ml-auto m-0 p-0">
                     <b-nav-item
                         class="m-0 p-0"
-                        href="https://github.com/sy97/warframes-tools"
+                        href="https://github.com/sy97/warframes-tools-v1"
                         target="_blank"
                     >
                         <span class="mr-2"
@@ -38,7 +38,7 @@
                 </b-navbar-nav>
             </b-collapse>
         </b-navbar>
-        <b-alert class="m-3" show variant="success">
+        <b-alert class="m-3" :show="true" variant="success">
             <b-icon icon="info-circle-fill" class="mr-1"></b-icon>
             New update! v{{ $static.metadata.version.version }} -
             {{ $static.metadata.version.update }}
