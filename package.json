@@ -11,14 +11,16 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/vue-remark": "^0.2.6",
     "bootstrap": "^4.5.3",
     "bootstrap-vue": "^2.20.1",
     "gridsome": "^0.7.0",
     "imagekitio-vue": "^1.0.8",
-    "vue": "^2.6.12",
-    "@gridsome/plugin-sitemap": "^0.4.0"
+    "vue": "^2.6.12"
   },
   "devDependencies": {
-    "@fortawesome/vue-fontawesome": "^2.0.0"
+    "@fortawesome/vue-fontawesome": "^2.0.0",
+    "@gridsome/plugin-sitemap": "^0.4.0"
   }
 }

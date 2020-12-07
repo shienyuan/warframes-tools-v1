@@ -18,8 +18,20 @@ module.exports = {
         'Warframes tools is a website that contains several Warframe third-party tools to' +
         ' help Warframe players having a better Warframe gaming expreience ',
     plugins: [
-	    {
-      use: '@gridsome/plugin-sitemap',
-      }
-	]
+        {
+            use: '@gridsome/plugin-sitemap'
+        },
+        {
+            use: '@gridsome/vue-remark',
+            options: {
+                typeName: 'Post', // Required
+                baseDir: './blog', // Where .md files are located
+                pathPrefix: '/tutorial', // Add route prefix. Optional
+                template: './src/templates/Post.vue', // Optional
+                remark: {
+                    autolinkHeadings: false // disable auto-adding links to headings
+                }
+            }
+        }
+    ]
 };
