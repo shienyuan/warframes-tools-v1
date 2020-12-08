@@ -7,9 +7,9 @@
 
 module.exports = function(api) {
     api.loadSource(({ addCollection, addMetadata }) => {
-        const mrcMethods = require('./src/data/mrcMethods.json');
-        const mrcRanks = require('./src/data/mrcRanks.json');
-        const meta = require('./src/data/meta.json');
+        const mrcMethods = require('./data/mrcMethods.json');
+        const mrcRanks = require('./data/mrcRanks.json');
+        const meta = require('./data/meta.json');
 
         addMetadata('version', meta);
 

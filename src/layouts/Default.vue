@@ -90,8 +90,8 @@ export default {
                     path: '/'
                 },
                 {
-                    label: 'Tutorials',
-                    path: '/tutorial'
+                    label: 'Guides',
+                    path: '/post'
                 }
             ]
         };

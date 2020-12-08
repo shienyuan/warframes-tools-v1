@@ -1,0 +1,153 @@
+{
+  "main": {
+    "name": "Protea",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/Protea_-0d1PDI9i.png",
+    "time": 12,
+    "rush": 25,
+    "method": "The Deadlock Protocol",
+    "chance": "100%",
+    "expected": "1",
+    "guaranteed": "1",
+    "mats": [
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/CreditsLarge_iBOxqbg_i.png",
+        "name": "Credits",
+        "amount": 25000
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/Helmet_JooCJ1a4M.png",
+        "name": "Warframe_Neuroptics",
+        "amount": 1
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/Chassis_q97oeg28T.png",
+        "name": "Warframe_Chassis",
+        "amount": 1
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/Systems_ENt_QNmSA.png",
+        "name": "Warframe_Systems",
+        "amount": 1
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/OrokinCell_DHZWWYFgY.png",
+        "name": "Orokin_Cell",
+        "amount": 3
+      }
+    ]
+  },
+  "head": {
+    "name": "Protea Neuroptics",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/Helmet_JooCJ1a4M.png",
+    "time": 12,
+    "rush": 25,
+    "method": "Basic Granum Void (Rotation C)",
+    "location": "Venus Ishatar(Corpus Sabotage 4-6)",
+    "chance": "11.1%",
+    "expected": "9 - 10",
+    "guaranteed": "59 ± 20",
+    "mats": [
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/CreditsLarge_iBOxqbg_i.png",
+        "name": "Credits",
+        "amount": 15000
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/Salvage_qAS9l7-Tb.png",
+        "name": "Salvage",
+        "amount": 11500
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/PolymerBundle_xZeaxWg1l.png",
+        "name": "Polymer_Bundle",
+        "amount": 5150
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/CubicDiodes_CVGS9UmQN.png",
+        "name": "Cubic_Diodes",
+        "amount": 1250
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/NeuralSensor_4iBV8gMcN.png",
+        "name": "Neural_Sensors",
+        "amount": 5
+      }
+    ]
+  },
+  "chasse": {
+    "name": "Protea Chassis",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/Chassis_q97oeg28T.png",
+    "time": 12,
+    "rush": 25,
+    "method": "Extended Granum Void (Rotation C)",
+    "location": "Neptune Triton(Corpus Rescue 28-30)",
+    "chance": "11.1%",
+    "expected": "9 - 10",
+    "guaranteed": "59 ± 20",
+    "mats": [
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/CreditsLarge_iBOxqbg_i.png",
+        "name": "Credits",
+        "amount": 15000
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/AlloyPlate_KGO3SxKTT.png",
+        "name": "Alloy_Plate",
+        "amount": 20000
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/Carbides_vMTtPbXRf.png",
+        "name": "Carbides",
+        "amount": 2750
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/Oxium_fx0liheeU.png",
+        "name": "Oxium",
+        "amount": 550
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/Morphics_HomcwNE1O.png",
+        "name": "Morphics",
+        "amount": 12
+      }
+    ]
+  },
+  "system": {
+    "name": "Protea Systems",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/Systems_ENt_QNmSA.png",
+    "time": 12,
+    "rush": 25,
+    "method": "Nightmare Granum Void (Rotation C)",
+    "location": "Pluto Hydra(Corpus Capture 30-34)",
+    "chance": "11.1%",
+    "expected": "9 - 10",
+    "guaranteed": "59 ± 20",
+    "mats": [
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/CreditsLarge_iBOxqbg_i.png",
+        "name": "Credits",
+        "amount": 15000
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/Ferrite_JHPCABzYh.png",
+        "name": "Ferrite",
+        "amount": 13400
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/Cryotic_kvKeHOeHw.png",
+        "name": "Cryotic",
+        "amount": 1000
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/Copernics_F4McHWSoe.png",
+        "name": "Copernics",
+        "amount": 3500
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/ControlModule_T-vLsXQb4h.png",
+        "name": "Control_Module",
+        "amount": 10
+      }
+    ]
+  }
+}
