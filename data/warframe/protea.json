@@ -11,27 +11,27 @@
     "mats": [
       {
         "img": "https://ik.imagekit.io/seaw0jfghdk/CreditsLarge_iBOxqbg_i.png",
-        "link": "https://warframe.fandom.com/wiki/Credits",
+        "name": "Credits",
         "amount": 25000
       },
       {
         "img": "https://ik.imagekit.io/seaw0jfghdk/Helmet_JooCJ1a4M.png",
-        "link": "https://warframe.fandom.com/wiki/Warframe_Neuroptics",
+        "name": "Warframe_Neuroptics",
         "amount": 1
       },
       {
         "img": "https://ik.imagekit.io/seaw0jfghdk/Chassis_q97oeg28T.png",
-        "link": "https://warframe.fandom.com/wiki/Warframe_Chassis",
+        "name": "Warframe_Chassis",
         "amount": 1
       },
       {
         "img": "https://ik.imagekit.io/seaw0jfghdk/Systems_ENt_QNmSA.png",
-        "link": "https://warframe.fandom.com/wiki/Warframe_Systems",
+        "name": "Warframe_Systems",
         "amount": 1
       },
       {
         "img": "https://ik.imagekit.io/seaw0jfghdk/OrokinCell_DHZWWYFgY.png",
-        "link": "https://warframe.fandom.com/wiki/Orokin_Cell",
+        "name": "Orokin_Cell",
         "amount": 3
       }
     ]
@@ -49,27 +49,27 @@
     "mats": [
       {
         "img": "https://ik.imagekit.io/seaw0jfghdk/CreditsLarge_iBOxqbg_i.png",
-        "link": "https://warframe.fandom.com/wiki/Credits",
+        "name": "Credits",
         "amount": 15000
       },
       {
         "img": "https://ik.imagekit.io/seaw0jfghdk/Salvage_qAS9l7-Tb.png",
-        "link": "https://warframe.fandom.com/wiki/Salvage",
+        "name": "Salvage",
         "amount": 11500
       },
       {
         "img": "https://ik.imagekit.io/seaw0jfghdk/PolymerBundle_xZeaxWg1l.png",
-        "link": "https://warframe.fandom.com/wiki/Polymer_Bundle",
+        "name": "Polymer_Bundle",
         "amount": 5150
       },
       {
         "img": "https://ik.imagekit.io/seaw0jfghdk/CubicDiodes_CVGS9UmQN.png",
-        "link": "https://warframe.fandom.com/wiki/Cubic_Diodes",
+        "name": "Cubic_Diodes",
         "amount": 1250
       },
       {
         "img": "https://ik.imagekit.io/seaw0jfghdk/NeuralSensor_4iBV8gMcN.png",
-        "link": "https://warframe.fandom.com/wiki/Neural_Sensors",
+        "name": "Neural_Sensors",
         "amount": 5
       }
     ]
@@ -87,27 +87,27 @@
     "mats": [
       {
         "img": "https://ik.imagekit.io/seaw0jfghdk/CreditsLarge_iBOxqbg_i.png",
-        "link": "https://warframe.fandom.com/wiki/Credits",
+        "name": "Credits",
         "amount": 15000
       },
       {
         "img": "https://ik.imagekit.io/seaw0jfghdk/AlloyPlate_KGO3SxKTT.png",
-        "link": "https://warframe.fandom.com/wiki/Alloy_Plate",
+        "name": "Alloy_Plate",
         "amount": 20000
       },
       {
         "img": "https://ik.imagekit.io/seaw0jfghdk/Carbides_vMTtPbXRf.png",
-        "link": "https://warframe.fandom.com/wiki/Carbides",
+        "name": "Carbides",
         "amount": 2750
       },
       {
         "img": "https://ik.imagekit.io/seaw0jfghdk/Oxium_fx0liheeU.png",
-        "link": "https://warframe.fandom.com/wiki/Oxium",
+        "name": "Oxium",
         "amount": 550
       },
       {
         "img": "https://ik.imagekit.io/seaw0jfghdk/Morphics_HomcwNE1O.png",
-        "link": "https://warframe.fandom.com/wiki/Morphics",
+        "name": "Morphics",
         "amount": 12
       }
     ]
@@ -125,27 +125,27 @@
     "mats": [
       {
         "img": "https://ik.imagekit.io/seaw0jfghdk/CreditsLarge_iBOxqbg_i.png",
-        "link": "https://warframe.fandom.com/wiki/Credits",
+        "name": "Credits",
         "amount": 15000
       },
       {
         "img": "https://ik.imagekit.io/seaw0jfghdk/Ferrite_JHPCABzYh.png",
-        "link": "https://warframe.fandom.com/wiki/Ferrite",
+        "name": "Ferrite",
         "amount": 13400
       },
       {
         "img": "https://ik.imagekit.io/seaw0jfghdk/Cryotic_kvKeHOeHw.png",
-        "link": "https://warframe.fandom.com/wiki/Cryotic",
+        "name": "Cryotic",
         "amount": 1000
       },
       {
         "img": "https://ik.imagekit.io/seaw0jfghdk/Copernics_F4McHWSoe.png",
-        "link": "https://warframe.fandom.com/wiki/Copernics",
+        "name": "Copernics",
         "amount": 3500
       },
       {
         "img": "https://ik.imagekit.io/seaw0jfghdk/ControlModule_T-vLsXQb4h.png",
-        "link": "https://warframe.fandom.com/wiki/Control_Module",
+        "name": "Control_Module",
         "amount": 10
       }
     ]

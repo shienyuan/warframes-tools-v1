@@ -6,9 +6,15 @@
                     {{ data.title }}
                 </h1>
                 <p class="small text-secondary">
-                    {{ data.created_at }} · {{ `${data.read_min} read` }}
+                    {{ formatDate(data.created_at) }} ·
+                    {{ `${data.read_min} read` }}
                 </p>
-                <b-img class="mb-3 mt-2" width="680" :src="data.image"></b-img>
+                <b-img
+                    :alt="data.image_caption"
+                    class="mb-3 mt-2"
+                    width="680"
+                    :src="data.image"
+                ></b-img>
                 <div class="lead">{{ $page.post.excerpt }}</div>
             </header>
 
@@ -37,6 +43,8 @@ image_caption
 </page-query>
 
 <script>
+import { formatDate } from '../utils/dateUtil';
+
 export default {
     metaInfo() {
         return {
@@ -47,6 +55,9 @@ export default {
         data() {
             return this.$page.post;
         }
+    },
+    methods: {
+        formatDate
     }
 };
 </script>

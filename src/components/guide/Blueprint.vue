@@ -7,6 +7,7 @@
                     :src="`${data.img}?tr=w-35,h-35`"
                     width="35"
                     height="35"
+                    :alt="`warframe-${data.name}`"
                 />
                 <p class="mb-0 text-center">1</p>
             </b-list-group-item>
@@ -20,11 +21,15 @@
                 :key="i"
                 class="text-center"
             >
-                <b-link :href="m.link" target="_blank">
+                <b-link
+                    :href="`https://warframe.fandom.com/wiki/${m.name}`"
+                    target="_blank"
+                >
                     <b-img
                         :src="`${m.img}?tr=w-35,h-35`"
                         width="35"
                         height="35"
+                        :alt="`warframe-${m.name}`"
                     />
                     <p class="mb-0 text-center">{{ m.amount }}</p>
                 </b-link>

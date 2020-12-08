@@ -22,11 +22,6 @@ export default function(Vue, { _, head, __ }) {
         content: 'index, follow'
     });
 
-    head.link.push({
-        rel: 'canonical',
-        href: 'https://warframes.tools'
-    });
-
     library.add(faGithub);
     Vue.use(BootstrapVue);
     Vue.use(BootstrapVueIcons);
