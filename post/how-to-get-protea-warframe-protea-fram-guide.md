@@ -3,12 +3,13 @@ title: How to get Protea - Warframe protea farm guide
 title_meta: How to get Protea | Warframe protea farm guide
 author: Paul Ozyzniewski
 category: Digital
-created_at: 2020-01-11T00:00:01.723Z
+created_at: 2020-12-08T00:00:01.723Z
 read_min: 3 min
 excerpt: Protea, the combat engineer, should be reborn and bloom again, travelling through the borrowed time to devise her strategy. Deploy fragmentation grenades around to destroy enemies, or restore shields to resist attacks. Under the focus of the laser, a turret firing plasma bullets were deployed to launch an attack and burn the enemy to ashes. Use the supply aircraft to protect yourself from severe damage, draw strength from the past, and protect the future counterattack. Protea was released in Warframe update 28.0.0.
 image: https://ik.imagekit.io/seaw0jfghdk/EcigGwQZX7VmpRLc69zhbb_vt0OVJslm.jpg
 image_caption: warframe-protea-image
 tags: tag1, tag2
+keywords: warframe,warframe protea,warframe protea farm,how to get protea warframe,warframe protea release date
 ---
 import data from '../data/warframe/protea.json'
 import blueprint from '~/components/guide/Blueprint.vue'
@@ -31,7 +32,7 @@ Void (Rotation C), and Venus Sabotage is recommended.
 (Rotation C), and Pluto Capture is recommended. 
 
 
-<blueprint :data="data.main" />
-<blueprint :data="data.head" />
-<blueprint :data="data.chasse" />
-<blueprint :data="data.system" />
+<blueprint :data="data.main"></blueprint>
+<blueprint :data="data.head"></blueprint>
+<blueprint :data="data.chasse"></blueprint>
+<blueprint :data="data.system"></blueprint>
