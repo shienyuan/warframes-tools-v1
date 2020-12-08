@@ -45,6 +45,7 @@ keywords
 
 <script>
 import { formatDate } from '../utils/dateUtil';
+import config from '../../gridsome.config';
 
 export default {
     metaInfo() {
@@ -61,6 +62,7 @@ export default {
                     name: 'keywords',
                     content: this.$page.post.keywords
                 },
+                //OG
                 {
                     key: 'og:title',
                     property: 'og:title',
@@ -84,6 +86,27 @@ export default {
                 {
                     key: 'og:image',
                     property: 'og:image',
+                    content: this.$page.post.image
+                },
+                //twitter
+                {
+                    key: 'twitter:url',
+                    property: 'twitter:url',
+                    content: `https://warframes.tools/guide/${this.$route.path}`
+                },
+                {
+                    key: 'twitter:title',
+                    name: 'twitter:title',
+                    content: this.$page.post.title
+                },
+                {
+                    key: 'twitter:description',
+                    name: 'twitter:description',
+                    content: this.$page.post.excerpt
+                },
+                {
+                    key: 'twitter:image',
+                    property: 'twitter:image',
                     content: this.$page.post.image
                 }
             ]
