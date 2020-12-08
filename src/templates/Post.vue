@@ -48,7 +48,14 @@ import { formatDate } from '../utils/dateUtil';
 export default {
     metaInfo() {
         return {
-            title: this.$page.post.title_meta
+            title: this.$page.post.title_meta,
+            meta: [
+                {
+                    key: 'description',
+                    name: 'description',
+                    content: this.$page.post.excerpt.slice(0, 160)
+                }
+            ]
         };
     },
     computed: {
