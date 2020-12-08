@@ -57,7 +57,7 @@ import { formatDate } from '~/utils/dateUtil';
 
 export default {
     metaInfo: {
-        title: 'Post'
+        title: 'GUIDES'
     },
     methods: {
         formatExcerpt(val) {

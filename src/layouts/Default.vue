@@ -82,6 +82,16 @@ query {
 <script>
 export default {
     name: 'Default',
+    metaInfo() {
+        return {
+            link: [
+                {
+                    rel: 'canonical',
+                    href: `https://waframes.tools${this.$route.path}`
+                }
+            ]
+        };
+    },
     data() {
         return {
             navs: [
