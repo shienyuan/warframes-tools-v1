@@ -37,7 +37,8 @@ created_at,
 read_min,
 excerpt,
 image,
-image_caption
+image_caption,
+keywords
 }
 }
 </page-query>
@@ -54,6 +55,36 @@ export default {
                     key: 'description',
                     name: 'description',
                     content: this.$page.post.excerpt.slice(0, 160)
+                },
+                {
+                    key: 'keywords',
+                    name: 'keywords',
+                    content: this.$page.post.keywords
+                },
+                {
+                    key: 'og:title',
+                    property: 'og:title',
+                    content: this.$page.post.title
+                },
+                {
+                    key: 'og:description',
+                    name: 'description',
+                    content: this.$page.post.excerpt
+                },
+                {
+                    key: 'og:url',
+                    property: 'og:url',
+                    content: `https://warframes.tools/guide/${this.$route.path}`
+                },
+                {
+                    key: 'article:published_time',
+                    property: 'article:published_time',
+                    content: this.$page.post.created_at
+                },
+                {
+                    key: 'og:image',
+                    property: 'og:image',
+                    content: this.$page.post.image
                 }
             ]
         };

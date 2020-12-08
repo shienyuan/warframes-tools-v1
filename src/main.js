@@ -11,6 +11,7 @@ import config from '../gridsome.config';
 export default function(Vue, { _, head, __ }) {
     head.meta.push(
         {
+            key: 'keywords',
             name: 'keywords',
             content:
                 'warframe,video games,game,computer games,online games,goods games,free games'
