@@ -1,7 +1,7 @@
 {
   "name": "warframes-tools-v1",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.3.0",
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "@fortawesome/vue-fontawesome": "^2.0.0",
-    "@gridsome/plugin-sitemap": "^0.4.0"
+    "@gridsome/plugin-sitemap": "^0.4.0",
+    "dayjs": "^1.9.7"
   }
 }

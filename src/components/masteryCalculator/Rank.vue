@@ -2,11 +2,12 @@
     <b-card no-body header="Mastery Rank">
         <b-list-group flush>
             <b-list-group-item class="text-center">
-                <div style="height: 70px" v-if="!rank.img_url">
+                <p>{{ rank.img_url }}</p>
+                <div style="height: 70px" v-show="!rank.img_url">
                     <em class="block">No Image</em>
                 </div>
                 <ik-image
-                    v-else
+                    v-show="rank.img_url"
                     :path="rank.img_url"
                     :transformation="[{ height: 70, width: 70 }]"
                     height="70"

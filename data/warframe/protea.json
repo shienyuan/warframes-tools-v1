@@ -1,0 +1,153 @@
+{
+  "main": {
+    "name": "Protea",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/Protea_-0d1PDI9i.png",
+    "time": 12,
+    "rush": 25,
+    "method": "The Deadlock Protocol",
+    "chance": "100%",
+    "expected": "1",
+    "guaranteed": "1",
+    "mats": [
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/CreditsLarge_iBOxqbg_i.png",
+        "link": "https://warframe.fandom.com/wiki/Credits",
+        "amount": 25000
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/Helmet_JooCJ1a4M.png",
+        "link": "https://warframe.fandom.com/wiki/Warframe_Neuroptics",
+        "amount": 1
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/Chassis_q97oeg28T.png",
+        "link": "https://warframe.fandom.com/wiki/Warframe_Chassis",
+        "amount": 1
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/Systems_ENt_QNmSA.png",
+        "link": "https://warframe.fandom.com/wiki/Warframe_Systems",
+        "amount": 1
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/OrokinCell_DHZWWYFgY.png",
+        "link": "https://warframe.fandom.com/wiki/Orokin_Cell",
+        "amount": 3
+      }
+    ]
+  },
+  "head": {
+    "name": "Protea Neuroptics",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/Helmet_JooCJ1a4M.png",
+    "time": 12,
+    "rush": 25,
+    "method": "Basic Granum Void (Rotation C)",
+    "location": "Venus Ishatar(Corpus Sabotage 4-6)",
+    "chance": "11.1%",
+    "expected": "9 - 10",
+    "guaranteed": "59 ± 20",
+    "mats": [
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/CreditsLarge_iBOxqbg_i.png",
+        "link": "https://warframe.fandom.com/wiki/Credits",
+        "amount": 15000
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/Salvage_qAS9l7-Tb.png",
+        "link": "https://warframe.fandom.com/wiki/Salvage",
+        "amount": 11500
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/PolymerBundle_xZeaxWg1l.png",
+        "link": "https://warframe.fandom.com/wiki/Polymer_Bundle",
+        "amount": 5150
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/CubicDiodes_CVGS9UmQN.png",
+        "link": "https://warframe.fandom.com/wiki/Cubic_Diodes",
+        "amount": 1250
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/NeuralSensor_4iBV8gMcN.png",
+        "link": "https://warframe.fandom.com/wiki/Neural_Sensors",
+        "amount": 5
+      }
+    ]
+  },
+  "chasse": {
+    "name": "Protea Chassis",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/Chassis_q97oeg28T.png",
+    "time": 12,
+    "rush": 25,
+    "method": "Extended Granum Void (Rotation C)",
+    "location": "Neptune Triton(Corpus Rescue 28-30)",
+    "chance": "11.1%",
+    "expected": "9 - 10",
+    "guaranteed": "59 ± 20",
+    "mats": [
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/CreditsLarge_iBOxqbg_i.png",
+        "link": "https://warframe.fandom.com/wiki/Credits",
+        "amount": 15000
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/AlloyPlate_KGO3SxKTT.png",
+        "link": "https://warframe.fandom.com/wiki/Alloy_Plate",
+        "amount": 20000
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/Carbides_vMTtPbXRf.png",
+        "link": "https://warframe.fandom.com/wiki/Carbides",
+        "amount": 2750
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/Oxium_fx0liheeU.png",
+        "link": "https://warframe.fandom.com/wiki/Oxium",
+        "amount": 550
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/Morphics_HomcwNE1O.png",
+        "link": "https://warframe.fandom.com/wiki/Morphics",
+        "amount": 12
+      }
+    ]
+  },
+  "system": {
+    "name": "Protea Systems",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/Systems_ENt_QNmSA.png",
+    "time": 12,
+    "rush": 25,
+    "method": "Nightmare Granum Void (Rotation C)",
+    "location": "Pluto Hydra(Corpus Capture 30-34)",
+    "chance": "11.1%",
+    "expected": "9 - 10",
+    "guaranteed": "59 ± 20",
+    "mats": [
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/CreditsLarge_iBOxqbg_i.png",
+        "link": "https://warframe.fandom.com/wiki/Credits",
+        "amount": 15000
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/Ferrite_JHPCABzYh.png",
+        "link": "https://warframe.fandom.com/wiki/Ferrite",
+        "amount": 13400
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/Cryotic_kvKeHOeHw.png",
+        "link": "https://warframe.fandom.com/wiki/Cryotic",
+        "amount": 1000
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/Copernics_F4McHWSoe.png",
+        "link": "https://warframe.fandom.com/wiki/Copernics",
+        "amount": 3500
+      },
+      {
+        "img": "https://ik.imagekit.io/seaw0jfghdk/ControlModule_T-vLsXQb4h.png",
+        "link": "https://warframe.fandom.com/wiki/Control_Module",
+        "amount": 10
+      }
+    ]
+  }
+}

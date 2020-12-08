@@ -1,18 +1,21 @@
 <template>
     <Layout>
-        <div class="text-white mx-auto" style="max-width: 680px">
-            <header>
-                <div>
-                    <h1>
-                        {{ $page.post.title }}
-                    </h1>
-                    <hr />
-                    <div class="lead">{{ $page.post.excerpt }}</div>
-                </div>
+        <div class="mx-auto" style="max-width: 680px">
+            <header class="text-white">
+                <h1 class="font-weight-bold">
+                    {{ data.title }}
+                </h1>
+                <p class="small text-secondary">
+                    {{ data.created_at }} · {{ `${data.read_min} read` }}
+                </p>
+                <b-img class="mb-3 mt-2" width="680" :src="data.image"></b-img>
+                <div class="lead">{{ $page.post.excerpt }}</div>
             </header>
 
-            <article>
-                <VueRemarkContent class="lead" />
+            <hr />
+
+            <article class="text-white">
+                <VueRemarkContent />
             </article>
         </div>
     </Layout>
@@ -23,12 +26,10 @@
 query Post ($id: ID!) {
 post(id: $id) {
 title,
-title_color,
 title_meta,
-excerpt,
-author,
 created_at,
-category,
+read_min,
+excerpt,
 image,
 image_caption
 }
@@ -41,6 +42,11 @@ export default {
         return {
             title: this.$page.post.title_meta
         };
+    },
+    computed: {
+        data() {
+            return this.$page.post;
+        }
     }
 };
 </script>
