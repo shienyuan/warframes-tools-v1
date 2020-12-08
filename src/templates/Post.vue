@@ -76,7 +76,7 @@ export default {
                 {
                     key: 'og:url',
                     property: 'og:url',
-                    content: `https://warframes.tools/guide/${this.$route.path}`
+                    content: `https://warframes.tools${this.$route.path}`
                 },
                 {
                     key: 'article:published_time',
@@ -92,7 +92,7 @@ export default {
                 {
                     key: 'twitter:url',
                     property: 'twitter:url',
-                    content: `https://warframes.tools/guide/${this.$route.path}`
+                    content: `https://warframes.tools${this.$route.path}`
                 },
                 {
                     key: 'twitter:title',
