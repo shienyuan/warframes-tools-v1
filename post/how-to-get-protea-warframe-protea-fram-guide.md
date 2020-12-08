@@ -1,6 +1,6 @@
 ---
 title: How to get Protea - Warframe protea farm guide
-title_meta: Protea farm guide
+title_meta: How to get Protea | Warframe protea farm guide
 author: Paul Ozyzniewski
 category: Digital
 created_at: 2020-01-11T00:00:01.723Z

@@ -12,7 +12,7 @@
 // Every page should have a unique title tag
 
 module.exports = {
-    siteName: "WARFRAME'S TOOLS",
+    siteName: 'WARFRAMES TOOLS',
     siteUrl: 'https://warframes.tools',
     siteDescription:
         'Warframes tools is a website that contains several Warframe third-party tools to' +
