@@ -101,7 +101,7 @@ export default {
                 },
                 {
                     label: 'Guides',
-                    path: '/post'
+                    path: '/guide'
                 }
             ]
         };
