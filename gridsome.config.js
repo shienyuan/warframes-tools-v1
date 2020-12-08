@@ -26,7 +26,7 @@ module.exports = {
             options: {
                 typeName: 'Post', // Required
                 baseDir: './post', // Where .md files are located
-                pathPrefix: '/post', // Add route prefix. Optional
+                pathPrefix: '/guide', // Add route prefix. Optional
                 template: './src/templates/Post.vue', // Optional
                 remark: {
                     autolinkHeadings: false // disable auto-adding links to headings

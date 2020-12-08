@@ -6,26 +6,37 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import ImageKit from 'imagekitio-vue';
+import config from '../gridsome.config';
+
 export default function(Vue, { _, head, __ }) {
-    head.meta.push({
-        name: 'keywords',
-        content: 'warframe,tools,gaming,game tutorial,game tool'
-    });
-
-    head.meta.push({
-        name: 'author',
-        content: 'sy97 WAY Studio'
-    });
-
-    head.meta.push({
-        name: 'robots',
-        content: 'index, follow'
-    });
-
-    head.link.push({
-        rel: 'canonical',
-        href: 'https://warframes.tools'
-    });
+    head.meta.push(
+        {
+            name: 'keywords',
+            content:
+                'warframe,video games,game,computer games,online games,goods games,free games'
+        },
+        {
+            name: 'author',
+            content: 'sy97 WAY Studio'
+        },
+        {
+            name: 'robots',
+            content: 'index, follow'
+        },
+        { key: 'og:type', property: 'og:type', content: 'article' },
+        { property: 'og:site_name', content: config.siteName },
+        {
+            key: 'og:description',
+            property: 'og:description',
+            content: config.siteDescription
+        },
+        {
+            key: 'og:image',
+            property: 'og:image',
+            content:
+                'https://ik.imagekit.io/seaw0jfghdk/warframe-tools-logo_K162YLZFL.png'
+        }
+    );
 
     library.add(faGithub);
     Vue.use(BootstrapVue);
