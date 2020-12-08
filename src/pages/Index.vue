@@ -29,7 +29,11 @@
 
         <!--        <b-card header="Recommended Items" class="mb-5"></b-card>-->
 
-        <b-card header="Mastery Point Table" bg-variant="dark text-white">
+        <b-card
+            header="Mastery Point Table"
+            bg-variant="dark"
+            text-variant="white"
+        >
             <b-table
                 dark
                 bordered
