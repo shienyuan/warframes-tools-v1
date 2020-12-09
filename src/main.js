@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import ImageKit from 'imagekitio-vue';
 import config from '../gridsome.config';
 import { defaultTags } from './utils/seoUtil';
+import './assets/style.css';
 
 export default function(Vue, { _, head, __ }) {
     head.meta.push(...defaultTags);

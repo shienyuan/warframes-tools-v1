@@ -2,10 +2,15 @@
     <Layout>
         <b-jumbotron
             class="header-bg text-white text-center mb-5"
-            header="Mastery Rank Calculator"
             header-level="5"
             bg-variant="light"
         >
+            <h1
+                class=" p-3 d-inline-block"
+                style="background-color: rgba(53,53,53,0.9)"
+            >
+                Mastery Rank Calculator
+            </h1>
         </b-jumbotron>
 
         <b-row class="mb-5" align-v="stretch">
@@ -156,7 +161,8 @@ export default {
 
 <style scoped>
 .header-bg {
-    background-image: url('../assets/bg.png');
-    background-position: center center;
+    background-image: url('https://ik.imagekit.io/seaw0jfghdk/bg-1_-UKzgcFbk.jpg');
+    background-position: center;
+    background-size: cover;
 }
 </style>
