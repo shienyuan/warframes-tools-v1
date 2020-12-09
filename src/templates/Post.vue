@@ -56,7 +56,8 @@ export default {
             path: this.$route.path,
             title: this.$page.post.title,
             keywords: this.$page.post.keywords,
-            description: this.$page.post.excerpt
+            description: this.$page.post.excerpt,
+            img: this.$page.post.image
         });
     },
     computed: {
