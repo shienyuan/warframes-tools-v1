@@ -1,7 +1,7 @@
 <template>
     <main>
         <b-navbar class="bg-dark" toggleable="lg" type="dark">
-            <b-navbar-brand class="d-flex" href="#">
+            <b-navbar-brand class="d-flex" href="/">
                 <img
                     style="height: 30px"
                     class="mr-3"
@@ -97,7 +97,7 @@ export default {
             navs: [
                 {
                     label: 'Mastery Calculator',
-                    path: '/'
+                    path: '/mastery-calculator'
                 },
                 {
                     label: 'Guides',
