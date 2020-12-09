@@ -1,6 +1,11 @@
 <template>
     <Layout>
         <div class="mx-auto" style="max-width: 680px">
+            <b-button class="mb-3" to="/guide">
+                <b-icon icon="arrow-left"></b-icon>
+                BACK
+            </b-button>
+
             <header class="text-white">
                 <h1 class="font-weight-bold">
                     {{ data.title }}
@@ -31,7 +36,6 @@
 query Post ($id: ID!) {
 post(id: $id) {
 title,
-title_meta,
 created_at,
 read_min,
 excerpt,
@@ -50,7 +54,7 @@ export default {
     metaInfo() {
         return getSeo({
             path: this.$route.path,
-            title: this.$page.post.title_meta,
+            title: this.$page.post.title,
             keywords: this.$page.post.keywords,
             description: this.$page.post.excerpt
         });

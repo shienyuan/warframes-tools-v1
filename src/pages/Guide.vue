@@ -3,7 +3,7 @@
         <b-row
             @click="$router.push(p.node.path)"
             style="cursor: pointer"
-            class="text-white"
+            class="text-white mb-5"
             v-for="(p, i) in $page.post.edges"
             :key="i"
         >
@@ -43,7 +43,6 @@ title,
 excerpt,
 path,
 created_at,
-category,
 image,
 image_caption,
 }
