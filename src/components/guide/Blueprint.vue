@@ -1,7 +1,11 @@
 <template>
     <b-card class="mt-4" :header="data.name" text-variant="dark">
         <h5>Materials</h5>
-        <b-list-group horizontal class="mb-4 d-flex align-self-center ">
+        <b-list-group
+            horizontal
+            class="mb-4 d-flex align-self-center"
+            style="overflow: scroll"
+        >
             <b-list-group-item>
                 <b-img
                     :src="`${data.img}?tr=w-35,h-35`"
@@ -37,7 +41,7 @@
         </b-list-group>
 
         <h5>Drop</h5>
-        <b-list-group horizontal>
+        <b-list-group horizontal style="overflow: scroll">
             <b-list-group-item>
                 <p class="mb-1">{{ data.method }}</p>
                 <div v-if="data.location">

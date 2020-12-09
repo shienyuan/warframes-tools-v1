@@ -7,14 +7,14 @@
             v-for="(p, i) in $page.post.edges"
             :key="i"
         >
-            <b-col cols="4">
+            <b-col cols="12" md="4" class="mb-3 mb-lg-0">
                 <b-img
-                    width="350"
+                    class="w-100"
                     :src="p.node.image"
                     :alt="p.node.image_caption"
-                ></b-img>
+                />
             </b-col>
-            <b-col cols="8">
+            <b-col cols="12" md="8">
                 <h2 class="font-weight-bold">{{ p.node.title }}</h2>
                 <div class="small mb-3">
                     <span>

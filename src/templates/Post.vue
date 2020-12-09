@@ -11,8 +11,7 @@
                 </p>
                 <b-img
                     :alt="data.image_caption"
-                    class="mb-3 mt-2"
-                    width="680"
+                    class="mb-3 mt-2 w-100"
                     :src="data.image"
                 ></b-img>
                 <div class="lead">{{ $page.post.excerpt }}</div>
@@ -45,72 +44,16 @@ keywords
 
 <script>
 import { formatDate } from '../utils/dateUtil';
-import config from '../../gridsome.config';
+import { getSeo } from '../utils/seoUtil';
 
 export default {
     metaInfo() {
-        return {
+        return getSeo({
+            path: this.$route.path,
             title: this.$page.post.title_meta,
-            meta: [
-                {
-                    key: 'description',
-                    name: 'description',
-                    content: this.$page.post.excerpt.slice(0, 160)
-                },
-                {
-                    key: 'keywords',
-                    name: 'keywords',
-                    content: this.$page.post.keywords
-                },
-                //OG
-                {
-                    key: 'og:title',
-                    property: 'og:title',
-                    content: this.$page.post.title
-                },
-                {
-                    key: 'og:description',
-                    name: 'description',
-                    content: this.$page.post.excerpt
-                },
-                {
-                    key: 'og:url',
-                    property: 'og:url',
-                    content: `https://warframes.tools${this.$route.path}`
-                },
-                {
-                    key: 'article:published_time',
-                    property: 'article:published_time',
-                    content: this.$page.post.created_at
-                },
-                {
-                    key: 'og:image',
-                    property: 'og:image',
-                    content: this.$page.post.image
-                },
-                //twitter
-                {
-                    key: 'twitter:url',
-                    property: 'twitter:url',
-                    content: `https://warframes.tools${this.$route.path}`
-                },
-                {
-                    key: 'twitter:title',
-                    name: 'twitter:title',
-                    content: this.$page.post.title
-                },
-                {
-                    key: 'twitter:description',
-                    name: 'twitter:description',
-                    content: this.$page.post.excerpt
-                },
-                {
-                    key: 'twitter:image',
-                    property: 'twitter:image',
-                    content: this.$page.post.image
-                }
-            ]
-        };
+            keywords: this.$page.post.keywords,
+            description: this.$page.post.excerpt
+        });
     },
     computed: {
         data() {

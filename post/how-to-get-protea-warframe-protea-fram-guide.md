@@ -9,7 +9,7 @@ excerpt: Protea, the combat engineer, should be reborn and bloom again, travelli
 image: https://ik.imagekit.io/seaw0jfghdk/EcigGwQZX7VmpRLc69zhbb_vt0OVJslm.jpg
 image_caption: warframe-protea-image
 tags: tag1, tag2
-keywords: warframe,warframe protea,warframe protea farm,how to get protea warframe,warframe protea release date
+keywords: warframe protea,warframe protea farm,how to get protea warframe,warframe protea release date
 ---
 import data from '../data/warframe/protea.json'
 import blueprint from '~/components/guide/Blueprint.vue'
