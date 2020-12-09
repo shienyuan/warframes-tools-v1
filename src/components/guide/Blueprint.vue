@@ -2,9 +2,9 @@
     <b-card class="mt-4" :header="data.name" text-variant="dark">
         <h5>Materials</h5>
         <b-list-group
-            horizontal
+            :horizontal="true"
             class="mb-4 d-flex align-self-center"
-            style="overflow: scroll"
+            style="overflow: scroll;"
         >
             <b-list-group-item>
                 <b-img
@@ -26,7 +26,11 @@
                 class="text-center"
             >
                 <b-link
-                    :href="`https://warframe.fandom.com/wiki/${m.name}`"
+                    :href="
+                        !m.name
+                            ? ''
+                            : `https://warframe.fandom.com/wiki/${m.name}`
+                    "
                     target="_blank"
                 >
                     <b-img
@@ -41,7 +45,7 @@
         </b-list-group>
 
         <h5>Drop</h5>
-        <b-list-group horizontal style="overflow: scroll">
+        <b-list-group :horizontal="true" style="overflow: scroll">
             <b-list-group-item>
                 <p class="mb-1">{{ data.method }}</p>
                 <div v-if="data.location">
