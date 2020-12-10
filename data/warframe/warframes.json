@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Ash",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/AshNewLook_OO_4cBH3G.png",
+    "blueprint": "Market",
+    "component": "Grineer Manic",
+    "chances": {
+      "neuroptics": "12.907%",
+      "chassis": "12.907%",
+      "systems": "7.52%"
+    },
+    "expected": "18 – 19 kills",
+    "guaranteed": "88 ± 29 kills",
+    "link": "https://warframe.fandom.com/wiki/Ash"
+  },
+  {
+    "name": "Atlas",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/AtlasNewLook_m18FDP5DC-.png",
+    "blueprint": "The Jordas Precept",
+    "component": "Jordas Golem",
+    "chances": {
+      "neuroptics": "38.72%",
+      "chassis": "38.72%",
+      "systems": "22.56%"
+    },
+    "expected": "6 - 7 runs",
+    "guaranteed": "27 ± 9 runs",
+    "link": "https://warframe.fandom.com/wiki/Atlas"
+  },
+  {
+    "name": "Banshee",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/BansheeNewLook_Z06rDwOVV.png",
+    "blueprint": "Tenno Research Lab",
+    "component": "Tenno Research Lab",
+    "chances": {
+      "neuroptics": "100%",
+      "chassis": "100%",
+      "systems": "100%"
+    },
+    "expected": "4 research",
+    "guaranteed": "4 research",
+    "link": "https://warframe.fandom.com/wiki/Banshee"
+  }
+]
