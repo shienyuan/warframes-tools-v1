@@ -5,18 +5,34 @@
                 <b-img height="100" :src="img" :alt="`warframe-${name}`" />
             </b-list-group-item>
 
-            <b-list-group-item
-                class="d-flex justify-content-between align-items-center"
-            >
-                <span>Blueprint</span>
-                <span>{{ blueprint }}</span>
+            <b-list-group-item>
+                <b-row>
+                    <b-col cols="5">
+                        <span>Blueprint</span>
+                    </b-col>
+                    <b-col cols="7" class="text-right">
+                        <div v-for="(b, i) in blueprint" :key="i">
+                            <b-link target="_blank" :href="b.link"
+                                >{{ b.name }}
+                            </b-link>
+                        </div>
+                    </b-col>
+                </b-row>
             </b-list-group-item>
 
-            <b-list-group-item
-                class="d-flex justify-content-between align-items-center"
-            >
-                <span>Components</span>
-                <span>{{ component }}</span>
+            <b-list-group-item>
+                <b-row>
+                    <b-col cols="5">
+                        <span>Components</span>
+                    </b-col>
+                    <b-col cols="7" class="text-right">
+                        <div v-for="(c, i) in component" :key="i">
+                            <b-link target="_blank" :href="c.link"
+                                >{{ c.name }}
+                            </b-link>
+                        </div>
+                    </b-col>
+                </b-row>
             </b-list-group-item>
 
             <b-list-group-item>
@@ -38,20 +54,6 @@
             <b-list-group-item
                 class="d-flex justify-content-between align-items-center"
             >
-                <span>Expected</span>
-                <span>{{ expected }}</span>
-            </b-list-group-item>
-
-            <b-list-group-item
-                class="d-flex justify-content-between align-items-center"
-            >
-                <span>Guaranteed</span>
-                <span>{{ guaranteed }}</span>
-            </b-list-group-item>
-
-            <b-list-group-item
-                class="d-flex justify-content-between align-items-center"
-            >
                 <b-button block variant="primary" target="_blank" :href="link"
                     >Wiki Details</b-button
                 >
@@ -66,8 +68,8 @@ export default {
     props: {
         name: String,
         img: String,
-        blueprint: String,
-        component: String,
+        blueprint: Array,
+        component: Array,
         chances: Object,
         expected: String,
         guaranteed: String,

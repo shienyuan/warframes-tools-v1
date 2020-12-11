@@ -18,7 +18,7 @@
 
         <b-form-input
             v-model="search"
-            placeholder="Search for Warframe"
+            placeholder="Search for Warframe..."
             class="mb-4"
             size="lg"
         />
@@ -47,15 +47,19 @@ node {
 id
 name
 img
-blueprint
-component
+blueprint{
+name
+link
+}
+component{
+name
+link
+}
 chances{
 neuroptics
 chassis
 systems
 }
-expected
-guaranteed
 link
 }
 }
@@ -64,8 +68,19 @@ link
 </page-query>
 
 <script>
+import { getSeo } from '../utils/seoUtil';
+
 export default {
     name: 'Warframes',
+    metaInfo() {
+        return getSeo({
+            path: this.$route.path,
+            title: 'Warframe Acquisition List',
+            keywords: 'warframe,warframes,warframe acquisition',
+            description:
+                'A compact collection of all Warframe acquisitions, ways and method to get certain warframe'
+        });
+    },
     components: {
         warframeCard: () => import('../components/warframes/warframe-card')
     },
