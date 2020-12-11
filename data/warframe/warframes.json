@@ -1,0 +1,286 @@
+[
+  {
+    "name": "Ash",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/AshNewLook_OO_4cBH3G.png",
+    "link": "https://warframe.fandom.com/wiki/Ash",
+    "blueprint": [
+      {
+        "name": "Market",
+        "link": "https://warframe.fandom.com/wiki/Market"
+      }
+    ],
+    "component": [
+      {
+        "name": "Grineer Manic",
+        "link": "https://warframe.fandom.com/wiki/Manic"
+      }
+    ],
+    "chances": {
+      "neuroptics": "12.907%",
+      "chassis": "12.907%",
+      "systems": "7.52%"
+    }
+  },
+  {
+    "name": "Atlas",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/AtlasNewLook_m18FDP5DC-.png",
+    "link": "https://warframe.fandom.com/wiki/Atlas",
+    "blueprint": [
+      {
+        "name": "The Jordas Precept",
+        "link": "https://warframe.fandom.com/wiki/The_Jordas_Precept"
+      }
+    ],
+    "component": [
+      {
+        "name": "Jordas Golem",
+        "link": "https://warframe.fandom.com/wiki/Jordas_Golem"
+      }
+    ],
+    "chances": {
+      "neuroptics": "38.72%",
+      "chassis": "38.72%",
+      "systems": "22.56%"
+    }
+  },
+  {
+    "name": "Banshee",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/BansheeNewLook_Z06rDwOVV.png",
+    "link": "https://warframe.fandom.com/wiki/Banshee",
+    "blueprint": [
+      {
+        "name": "Tenno Lab",
+        "link": "https://warframe.fandom.com/wiki/Research/Tenno_Lab"
+      }
+    ],
+    "component": [
+      {
+        "name": "Tenno Lab",
+        "link": "https://warframe.fandom.com/wiki/Research/Tenno_Lab"
+      }
+    ],
+    "chances": {
+      "neuroptics": "100%",
+      "chassis": "100%",
+      "systems": "100%"
+    }
+  },
+  {
+    "name": "Baruuk",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/BaruukIcon272_0G91VFams.png",
+    "link": "https://warframe.fandom.com/wiki/Baruuk",
+    "blueprint": [
+      {
+        "name": "Vox Solaris(Agent rank)",
+        "link": "https://warframe.fandom.com/wiki/Vox_Solaris_(Syndicate)"
+      }
+    ],
+    "component": [
+      {
+        "name": "Vox Solaris(Hand rank)",
+        "link": "https://warframe.fandom.com/wiki/Vox_Solaris_(Syndicate)"
+      }
+    ],
+    "chances": {
+      "neuroptics": "100%",
+      "chassis": "100%",
+      "systems": "100%"
+    }
+  },
+  {
+    "name": "Chroma",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/ChromaNewLook__CKBe3Vg0.png",
+    "link": "https://warframe.fandom.com/wiki/Chroma",
+    "blueprint": [
+      {
+        "name": "The New Strange",
+        "link": "https://warframe.fandom.com/wiki/The_New_Strange"
+      }
+    ],
+    "component": [
+      {
+        "name": "Uranus Junction",
+        "link": "https://warframe.fandom.com/wiki/Uranus"
+      },
+      {
+        "name": "Neptune Junction",
+        "link": "https://warframe.fandom.com/wiki/Neptune"
+      },
+      {
+        "name": "Pluto Junction",
+        "link": "https://warframe.fandom.com/wiki/Pluto"
+      }
+    ],
+    "chances": {
+      "neuroptics": "100%",
+      "chassis": "100%",
+      "systems": "100%"
+    }
+  },
+  {
+    "name": "Ember",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/EmberNewLook_9-zHzAiit.png",
+    "link": "https://warframe.fandom.com/wiki/Ember",
+    "blueprint": [
+      {
+        "name": "Market",
+        "link": "https://warframe.fandom.com/wiki/Market"
+      }
+    ],
+    "component": [
+      {
+        "name": "General Sargas Ruk",
+        "link": "https://warframe.fandom.com/wiki/General_Sargas_Ruk"
+      }
+    ],
+    "chances": {
+      "neuroptics": "38.72%",
+      "chassis": "38.72%",
+      "systems": "22.56%"
+    }
+  },
+  {
+    "name": "Equinox",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/EquinoxSolo___EtBypYr.png",
+    "link": "https://warframe.fandom.com/wiki/Equinox",
+    "blueprint": [
+      {
+        "name": "Market(Main)",
+        "link": "https://warframe.fandom.com/wiki/Market"
+      },
+      {
+        "name": "Tyl Regor(Day)",
+        "link": "https://warframe.fandom.com/wiki/Tyl_Regor"
+      },
+      {
+        "name": "Tyl Regor(Night)",
+        "link": "https://warframe.fandom.com/wiki/Tyl_Regor"
+      }
+    ],
+    "component": [
+      {
+        "name": "General Sargas Ruk",
+        "link": "https://warframe.fandom.com/wiki/General_Sargas_Ruk"
+      }
+    ],
+    "chances": {
+      "neuroptics": "38.72%",
+      "chassis": "38.72%",
+      "systems": "22.56%"
+    }
+  },
+  {
+    "name": "Excalibur",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/ExcaliburNewLook_G45p_tX-Y.png",
+    "link": "https://warframe.fandom.com/wiki/Excalibur",
+    "blueprint": [
+      {
+        "name": "Market",
+        "link": "https://warframe.fandom.com/wiki/Market"
+      }
+    ],
+    "component": [
+      {
+        "name": "Lieutenant Lech Kril",
+        "link": "https://warframe.fandom.com/wiki/Lieutenant_Lech_Kril"
+      }
+    ],
+    "chances": {
+      "neuroptics": "38.72%",
+      "chassis": "38.72%",
+      "systems": "22.56%"
+    }
+  },
+  {
+    "name": "Frost",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/FrostNewLook_iGLSd-wtD.png",
+    "link": "https://warframe.fandom.com/wiki/Excalibur",
+    "blueprint": [
+      {
+        "name": "Market",
+        "link": "https://warframe.fandom.com/wiki/Market"
+      }
+    ],
+    "component": [
+      {
+        "name": "Lieutenant Lech Kril",
+        "link": "https://warframe.fandom.com/wiki/Lieutenant_Lech_Kril"
+      },
+      {
+        "name": "Captain Vor",
+        "link": "https://warframe.fandom.com/wiki/Captain_Vor"
+      }
+    ],
+    "chances": {
+      "neuroptics": "38.72%",
+      "chassis": "38.72%",
+      "systems": "22.56%"
+    }
+  },
+  {
+    "name": "Gara",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/GaraNewLook_Vx1Xx4mNY.png",
+    "link": "https://warframe.fandom.com/wiki/Gara",
+    "blueprint": [
+      {
+        "name": "Saya's Vigil",
+        "link": "https://warframe.fandom.com/wiki/Saya%27s_Vigil"
+      }
+    ],
+    "component": [
+      {
+        "name": "Plains of Eidolon Bounties",
+        "link": "https://warframe.fandom.com/wiki/Plains_of_Eidolon"
+      }
+    ],
+    "chances": {
+      "neuroptics": "20.51%",
+      "chassis": "30.56%",
+      "systems": "21.82%"
+    }
+  },
+  {
+    "name": "Garuda",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/Garuda_LBHPe4TTX.png",
+    "link": "https://warframe.fandom.com/wiki/Garuda",
+    "blueprint": [
+      {
+        "name": "Vox Solaris",
+        "link": "https://warframe.fandom.com/wiki/Vox_Solaris_(Quest)"
+      }
+    ],
+    "component": [
+      {
+        "name": "Orb Vallis Bounties",
+        "link": "https://warframe.fandom.com/wiki/Orb_Vallis"
+      }
+    ],
+    "chances": {
+      "neuroptics": "25%",
+      "chassis": "30.56%",
+      "systems": "22.22%"
+    }
+  },
+  {
+    "name": "Gauss",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/Gauss_eCiPVpbD8.png",
+    "link": "https://warframe.fandom.com/wiki/Gauss",
+    "blueprint": [
+      {
+        "name": "Market",
+        "link": "https://warframe.fandom.com/wiki/Market"
+      }
+    ],
+    "component": [
+      {
+        "name": "Kelpie, Sedna(Tier C Disruption)",
+        "link": "https://warframe.fandom.com/wiki/Sedna"
+      }
+    ],
+    "chances": {
+      "neuroptics": "7.84%",
+      "chassis": "7.84%",
+      "systems": "7.84%"
+    }
+  }
+]

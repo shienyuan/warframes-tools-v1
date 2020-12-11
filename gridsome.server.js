@@ -10,6 +10,7 @@ module.exports = function(api) {
         const mrcMethods = require('./data/mrcMethods.json');
         const mrcRanks = require('./data/mrcRanks.json');
         const meta = require('./data/meta.json');
+        const warframes = require('./data/warframe/warframes.json');
 
         addMetadata('version', meta);
 
@@ -21,12 +22,20 @@ module.exports = function(api) {
             typeName: 'mrcRanks'
         });
 
+        const warframesCol = addCollection({
+            typeName: 'warframes'
+        });
+
         for (const m of mrcMethods) {
             mrcMethodsCol.addNode(m);
         }
 
         for (const r of mrcRanks) {
             mrcRanksCol.addNode(r);
+        }
+
+        for (const w of warframes) {
+            warframesCol.addNode(w);
         }
     });
 

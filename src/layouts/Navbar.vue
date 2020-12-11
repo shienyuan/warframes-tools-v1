@@ -68,6 +68,10 @@ export default {
             index: '/',
             navs: [
                 {
+                    label: 'Warframes',
+                    path: '/warframes'
+                },
+                {
                     label: 'Mastery Calculator',
                     path: '/mastery-calculator'
                 },
