@@ -1,4 +1,2 @@
 User-agent: *
-Allow: /
-Allow: /mastery-calculator
-Allow: /tutorial
+Disallow:
