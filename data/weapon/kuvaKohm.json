@@ -1,0 +1,13 @@
+{
+  "name": "Kuva Kohm",
+  "img": "https://ik.imagekit.io/seaw0jfghdk/guide/KuvaKohm_98Ja-2mlg.png",
+  "intro": "The Kuva Kohm is the Kuva variant of the Kohm auto-spool shotgun, with increased critical chance, status chance, and fire rate, but with steeper damage falloff and lower magazine.",
+  "mastery": "Any",
+  "acquisition": "Kuva Lich",
+  "acLevel": 5,
+  "type": "Shotgun",
+  "trigger": "Auto-Spool",
+  "link": "https://warframe.fandom.com/wiki/Kuva_Kohm",
+  "video": "https://www.youtube.com/embed/tGCx-r79F6c"
+}
+
