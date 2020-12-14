@@ -1,0 +1,13 @@
+{
+  "name": "Acceltra",
+  "img": "https://ik.imagekit.io/seaw0jfghdk/guide/Acceltra_DSqdCxA-u.png",
+  "intro": "Acceltra is Gauss's signature fully automatic rocket launcher that fires micro-missiles in rapid succession with high critical chance, critical multiplier, and fire rate, and a large, 4-meter explosion radius. To provide safety for its user, the rockets arm after traveling 7 meters in midair. Uniquely, this weapon reloads faster while sprinting, and reloads even faster when wielded by Gauss.",
+  "mastery": "8",
+  "acquisition": "Dark Sector mission",
+  "acLevel": 3,
+  "type": "Rifle",
+  "trigger": "Auto",
+  "link": "https://warframe.fandom.com/wiki/Acceltra",
+  "video": "https://www.youtube.com/embed/WoF1bQkfNWk"
+}
+
