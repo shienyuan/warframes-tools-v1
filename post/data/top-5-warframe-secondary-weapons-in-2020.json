@@ -1,0 +1,62 @@
+{
+  "tombfinger": {
+    "name": "Tombfinger (Kitgun)",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/guide/KitgunChamberTombfinger_WyYLlQCJx.png",
+    "intro": "Tombfinger is a Kitgun chamber component.\n\nAs a primary, it can be charged, with uncharged projectiles having a small explosion radius and fully charged projectiles having a significantly large explosion but without any Puncture damage. \n\nWhen used as a secondary, it fires a small, precise projectile that has travel time and detonates upon the first enemy or surface hit, dealing Impact, Puncture and Radiation damage with a guaranteed Impact proc.",
+    "mastery": "Any",
+    "acquisition": "Rude Zuud",
+    "acLevel": 3,
+    "type": "Kitgun",
+    "trigger": "Projectile",
+    "link": "https://warframe.fandom.com/wiki/Tombfinger",
+    "video": "https://www.youtube.com/embed/rWks3LxexJo"
+  },
+  "kuvaBrakk": {
+    "name": "Kuva Brakk",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/guide/KuvaBrakk_zV6VfSfvq.png",
+    "intro": "The Kuva Brakk is the Kuva variant of the Brakk shotgun pistol, featuring higher critical chance, status chance, fire rate, magazine capacity, and innate punch through, at the cost of overall base damage.",
+    "mastery": "Any",
+    "acquisition": "Kuva Lich",
+    "acLevel": 5,
+    "type": "Shotgun",
+    "trigger": "Semi-auto",
+    "link": "https://warframe.fandom.com/wiki/Kuva_Brakk",
+    "video": "https://www.youtube.com/embed/V5dN523KZJo"
+  },
+  "catchmoon": {
+    "name": "Catchmoon",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/guide/KitgunChamberCatchmoon_1tJR3lpCO.png",
+    "intro": "Catchmoon is a Kitgun chamber component. It fires an energy projectile with innate enemy punch through, very similar to the Arca Plasmor, while dealing Impact and Heat damage, as well as a guaranteed Impact proc against enemies within 10 meters. However, the projectile possesses travel time, damage falloff, limited range, and no bonus damage on headshots. The projectile will also dissipate if the center part of it collides with the environment.\n\nAs a primary, it fires on full-auto with significantly smaller projectiles. As a secondary, it semi-automatically fires a wide projectile.",
+    "mastery": "Any",
+    "acquisition": "Rude Zuud",
+    "acLevel": 3,
+    "type": "Kitgun",
+    "trigger": "Projectile",
+    "link": "https://warframe.fandom.com/wiki/Catchmoon",
+    "video": "https://www.youtube.com/embed/jSWzV-cB7Lw"
+  },
+  "pyranaPrime": {
+    "name": "Pyrana prime",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/guide/PyranaPrime_rQxJMykIx.png",
+    "intro": "Pyrana Prime is the Primed variant of Pyrana, sporting higher critical stats, longer range before damage falloff occurs, increased magazine size, and faster reload, at the expense of damage and slower fire rate. To compensate for these losses, when the weapon kills thrice in quick succession, a second ethereal Pyrana appears for a short time, transforming the weapon into an akimbo with doubled ammunition and firing speed. It was released alongside Limbo Prime and Destreza Prime.",
+    "mastery": "13",
+    "acquisition": "Void Relics",
+    "acLevel": 4,
+    "type": "Shotgun",
+    "trigger": "Auto",
+    "link": "https://warframe.fandom.com/wiki/Pyrana_Prime",
+    "video": "https://www.youtube.com/embed/PzLTThgbvSA"
+  },
+  "kuvaNukor": {
+    "name": "Kuva nukor",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/guide/KuvaNukor_2fQCNZ6Zh.png",
+    "intro": "The Kuva Nukor is the Kuva variant of the Nukor, with improvements to its already high critical multiplier and status chance, and increased critical chance, magazine, and range, but with marginally lower damage. Its beam has also gained the ability to chain between multiple enemies.",
+    "mastery": "Any",
+    "acquisition": "Kuva Lich",
+    "acLevel": 5,
+    "type": "Pistol",
+    "trigger": "Held",
+    "link": "https://warframe.fandom.com/wiki/Kuva_Nukor",
+    "video": "https://www.youtube.com/embed/ufPve9zX8dQ"
+  }
+}
