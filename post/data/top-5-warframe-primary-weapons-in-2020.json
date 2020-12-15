@@ -1,0 +1,62 @@
+{
+  "acceltra": {
+    "name": "Acceltra",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/guide/Acceltra_DSqdCxA-u.png",
+    "intro": "Acceltra is Gauss's signature fully automatic rocket launcher that fires micro-missiles in rapid succession with high critical chance, critical multiplier, and fire rate, and a large, 4-meter explosion radius. To provide safety for its user, the rockets arm after traveling 7 meters in midair. Uniquely, this weapon reloads faster while sprinting, and reloads even faster when wielded by Gauss.",
+    "mastery": "8",
+    "acquisition": "Dark Sector mission",
+    "acLevel": 3,
+    "type": "Rifle",
+    "trigger": "Auto",
+    "link": "https://warframe.fandom.com/wiki/Acceltra",
+    "video": "https://www.youtube.com/embed/WoF1bQkfNWk"
+  },
+  "ignisWraith": {
+    "name": "Ignis Wraith",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/guide/IgnisWraith__1__D4mGdLxsb.png",
+    "intro": "The Ignis Wraith is the Wraith version of the Ignis flamethrower, featuring improved critical chance, status chance, and magazine size.",
+    "mastery": "9",
+    "acquisition": "Clan",
+    "acLevel": 1,
+    "type": "Rifle",
+    "trigger": "Held",
+    "link": "https://warframe.fandom.com/wiki/Ignis_Wraith",
+    "video": "https://www.youtube.com/embed/1ppR-qgDTIQ"
+  },
+  "kuvaBramma": {
+    "name": "Kuva Bramma",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/guide/Kuva_Bramma_haGxjtpS4.png",
+    "intro": "The Kuva Bramma is a massive Grineer bow wielded by Kuva Liches, firing arrows that produce a large Blast explosion on impact while also depositing cluster bombs, and is able to detonate mid-flight with Alternate Fire, but suffers from small ammo capacity.",
+    "mastery": "Any",
+    "acquisition": "Kuva Lich",
+    "acLevel": 5,
+    "type": "Bow",
+    "trigger": "Charge",
+    "link": "https://warframe.fandom.com/wiki/Kuva_Bramma",
+    "video": "https://www.youtube.com/embed/PcsRInYtCcw"
+  },
+  "kuvaKohm": {
+    "name": "Kuva Kohm",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/guide/KuvaKohm_98Ja-2mlg.png",
+    "intro": "The Kuva Kohm is the Kuva variant of the Kohm auto-spool shotgun, with increased critical chance, status chance, and fire rate, but with steeper damage falloff and lower magazine.",
+    "mastery": "Any",
+    "acquisition": "Kuva Lich",
+    "acLevel": 5,
+    "type": "Shotgun",
+    "trigger": "Auto-Spool",
+    "link": "https://warframe.fandom.com/wiki/Kuva_Kohm",
+    "video": "https://www.youtube.com/embed/tGCx-r79F6c"
+  },
+  "rubicoPrime": {
+    "name": "Rubico Prime",
+    "img": "https://ik.imagekit.io/seaw0jfghdk/guide/RubicoPrime_5VEpMxFu4.png",
+    "intro": "The Rubico Prime is the Primed variant of the revolver-style Rubico Sniper Rifle, boasting higher damage, critical chance, status chance, fire rate, and reload speed, but with a reduction in zoom. It was released alongside Chroma Prime and Gram Prime.",
+    "mastery": "12",
+    "acquisition": "Void Relics",
+    "acLevel": 4,
+    "type": "Sniper Rifle",
+    "trigger": "Semi-Auto",
+    "link": "https://warframe.fandom.com/wiki/Rubico_Prime",
+    "video": "https://www.youtube.com/embed/Wo0oYNlAeV8"
+  }
+}

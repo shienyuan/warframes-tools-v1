@@ -1,20 +1,6 @@
 <template>
     <Layout>
-        <b-jumbotron
-            class="header-bg text-white text-center mb-5"
-            header-level="5"
-            bg-variant="light"
-        >
-            <div
-                class=" p-3 d-inline-block"
-                style="background-color: rgba(53,53,53,0.9)"
-            >
-                <h1>Warframe Acquisition List</h1>
-                <p class="mb-0">
-                    A compact collection of all Warframe acquisitions
-                </p>
-            </div>
-        </b-jumbotron>
+        <page-header title="WARFRAMES" />
 
         <b-form-input
             v-model="search"
@@ -82,6 +68,7 @@ export default {
         });
     },
     components: {
+        pageHeader: () => import('~/components/PageHeader'),
         warframeCard: () => import('../components/warframes/warframe-card')
     },
     data() {
@@ -100,11 +87,3 @@ export default {
     }
 };
 </script>
-
-<style scoped>
-.header-bg {
-    background-image: url('https://ik.imagekit.io/seaw0jfghdk/bg-1_-UKzgcFbk.jpg');
-    background-position: center;
-    background-size: cover;
-}
-</style>

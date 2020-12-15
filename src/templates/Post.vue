@@ -1,6 +1,10 @@
 <template>
     <Layout>
-        <div class="mx-auto" style="max-width: 680px">
+        <b-card
+            bg-variant="dark"
+            class="mx-auto p-sm-3"
+            style="max-width: 680px"
+        >
             <b-button class="mb-3" to="/guide">
                 <b-icon icon="arrow-left"></b-icon>
                 BACK
@@ -22,12 +26,18 @@
                 <div class="lead">{{ $page.post.excerpt }}</div>
             </header>
 
-            <hr />
+            <hr class="my-4 bg-secondary" />
 
             <article class="text-white">
                 <VueRemarkContent />
             </article>
-        </div>
+
+            <hr class="my-5 bg-secondary" />
+
+            <ClientOnly>
+                <Disqus />
+            </ClientOnly>
+        </b-card>
     </Layout>
 </template>
 
@@ -49,7 +59,6 @@ keywords
 <script>
 import { formatDate } from '../utils/dateUtil';
 import { getSeo } from '../utils/seoUtil';
-
 export default {
     metaInfo() {
         return getSeo({

@@ -8,7 +8,7 @@ image_caption: warframe-protea-image
 tags: tag1, tag2
 keywords: warframe protea,warframe protea farm,how to get protea warframe,warframe protea release date
 ---
-import data from '../data/warframe/protea.json'
+import data from './data/how-to-get-protea-warframe-protea-fram-guide.json'
 import blueprint from '~/components/guide/Blueprint.vue'
 
 ## How to get Protea?
