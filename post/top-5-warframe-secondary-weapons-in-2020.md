@@ -5,7 +5,7 @@ read_min: 5 min
 excerpt: Secondary weapons in Warframe is always a debatable topic, many players tend to focus on their 
     primaries and melee weapons, especially for newer players often get confused thinking secondary weapons 
     are useless which is a big misunderstanding.
-image: https://ik.imagekit.io/seaw0jfghdk/guide/20180714100731_1_aEwvKnOsA.jpg
+image: https://ik.imagekit.io/seaw0jfghdk/guide/Kuva-Lich-with-new-weapon_cy45cMuIU.jpg
 image_caption: warframe-primary-weapons
 tags: tag1, tag2
 keywords: warframe primary weapon, ignis wraith, acceltra, rubico prime, kuva bramma, kuva kohm
