@@ -1,5 +1,6 @@
 <template>
     <Layout>
+        <page-header title="GUIDES" />
         <b-row
             @click="$router.push(p.node.path)"
             style="cursor: pointer"
@@ -22,8 +23,9 @@
                         <span>{{ formatDate(p.node.created_at) }}</span>
                     </span>
                 </div>
-                <p>{{ formatExcerpt(p.node.excerpt) }}</p>
-                <div class="text-right"></div>
+                <p class="mb-0 text-white-50">
+                    {{ formatExcerpt(p.node.excerpt) }}
+                </p>
             </b-col>
         </b-row>
     </Layout>
@@ -57,6 +59,9 @@ import { formatDate } from '~/utils/dateUtil';
 export default {
     metaInfo: {
         title: 'GUIDES'
+    },
+    components: {
+        pageHeader: () => import('~/components/PageHeader')
     },
     methods: {
         formatExcerpt(val) {

@@ -1,17 +1,6 @@
 <template>
     <Layout>
-        <b-jumbotron
-            class="header-bg text-white text-center mb-5"
-            header-level="5"
-            bg-variant="light"
-        >
-            <h1
-                class=" p-3 d-inline-block"
-                style="background-color: rgba(53,53,53,0.9)"
-            >
-                Mastery Rank Calculator
-            </h1>
-        </b-jumbotron>
+        <page-header title="MASTERY CALCULATOR" />
 
         <b-row class="mb-5" align-v="stretch">
             <b-col cols="12" lg="4" class="mb-5 mb-lg-0">
@@ -32,23 +21,14 @@
             </b-col>
         </b-row>
 
-        <!--        <b-card header="Recommended Items" class="mb-5"></b-card>-->
-
-        <b-card
-            header="Mastery Point Table"
-            bg-variant="dark"
-            text-variant="white"
-            no-body
-        >
-            <b-table
-                dark
-                hover
-                :fields="methodFields"
-                :items="$page.methods.edges"
-                sort-by="node.total_MP"
-                sort-desc
-            ></b-table>
-        </b-card>
+        <b-table
+            dark
+            hover
+            :fields="methodFields"
+            :items="$page.methods.edges"
+            sort-by="node.total_MP"
+            sort-desc
+        ></b-table>
     </Layout>
 </template>
 
@@ -94,6 +74,7 @@ export default {
         });
     },
     components: {
+        pageHeader: () => import('~/components/PageHeader'),
         rank: () => import('~/components/masteryCalculator/Rank'),
         recommends: () => import('~/components/masteryCalculator/Recommends'),
         rankSelector: () =>
@@ -158,11 +139,3 @@ export default {
     }
 };
 </script>
-
-<style scoped>
-.header-bg {
-    background-image: url('https://ik.imagekit.io/seaw0jfghdk/bg-1_-UKzgcFbk.jpg');
-    background-position: center;
-    background-size: cover;
-}
-</style>

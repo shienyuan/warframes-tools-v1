@@ -17,32 +17,28 @@ Enough of introduction, let's get down to the list of primary weapons that I thi
 
 <hr class="bg-secondary my-4"/>
 
-import weapon from '~/components/guide/WeaponCard.vue'
-import kuvaKohm from '../data/weapon/kuvaKohm.json'
-import kuvaBramma from '../data/weapon/kuvaBramma.json'
-import rubicoPrime from '../data/weapon/rubicoPrime.json'
-import acceltra from '../data/weapon/acceltra.json'
-import ignisWraith from '../data/weapon/ignisWraith.json'
+import weaponCard from '~/components/guide/WeaponCard.vue'
+import data from './data/top-5-warframe-primary-weapons-in-2020.json'
 
 ### 5. Kuva Kohm
 
-<weapon class="mb-5 mt-3" :data="kuvaKohm"></weapon>
+<weapon-card class="mb-5 mt-3" :data="data.kuvaKohm"></weapon-card>
 
 ### 4. Kuva Bramma
 
-<weapon class="mb-5 mt-3" :data="kuvaBramma"></weapon>
+<weapon-card class="mb-5 mt-3" :data="data.kuvaBramma"></weapon-card>
 
 ### 3. Rubico Prime
 
-<weapon class="mb-5 mt-3" :data="rubicoPrime"></weapon>
+<weapon-card class="mb-5 mt-3" :data="data.rubicoPrime"></weapon-card>
 
 ### 2. Acceltra
 
-<weapon class="mb-5 mt-3" :data="acceltra"></weapon>
+<weapon-card class="mb-5 mt-3" :data="data.acceltra"></weapon-card>
 
 ### 1. Ignis Wraith
 
-<weapon class="mb-5 mt-3" :data="ignisWraith"></weapon>
+<weapon-card class="mb-5 mt-3" :data="data.ignisWraith"></weapon-card>
 
 That's the end of the list, remember none of these weapons is a must-have, it all comes to what you prefer 
 to fight your way through the galaxy.

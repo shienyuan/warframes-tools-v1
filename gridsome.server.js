@@ -7,10 +7,10 @@
 
 module.exports = function(api) {
     api.loadSource(({ addCollection, addMetadata }) => {
-        const mrcMethods = require('./data/mrcMethods.json');
-        const mrcRanks = require('./data/mrcRanks.json');
+        const mrcMethods = require('./data/masteryPoints.json');
+        const mrcRanks = require('./data/masteryRanks.json');
         const meta = require('./data/meta.json');
-        const warframes = require('./data/warframe/warframes.json');
+        const warframes = require('./data/warframes.json');
 
         addMetadata('version', meta);
 
@@ -39,7 +39,7 @@ module.exports = function(api) {
         }
     });
 
-    api.createPages(({ createPage }) => {
-        // Use the Pages API here: https://gridsome.org/docs/pages-api/
-    });
+    // api.createPages(({ createPage }) => {
+    //     // Use the Pages API here: https://gridsome.org/docs/pages-api/
+    // });
 };

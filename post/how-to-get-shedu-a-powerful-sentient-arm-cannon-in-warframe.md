@@ -8,7 +8,7 @@ image_caption: warframe-shedu-image
 tags: tag1, tag2
 keywords: warframe protea,warframe protea farm,how to get protea warframe,warframe protea release date
 ---
-import data from '../data/weapon/shedu.json'
+import data from './data/how-to-get-shedu-a-powerful-sentient-arm-cannon-in-warframe.json'
 import blueprint from '~/components/guide/Blueprint.vue'
 
 ## How to get Shedu in-game?
@@ -23,4 +23,4 @@ which can be found in the [Veil Proxima](https://warframe.fandom.com/wiki/Veil_P
 [Empyrean missions](https://warframe.fandom.com/wiki/Empyrean). This ship appears every 30 minutes (refresh at 0 and 30 minutes every hour) and 
 randomly occupy a node for 30 minutes. The node will have a flashing red light, indicated by the Sentient faction logo. Weapon parts can be traded between players.
 
-<blueprint class="mb-5" :data="data.main"></blueprint>
+<blueprint class="mb-5" :data="data"></blueprint>
