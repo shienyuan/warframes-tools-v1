@@ -61,7 +61,8 @@ keywords
 
 <script>
 import { formatDate } from '../utils/dateUtil';
-import { getSeo } from '../utils/seoUtil';
+import { getSeo, formatUrl, formatDesc } from '../utils/seoUtil';
+
 export default {
     metaInfo() {
         return getSeo({
@@ -79,12 +80,39 @@ export default {
     },
     created() {
         this.jsonld = {
-            '@context': 'https://schema.org',
-            '@type': 'BlogPosting',
+            '@context': 'http://schema.org',
+            '@type': 'Article',
+            mainEntityOfPage: {
+                '@type': 'WebPage',
+                '@id': formatUrl(this.$route.path)
+            },
             headline: this.data.title,
-            image: this.data.image,
+            image: {
+                '@type': 'ImageObject',
+                url: this.data.image,
+                height: 600,
+                width: 800
+            },
             datePublished: this.data.created_at,
-            dateModified: this.data.created_at
+            dateModified: this.data.created_at,
+            author: {
+                '@type': 'Person',
+                '@id': 'https://warframes.tools',
+                name: 'Warframes Tools'
+            },
+            publisher: {
+                '@type': 'Organization',
+                '@id': 'https://warframes.tools',
+                name: 'Warframes Tools',
+                logo: {
+                    '@type': 'ImageObject',
+                    url:
+                        'https://ik.imagekit.io/seaw0jfghdk/logo-white_oE-VCZ9u4.png',
+                    height: 70,
+                    width: 70
+                }
+            },
+            description: formatDesc(this.data.excerpt)
         };
     },
     computed: {
