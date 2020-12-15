@@ -15,8 +15,10 @@
                     {{ data.title }}
                 </h1>
                 <p class="small text-secondary">
-                    {{ formatDate(data.created_at) }} ·
-                    {{ `${data.read_min} read` }}
+                    Published
+                    {{ formatDate(data.created_at) }}
+                    <span> · </span>
+                    <span>{{ `${data.read_min} read` }}</span>
                 </p>
                 <b-img
                     :alt="data.image_caption"
@@ -38,6 +40,7 @@
                 <Disqus />
             </ClientOnly>
         </b-card>
+        <script v-html="jsonld" type="application/ld+json" />
     </Layout>
 </template>
 
@@ -68,6 +71,21 @@ export default {
             description: this.$page.post.excerpt,
             img: this.$page.post.image
         });
+    },
+    data() {
+        return {
+            jsonld: {}
+        };
+    },
+    created() {
+        this.jsonld = {
+            '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: this.data.title,
+            image: this.data.image,
+            datePublished: this.data.created_at,
+            dateModified: this.data.created_at
+        };
     },
     computed: {
         data() {
