@@ -8,7 +8,7 @@ excerpt: Secondary weapons in Warframe is always a debatable topic, many players
 image: https://ik.imagekit.io/seaw0jfghdk/guide/Kuva-Lich-with-new-weapon_cy45cMuIU.jpg
 image_caption: warframe-primary-weapons
 tags: tag1, tag2
-keywords: warframe primary weapon, ignis wraith, acceltra, rubico prime, kuva bramma, kuva kohm
+keywords: warframe secondary weapon, Tombfinger, Kuva Brakk, Catchmoon, Pyrana prime, Kuva nukor
 ---
 
 import weaponCard from '~/components/guide/WeaponCard.vue'
