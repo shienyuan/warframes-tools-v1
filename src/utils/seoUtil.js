@@ -1,7 +1,7 @@
 import config from '../../gridsome.config';
 
-const _formatDesc = d => d.slice(0, 160);
-const _formatUrl = p => `https://warframes.tools${p}`;
+export const formatDesc = d => d.slice(0, 160);
+export const formatUrl = p => `https://warframes.tools${p}`;
 
 const defaultKeywords = 'warframe,video games,game,online games,free games';
 const defaultDesc =
@@ -53,7 +53,7 @@ export function getSeo({
             {
                 key: 'description',
                 name: 'description',
-                content: _formatDesc(description)
+                content: formatDesc(description)
             },
             {
                 key: 'keywords',
@@ -69,12 +69,12 @@ export function getSeo({
             {
                 key: 'og:description',
                 name: 'description',
-                content: _formatDesc(description)
+                content: formatDesc(description)
             },
             {
                 key: 'og:url',
                 property: 'og:url',
-                content: _formatUrl(path)
+                content: formatUrl(path)
             },
             {
                 key: 'og:image',
@@ -85,7 +85,7 @@ export function getSeo({
             {
                 key: 'twitter:url',
                 property: 'twitter:url',
-                content: _formatUrl(path)
+                content: formatUrl(path)
             },
             {
                 key: 'twitter:title',
@@ -95,7 +95,7 @@ export function getSeo({
             {
                 key: 'twitter:description',
                 name: 'twitter:description',
-                content: _formatDesc(description)
+                content: formatDesc(description)
             },
             {
                 key: 'twitter:image',
