@@ -5,8 +5,8 @@ export const formatUrl = p => `https://warframes.tools${p}`;
 
 const defaultKeywords = 'warframe,video games,game,online games,free games';
 const defaultDesc =
-    'Warframes tools is a website that contains several Warframe third-party tools to help' +
-    ' Warframe players having a better Warframe gaming experience';
+    'Warframes tools is a website that contains several useful Warframe tools and guides to help' +
+    ' Warframe players having a better gaming experience';
 const defaultImg =
     'https://ik.imagekit.io/seaw0jfghdk/warframe-tools-logo_K162YLZFL.png';
 
