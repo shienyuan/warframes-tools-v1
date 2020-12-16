@@ -2,26 +2,66 @@
     <Layout>
         <page-header title="WARFRAMES" />
 
-        <b-form-input
-            v-model="search"
-            placeholder="Search for Warframe..."
-            class="mb-4"
-            size="lg"
-        />
-        <b-card-group columns>
-            <warframe-card
-                v-for="w in getWarframes"
-                :key="w.node.id"
-                :name="w.node.name"
-                :img="w.node.img"
-                :blueprint="w.node.blueprint"
-                :component="w.node.component"
-                :chances="w.node.chances"
-                :expected="w.node.expected"
-                :guaranteed="w.node.guaranteed"
-                :link="w.node.link"
-            />
-        </b-card-group>
+        <p class="font-italic text-white-50 text-right small">
+            Last updated at: 15/12/2020
+        </p>
+
+        <b-table
+            stacked="lg"
+            dark
+            hover
+            :fields="fields"
+            :items="$page.warframes.edges"
+        >
+            <template #cell(node.img)="data">
+                <b-img
+                    :src="getImgUrl + data.value + '?tr=w-50,h-50,fo-top'"
+                ></b-img>
+            </template>
+
+            <template #cell(node.name)="data">
+                <b-link :href="getWikiUrl + data.item.node.link" target="_blank"
+                    >{{ data.value }}
+                </b-link>
+            </template>
+
+            <template #cell(node.blueprint)="data">
+                <span v-if="data.value.length === 0">
+                    <b-img
+                        src="https://ik.imagekit.io/seaw0jfghdk/Credits64_B3FTEVn9h.png?tr=h-15,w-15"
+                    />
+                    <span> {{ data.item.node.price }}</span>
+                </span>
+                <div v-else v-for="(b, i) in data.value" :key="i">
+                    <b-link :href="getWikiUrl + b.link" target="_blank"
+                        >{{ b.name }}
+                    </b-link>
+                </div>
+            </template>
+
+            <template #cell(node.components)="data">
+                <li v-for="(c, i) in data.value" :key="i">
+                    <b-link :href="getWikiUrl + c.link" target="_blank"
+                        >{{ c.name }}
+                    </b-link>
+                </li>
+            </template>
+
+            <template #cell(node.chances)="data">
+                <p class="mb-1">
+                    <span class="text-white-50">Neuroptics:</span>
+                    {{ data.value.neuroptics }}%
+                </p>
+                <p class="mb-1">
+                    <span class="text-white-50">Chassis:</span>
+                    {{ data.value.chassis }}%
+                </p>
+                <p class="mb-0">
+                    <span class="text-white-50">Systems:</span>
+                    {{ data.value.systems }}%
+                </p>
+            </template>
+        </b-table>
     </Layout>
 </template>
 
@@ -32,12 +72,13 @@ edges {
 node {
 id
 name
+price
 img
 blueprint{
 name
 link
 }
-component{
+components{
 name
 link
 }
@@ -73,16 +114,39 @@ export default {
     },
     data() {
         return {
-            search: ''
+            search: '',
+            fields: [
+                {
+                    label: '',
+                    key: 'node.img',
+                    class: 'text-center'
+                },
+                {
+                    label: 'Name',
+                    key: 'node.name',
+                    sortable: true
+                },
+                {
+                    label: 'Blueprint',
+                    key: 'node.blueprint'
+                },
+                {
+                    label: 'Component',
+                    key: 'node.components'
+                },
+                {
+                    label: 'Chances',
+                    key: 'node.chances'
+                }
+            ]
         };
     },
     computed: {
-        getWarframes() {
-            if (this.search === '') return this.$page.warframes.edges;
-
-            return this.$page.warframes.edges.filter(w =>
-                w.node.name.toLowerCase().includes(this.search.toLowerCase())
-            );
+        getImgUrl() {
+            return `${process.env.GRIDSOME_IMG_URL}/warframes/`;
+        },
+        getWikiUrl() {
+            return `${process.env.GRIDSOME_WIKI_URL}/`;
         }
     }
 };

@@ -1,96 +1,44 @@
-#
-## Get started
-
-This is the project you get when you run `gridsome create new-project`.
-
-### 1. Install Gridsome CLI tool if you don't have
-
-`npm install --global @gridsome/cli`
-
-### 2. Create a Gridsome project
-
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
-
 # Warframe's Tools
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/926f1b3a-b2cd-4aba-84ae-c081b0b93a15/deploy-status)](https://app.netlify.com/sites/warframes-tools/deploys)
 
-**Description**:  Put a meaningful, short, plain-language description of what
-this project is trying to accomplish and why it matters.
-Describe the problem(s) this project solves.
-Describe how this software can improve the lives of its audience.
+![warframes-tools](https://ik.imagekit.io/seaw0jfghdk/Screen_Shot_2020-12-16_at_1.34.41_PM_I5ShvCl8u.png)
 
-Other things to include:
+**Description**:  
+[Warframes tools](https://warframes.tools) is a website that contains several useful third-party Warframe 
+tools and 
+guides to help Warframe 
+players having a better gaming experience
 
-- **Technology stack**: Indicate the technological nature of the software, including primary programming language(s) and whether the software is intended as standalone or as a module in a framework or other ecosystem.
-- **Status**:  Alpha, Beta, 1.1, etc. It's OK to write a sentence, too. The goal is to let interested people know where this project is at. This is also a good place to link to the [CHANGELOG]
-- **Links to production or demo instances**
-- Describe what sets this apart from related-projects. Linking to another doc or page is OK if this can't be expressed in a sentence or two.
-
-
-**Screenshot**: If the software has visual components, place a screenshot after the description; e.g.,
-
-![](https://raw.githubusercontent.com/cfpb/open-source-project-template/master/screenshot.png)
-
-
-## Dependencies
-
-Describe any dependencies that must be installed for this software to work.
-This includes programming languages, databases or other storage mechanisms, build tools, frameworks, and so forth.
-If specific versions of other software are required, or known not to work, call that out.
-
+- **Technology**: 
+    - [Vue Gridsome](https://github.com/gridsome/gridsome)
+    - [Netlify](https://netlify.com)
+    
+    
+- **Live site**
+    - [warframes.tools](https://warframes.tools)
+    
 ## Installation
 
-Detailed instructions on how to install, configure, and get the project running.
-This should be frequently tested to ensure reliability. Alternatively, link to
-a separate [INSTALL] document.
+SSH:
 
-## Configuration
+`git clone git@github.com:gridsome/gridsome.git`
 
-If the software is configurable, describe it in detail, either here or in other documentation to which you link.
+HTTPS:
 
-## Usage
+`git clone https://github.com/gridsome/gridsome.git`
 
-Show users how to use the software.
-Be specific.
-Use appropriate formatting when showing code snippets.
+## Development
 
-## How to test the software
+`gridsome develop` 
 
-If the software includes automated tests, detail how to run those tests.
-
-## Known issues
-
-Document any known significant shortcomings with the software.
-
-## Getting help
-
-Instruct users how to get help with this software; this might include links to an issue tracker, wiki, mailing list, etc.
-
-**Example**
-
-If you have questions, concerns, bug reports, etc, please file an issue in this repository's Issue Tracker.
+to start a local dev server at `http://localhost:8080`
 
 ## Getting involved
 
-This section should detail why people should get involved and describe key areas you are
-currently focusing on; e.g., trying to get feedback on features, fixing certain bugs, building
-important pieces, etc.
-
-General instructions on _how_ to contribute should be stated with a link to [CONTRIBUTING]
+If you think you have a great idea to add or simply want to make a guest blog post you are mostly welcomed to contact me at dev@waystudio.pro
 
 ----
 
-## Open source licensing info
-2. [LICENSE](LICENSE.txt)
+MIT [LICENSE](LICENSE.txt)
 
-----
-
-## Credits and references
-
-1. Projects that inspired you
-2. Related projects
-3. Books, papers, talks, or other sources that have meaningful impact or influence on this project

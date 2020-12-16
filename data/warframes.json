@@ -1,286 +1,963 @@
 [
   {
     "name": "Ash",
-    "img": "https://ik.imagekit.io/seaw0jfghdk/AshNewLook_OO_4cBH3G.png",
-    "link": "https://warframe.fandom.com/wiki/Ash",
+    "img": "AshNewLook_OO_4cBH3G.png",
+    "link": "Ash",
+    "price": 35000,
     "blueprint": [
-      {
-        "name": "Market",
-        "link": "https://warframe.fandom.com/wiki/Market"
-      }
     ],
-    "component": [
+    "components": [
       {
         "name": "Grineer Manic",
-        "link": "https://warframe.fandom.com/wiki/Manic"
+        "link": "Manic"
       }
     ],
     "chances": {
-      "neuroptics": "12.907%",
-      "chassis": "12.907%",
-      "systems": "7.52%"
+      "neuroptics": 12.907,
+      "chassis": 12.907,
+      "systems": 7.52
     }
   },
   {
     "name": "Atlas",
-    "img": "https://ik.imagekit.io/seaw0jfghdk/AtlasNewLook_m18FDP5DC-.png",
-    "link": "https://warframe.fandom.com/wiki/Atlas",
+    "img": "AtlasNewLook_m18FDP5DC-.png",
+    "link": "Atlas",
     "blueprint": [
       {
         "name": "The Jordas Precept",
-        "link": "https://warframe.fandom.com/wiki/The_Jordas_Precept"
+        "link": "The_Jordas_Precept"
       }
     ],
-    "component": [
+    "components": [
       {
         "name": "Jordas Golem",
-        "link": "https://warframe.fandom.com/wiki/Jordas_Golem"
+        "link": "Jordas_Golem"
       }
     ],
     "chances": {
-      "neuroptics": "38.72%",
-      "chassis": "38.72%",
-      "systems": "22.56%"
+      "neuroptics": 38.72,
+      "chassis": 38.72,
+      "systems": 22.56
     }
   },
   {
     "name": "Banshee",
-    "img": "https://ik.imagekit.io/seaw0jfghdk/BansheeNewLook_Z06rDwOVV.png",
-    "link": "https://warframe.fandom.com/wiki/Banshee",
+    "img": "BansheeNewLook_Z06rDwOVV.png",
+    "link": "Banshee",
     "blueprint": [
       {
         "name": "Tenno Lab",
-        "link": "https://warframe.fandom.com/wiki/Research/Tenno_Lab"
+        "link": "Research/Tenno_Lab"
       }
     ],
-    "component": [
+    "components": [
       {
         "name": "Tenno Lab",
-        "link": "https://warframe.fandom.com/wiki/Research/Tenno_Lab"
+        "link": "Research/Tenno_Lab"
       }
     ],
     "chances": {
-      "neuroptics": "100%",
-      "chassis": "100%",
-      "systems": "100%"
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
     }
   },
   {
     "name": "Baruuk",
-    "img": "https://ik.imagekit.io/seaw0jfghdk/BaruukIcon272_0G91VFams.png",
-    "link": "https://warframe.fandom.com/wiki/Baruuk",
+    "img": "BaruukIcon272_0G91VFams.png",
+    "link": "Baruuk",
     "blueprint": [
       {
         "name": "Vox Solaris(Agent rank)",
-        "link": "https://warframe.fandom.com/wiki/Vox_Solaris_(Syndicate)"
+        "link": "Vox_Solaris_(Syndicate)"
       }
     ],
-    "component": [
+    "components": [
       {
         "name": "Vox Solaris(Hand rank)",
-        "link": "https://warframe.fandom.com/wiki/Vox_Solaris_(Syndicate)"
+        "link": "Vox_Solaris_(Syndicate)"
       }
     ],
     "chances": {
-      "neuroptics": "100%",
-      "chassis": "100%",
-      "systems": "100%"
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
     }
   },
   {
     "name": "Chroma",
-    "img": "https://ik.imagekit.io/seaw0jfghdk/ChromaNewLook__CKBe3Vg0.png",
-    "link": "https://warframe.fandom.com/wiki/Chroma",
+    "img": "ChromaNewLook__CKBe3Vg0.png",
+    "link": "Chroma",
     "blueprint": [
       {
         "name": "The New Strange",
-        "link": "https://warframe.fandom.com/wiki/The_New_Strange"
+        "link": "The_New_Strange"
       }
     ],
-    "component": [
+    "components": [
       {
         "name": "Uranus Junction",
-        "link": "https://warframe.fandom.com/wiki/Uranus"
+        "link": "Uranus"
       },
       {
         "name": "Neptune Junction",
-        "link": "https://warframe.fandom.com/wiki/Neptune"
+        "link": "Neptune"
       },
       {
         "name": "Pluto Junction",
-        "link": "https://warframe.fandom.com/wiki/Pluto"
+        "link": "Pluto"
       }
     ],
     "chances": {
-      "neuroptics": "100%",
-      "chassis": "100%",
-      "systems": "100%"
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
     }
   },
   {
     "name": "Ember",
-    "img": "https://ik.imagekit.io/seaw0jfghdk/EmberNewLook_9-zHzAiit.png",
-    "link": "https://warframe.fandom.com/wiki/Ember",
+    "img": "EmberNewLook_9-zHzAiit.png",
+    "link": "Ember",
     "blueprint": [
-      {
-        "name": "Market",
-        "link": "https://warframe.fandom.com/wiki/Market"
-      }
     ],
-    "component": [
+    "components": [
       {
         "name": "General Sargas Ruk",
-        "link": "https://warframe.fandom.com/wiki/General_Sargas_Ruk"
+        "link": "General_Sargas_Ruk"
       }
     ],
     "chances": {
-      "neuroptics": "38.72%",
-      "chassis": "38.72%",
-      "systems": "22.56%"
+      "neuroptics": 38.72,
+      "chassis": 38.72,
+      "systems": 22.56
     }
   },
   {
     "name": "Equinox",
-    "img": "https://ik.imagekit.io/seaw0jfghdk/EquinoxSolo___EtBypYr.png",
-    "link": "https://warframe.fandom.com/wiki/Equinox",
+    "img": "EquinoxSolo___EtBypYr.png",
+    "link": "Equinox",
     "blueprint": [
       {
         "name": "Market(Main)",
-        "link": "https://warframe.fandom.com/wiki/Market"
+        "link": "Market"
       },
       {
         "name": "Tyl Regor(Day)",
-        "link": "https://warframe.fandom.com/wiki/Tyl_Regor"
+        "link": "Tyl_Regor"
       },
       {
         "name": "Tyl Regor(Night)",
-        "link": "https://warframe.fandom.com/wiki/Tyl_Regor"
+        "link": "Tyl_Regor"
       }
     ],
-    "component": [
+    "components": [
       {
         "name": "General Sargas Ruk",
-        "link": "https://warframe.fandom.com/wiki/General_Sargas_Ruk"
+        "link": "General_Sargas_Ruk"
       }
     ],
     "chances": {
-      "neuroptics": "38.72%",
-      "chassis": "38.72%",
-      "systems": "22.56%"
+      "neuroptics": 38.72,
+      "chassis": 38.72,
+      "systems": 22.56
     }
   },
   {
     "name": "Excalibur",
-    "img": "https://ik.imagekit.io/seaw0jfghdk/ExcaliburNewLook_G45p_tX-Y.png",
-    "link": "https://warframe.fandom.com/wiki/Excalibur",
+    "img": "ExcaliburNewLook_G45p_tX-Y.png",
+    "link": "Excalibur",
     "blueprint": [
-      {
-        "name": "Market",
-        "link": "https://warframe.fandom.com/wiki/Market"
-      }
     ],
-    "component": [
+    "components": [
       {
         "name": "Lieutenant Lech Kril",
-        "link": "https://warframe.fandom.com/wiki/Lieutenant_Lech_Kril"
+        "link": "Lieutenant_Lech_Kril"
       }
     ],
     "chances": {
-      "neuroptics": "38.72%",
-      "chassis": "38.72%",
-      "systems": "22.56%"
+      "neuroptics": 38.72,
+      "chassis": 38.72,
+      "systems": 22.56
     }
   },
   {
     "name": "Frost",
-    "img": "https://ik.imagekit.io/seaw0jfghdk/FrostNewLook_iGLSd-wtD.png",
-    "link": "https://warframe.fandom.com/wiki/Excalibur",
+    "img": "FrostNewLook_iGLSd-wtD.png",
+    "link": "Excalibur",
     "blueprint": [
-      {
-        "name": "Market",
-        "link": "https://warframe.fandom.com/wiki/Market"
-      }
     ],
-    "component": [
+    "components": [
       {
         "name": "Lieutenant Lech Kril",
-        "link": "https://warframe.fandom.com/wiki/Lieutenant_Lech_Kril"
+        "link": "Lieutenant_Lech_Kril"
       },
       {
         "name": "Captain Vor",
-        "link": "https://warframe.fandom.com/wiki/Captain_Vor"
+        "link": "Captain_Vor"
       }
     ],
     "chances": {
-      "neuroptics": "38.72%",
-      "chassis": "38.72%",
-      "systems": "22.56%"
+      "neuroptics": 38.72,
+      "chassis": 38.72,
+      "systems": 22.56
     }
   },
   {
     "name": "Gara",
-    "img": "https://ik.imagekit.io/seaw0jfghdk/GaraNewLook_Vx1Xx4mNY.png",
-    "link": "https://warframe.fandom.com/wiki/Gara",
+    "img": "GaraNewLook_Vx1Xx4mNY.png",
+    "link": "Gara",
     "blueprint": [
       {
         "name": "Saya's Vigil",
-        "link": "https://warframe.fandom.com/wiki/Saya%27s_Vigil"
+        "link": "Saya7s_Vigil"
       }
     ],
-    "component": [
+    "components": [
       {
         "name": "Plains of Eidolon Bounties",
-        "link": "https://warframe.fandom.com/wiki/Plains_of_Eidolon"
+        "link": "Plains_of_Eidolon"
       }
     ],
     "chances": {
-      "neuroptics": "20.51%",
-      "chassis": "30.56%",
-      "systems": "21.82%"
+      "neuroptics": 20.51,
+      "chassis": 30.56,
+      "systems": 21.82
     }
   },
   {
     "name": "Garuda",
-    "img": "https://ik.imagekit.io/seaw0jfghdk/Garuda_LBHPe4TTX.png",
-    "link": "https://warframe.fandom.com/wiki/Garuda",
+    "img": "Garuda_LBHPe4TTX.png",
+    "link": "Garuda",
     "blueprint": [
       {
         "name": "Vox Solaris",
-        "link": "https://warframe.fandom.com/wiki/Vox_Solaris_(Quest)"
+        "link": "Vox_Solaris_(Quest)"
       }
     ],
-    "component": [
+    "components": [
       {
         "name": "Orb Vallis Bounties",
-        "link": "https://warframe.fandom.com/wiki/Orb_Vallis"
+        "link": "Orb_Vallis"
       }
     ],
     "chances": {
-      "neuroptics": "25%",
-      "chassis": "30.56%",
-      "systems": "22.22%"
+      "neuroptics": 25,
+      "chassis": 30.56,
+      "systems": 22.22
     }
   },
   {
     "name": "Gauss",
-    "img": "https://ik.imagekit.io/seaw0jfghdk/Gauss_eCiPVpbD8.png",
-    "link": "https://warframe.fandom.com/wiki/Gauss",
+    "img": "Gauss_eCiPVpbD8.png",
+    "link": "Gauss",
     "blueprint": [
-      {
-        "name": "Market",
-        "link": "https://warframe.fandom.com/wiki/Market"
-      }
     ],
-    "component": [
+    "components": [
       {
-        "name": "Kelpie, Sedna(Tier C Disruption)",
-        "link": "https://warframe.fandom.com/wiki/Sedna"
+        "name": "Kelpie, Sedna(C)",
+        "link": "Sedna"
       }
     ],
     "chances": {
-      "neuroptics": "7.84%",
-      "chassis": "7.84%",
-      "systems": "7.84%"
+      "neuroptics": 7.84,
+      "chassis": 7.84,
+      "systems": 7.84
+    }
+  },
+  {
+    "name": "Grendel",
+    "img": "Grendel_PSF7bsPOw.png",
+    "link": "Grendel",
+    "blueprint": [
+    ],
+    "components": [
+      {
+        "name": "Neuroptics Locator",
+        "link": "Arbiters_of_Hexis#Arbitration_Honors"
+      },
+      {
+        "name": "Chassis Locator",
+        "link": "Arbiters_of_Hexis#Arbitration_Honors"
+      },
+      {
+        "name": "Systems Locator",
+        "link": "Arbiters_of_Hexis#Arbitration_Honors"
+      }
+    ],
+    "chances": {
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
+    }
+  },
+  {
+    "name": "Harrow",
+    "img": "Harrow_zKJdDWBj2.png",
+    "link": "Harrow",
+    "blueprint": [
+      {
+        "name": "Chains of Harrow",
+        "link": "Chains_of_Harrow"
+      }
+    ],
+    "components": [
+      {
+        "name": "Neuroptics: Kuva Fortress, Pago(C)",
+        "link": "Kuva_Fortress"
+      },
+      {
+        "name": "Chassis: Void Fissure Enemies",
+        "link": "Void_Fissure"
+      },
+      {
+        "name": "Systems: Defection missions(B, C)",
+        "link": "Defection"
+      }
+    ],
+    "chances": {
+      "neuroptics": 11.28,
+      "chassis": 3,
+      "systems": 11.28
+    }
+  },
+  {
+    "name": "Hildryn",
+    "img": "HildrynIcon272_mu0WCIgdF.png",
+    "link": "Hildryn",
+    "blueprint": [
+      {
+        "name": "Little Duck",
+        "link": "Little_Duck"
+      }
+    ],
+    "components": [
+      {
+        "name": "Exploiter Orb",
+        "link": "Exploiter_Orb"
+      }
+    ],
+    "chances": {
+      "neuroptics": 38.72,
+      "chassis": 38.72,
+      "systems": 22.56
+    }
+  },
+  {
+    "name": "Hydroid",
+    "img": "HydroidNewLook_hgm20AT2A.png",
+    "link": "Hydroid",
+    "blueprint": [
+    ],
+    "components": [
+      {
+        "name": "Councilor Vay Hek",
+        "link": "Councilor_Vay_Hek"
+      }
+    ],
+    "chances": {
+      "neuroptics": 38.72,
+      "chassis": 38.72,
+      "systems": 22.56
+    }
+  },
+  {
+    "name": "Inaros",
+    "img": "InarosNewLook_XFE11GeBV.png",
+    "link": "Inaros",
+    "blueprint": [
+      {
+        "name": "Sands of Inaros",
+        "link": "Sands_of_Inaros"
+      }
+    ],
+    "components": [
+      {
+        "name": "Cephalon Simaris",
+        "link": "Cephalon_Simaris"
+      }
+    ],
+    "chances": {
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
+    }
+  },
+  {
+    "name": "Ivara",
+    "img": "IvaraNewLook_0sBtcI1U4.png",
+    "link": "Inaros",
+    "blueprint": [
+      {
+        "name": "Spy Missions(C)",
+        "link": "Spy"
+      }
+    ],
+    "components": [
+      {
+        "name": "Spy Missions(C)",
+        "link": "Spy"
+      }
+    ],
+    "chances": {
+      "neuroptics": 7.52,
+      "chassis": 7.37,
+      "systems": 9.09
+    }
+  },
+  {
+    "name": "Khora",
+    "img": "Khora_5FTCVHD0N.png",
+    "link": "Khora",
+    "blueprint": [
+      {
+        "name": "Sanctuary Onslaught(A-A-B-C)",
+        "link": "Sanctuary_Onslaught"
+      }
+    ],
+    "components": [
+      {
+        "name": "Sanctuary Onslaught(A-A-B-C)",
+        "link": "Sanctuary_Onslaught"
+      }
+    ],
+    "chances": {
+      "neuroptics": 9.09,
+      "chassis": 8.33,
+      "systems": 11.28
+    }
+  },
+  {
+    "name": "Limbo",
+    "img": "LimboNewLook_uOMD65vjC.png",
+    "link": "Limbo",
+    "blueprint": [
+    ],
+    "components": [
+      {
+        "name": "The Limbo Theorem",
+        "link": "The_Limbo_Theorem"
+      }
+    ],
+    "chances": {
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
+    }
+  },
+  {
+    "name": "Loki",
+    "img": "LokiNewLook_08dgm3ePN.png",
+    "link": "Loki",
+    "blueprint": [
+    ],
+    "components": [
+      {
+        "name": "Hyena Pack (Psamathe, Neptune)",
+        "link": "Hyena_Pack"
+      }
+    ],
+    "chances": {
+      "neuroptics": 38.72,
+      "chassis": 38.72,
+      "systems": 22.56
+    }
+  },
+  {
+    "name": "Mag",
+    "img": "MagNewLook_pQdTlRIUn.png",
+    "link": "Mag",
+    "blueprint": [
+    ],
+    "components": [
+      {
+        "name": "The Sergeant (Iliad, Phobos)",
+        "link": "The_Sergeant"
+      }
+    ],
+    "chances": {
+      "neuroptics": 38.72,
+      "chassis": 38.72,
+      "systems": 22.56
+    }
+  },
+  {
+    "name": "Mesa",
+    "img": "MesaLarge_4EbTPPiAk.png",
+    "link": "Mesa",
+    "blueprint": [
+    ],
+    "components": [
+      {
+        "name": "Mutalist Alad V (Mutalist Alad V Assassination, Eris)",
+        "link": "Mutalist_Alad_V"
+      }
+    ],
+    "chances": {
+      "neuroptics": 38.72,
+      "chassis": 38.72,
+      "systems": 22.56
+    }
+  },
+  {
+    "name": "Mirage",
+    "img": "MirageNewLook_ePhzFG1V3.png",
+    "link": "Mirage",
+    "blueprint": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "components": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "chances": {
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
+    }
+  },
+  {
+    "name": "Nekros",
+    "img": "NekrosNewLook_o_1gz6RKy.png",
+    "link": "Nekros",
+    "blueprint": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "components": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "chances": {
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
+    }
+  },
+  {
+    "name": "Nezha",
+    "img": "NezhaNewLook_Fs_3wryAp.png",
+    "link": "Nezha",
+    "blueprint": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "components": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "chances": {
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
+    }
+  },
+  {
+    "name": "Nidus",
+    "img": "NidusNewLook_v9-ZUqBTd.png",
+    "link": "Nidus",
+    "blueprint": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "components": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "chances": {
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
+    }
+  },
+  {
+    "name": "Nova",
+    "img": "NovaNewLook_wqH4GrRkM.png",
+    "link": "Nova",
+    "blueprint": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "components": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "chances": {
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
+    }
+  },
+  {
+    "name": "Nyx",
+    "img": "NyxNewLook_r8FwT_CZS.png",
+    "link": "Nyx",
+    "blueprint": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "components": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "chances": {
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
+    }
+  },
+  {
+    "name": "Oberon",
+    "img": "OberonNewLook_T14uzNT62.png",
+    "link": "Oberon",
+    "blueprint": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "components": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "chances": {
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
+    }
+  },
+  {
+    "name": "Octavia",
+    "img": "Octavia_bIv-M3Bq-.png",
+    "link": "Octavia",
+    "blueprint": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "components": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "chances": {
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
+    }
+  },
+  {
+    "name": "Protea",
+    "img": "Protea__1__HirFiuQA7.png",
+    "link": "Protea",
+    "blueprint": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "components": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "chances": {
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
+    }
+  },
+  {
+    "name": "Revenant",
+    "img": "Revenant_08CEQ-xdT.png",
+    "link": "Revenant",
+    "blueprint": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "components": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "chances": {
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
+    }
+  },
+  {
+    "name": "Rhino",
+    "img": "RhinoNewLook_hE3qqEKDs.png",
+    "link": "Rhino",
+    "blueprint": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "components": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "chances": {
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
+    }
+  },
+  {
+    "name": "Saryn",
+    "img": "SarynNewLook_IU3upx5GX.png",
+    "link": "Saryn",
+    "blueprint": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "components": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "chances": {
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
+    }
+  },
+  {
+    "name": "Titania",
+    "img": "TitaniaNewLook_gw4zPYE-R.png",
+    "link": "Titania",
+    "blueprint": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "components": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "chances": {
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
+    }
+  },
+  {
+    "name": "Trinity",
+    "img": "TrinityNewLook_X9octkQO8.png",
+    "link": "Titania",
+    "blueprint": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "components": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "chances": {
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
+    }
+  },
+  {
+    "name": "Valkyr",
+    "img": "ValkyrNewLook_QM6elvTBR.png",
+    "link": "Valkyr",
+    "blueprint": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "components": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "chances": {
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
+    }
+  },
+  {
+    "name": "Vauban",
+    "img": "VaubanNewLook_XAJ4t3iUc.png",
+    "link": "Vauban",
+    "blueprint": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "components": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "chances": {
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
+    }
+  },
+  {
+    "name": "Volt",
+    "img": "VoltNewLook_2iokVJjN5.png",
+    "link": "Volt",
+    "blueprint": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "components": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "chances": {
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
+    }
+  },
+  {
+    "name": "Wisp",
+    "img": "WispIcon272_oBGQ-YuMB.png",
+    "link": "Wisp",
+    "blueprint": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "components": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "chances": {
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
+    }
+  },
+  {
+    "name": "Wukong",
+    "img": "WukongNewIcon_1bzTNgAjw.png",
+    "link": "Wukong",
+    "blueprint": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "components": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "chances": {
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
+    }
+  },
+  {
+    "name": "Xaku",
+    "img": "Xaku.PNG_N-RPDbh_y.png",
+    "link": "Xaku",
+    "blueprint": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "components": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "chances": {
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
+    }
+  },
+  {
+    "name": "Zephyr",
+    "img": "ZephyrNewLook_XAZycSab6.png",
+    "link": "Zephyr",
+    "blueprint": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "components": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "chances": {
+      "neuroptics": 100,
+      "chassis": 100,
+      "systems": 100
     }
   }
 ]
