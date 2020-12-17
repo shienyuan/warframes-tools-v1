@@ -344,19 +344,19 @@
     ],
     "neuroptics": [
       {
-        "name": "Tier C Disruption",
+        "name": "Tier C Disruption (Kelpie, Sedna)",
         "link": "Disruption"
       }
     ],
     "chassis": [
       {
-        "name": "Tier C Disruption",
+        "name": "Tier C Disruption (Kelpie, Sedna)",
         "link": "Disruption"
       }
     ],
     "systems": [
       {
-        "name": "Tier C Disruption",
+        "name": "Tier C Disruption (Kelpie, Sedna)",
         "link": "Disruption"
       }
     ]
@@ -401,7 +401,7 @@
     ],
     "neuroptics": [
       {
-        "name": "Rot C Spy",
+        "name": "Rot C Spy (Pago, Kuva Fortress)",
         "link": "Spy"
       }
     ],
