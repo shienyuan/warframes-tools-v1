@@ -118,7 +118,7 @@ export default {
             title: 'Warframe Acquisition List',
             keywords: 'warframe,warframes,warframe acquisition',
             description:
-                'A compact collection of all Warframe acquisitions, ways and method to get certain warframe'
+                'A compact collection of all Warframe acquisitions, easily check out ways to get certain warframe'
         });
     },
     components: {
