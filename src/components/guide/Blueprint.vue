@@ -1,9 +1,9 @@
 <template>
-    <b-card class="mt-4" :header="data.name" text-variant="dark">
+    <b-card class="mt-4" bg-variant="dark" :header="data.name">
         <h5>Materials</h5>
         <b-list-group
             :horizontal="true"
-            class="mb-4 d-flex align-self-center"
+            class="mb-4 d-flex align-self-center scroll-bar"
             style="overflow: scroll;"
         >
             <b-list-group-item>
@@ -45,41 +45,31 @@
         </b-list-group>
 
         <h5>Drop</h5>
-        <b-list-group :horizontal="true" style="overflow: scroll">
+        <b-list-group
+            class="scroll-bar"
+            :horizontal="true"
+            style="overflow: scroll;"
+        >
             <b-list-group-item>
                 <p class="mb-1">{{ data.method }}</p>
                 <div v-if="data.location">
-                    <em class="small text-secondary">Recommend Location:</em>
+                    <em class="small ">Recommend Location:</em>
                     <p class="mb-0">{{ data.location }}</p>
                 </div>
             </b-list-group-item>
             <b-list-group-item>
-                <p class="text-secondary mb-2">Chance</p>
+                <p class=" mb-2">Chance</p>
                 <p class="mb-0">{{ data.chance }}</p>
             </b-list-group-item>
             <b-list-group-item>
-                <p class="text-secondary mb-2">Expected</p>
+                <p class=" mb-2">Expected</p>
                 <p class="mb-0">{{ data.expected }}</p>
             </b-list-group-item>
             <b-list-group-item>
-                <p class="text-secondary mb-2">Guaranteed</p>
+                <p class=" mb-2">Guaranteed</p>
                 <p class="mb-0">{{ data.guaranteed }}</p>
             </b-list-group-item>
         </b-list-group>
-        <!--                <b-table-->
-        <!--                    dark-->
-        <!--                    bordered-->
-        <!--                    hover-->
-        <!--                    :fields="['Location', 'Chance', 'Expected', 'Guaranteed']"-->
-        <!--                    :items="[-->
-        <!--                        {-->
-        <!--                            Location: 'Basic Granum Void (Rotation C)',-->
-        <!--                            Chance: '11.1%',-->
-        <!--                            Expected: '9 – 10',-->
-        <!--                            Guaranteed: '59 ± 20'-->
-        <!--                        }-->
-        <!--                    ]"-->
-        <!--                ></b-table>-->
     </b-card>
 </template>
 
@@ -92,4 +82,12 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.scroll-bar::-webkit-scrollbar {
+    display: none;
+}
+.scroll-bar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+</style>
