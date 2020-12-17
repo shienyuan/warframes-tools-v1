@@ -1,6 +1,6 @@
 <template>
     <b-card header="Rank Selector" bg-variant="dark" text-variant="white">
-        <p class="text-sm text-info">
+        <p class="text-sm text-white-50">
             Enter your desired mastery rank to reach below, if you prefer you
             may enter your current MP to get exact values.
         </p>

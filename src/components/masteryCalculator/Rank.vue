@@ -1,5 +1,5 @@
 <template>
-    <b-card no-body header="Mastery Rank">
+    <b-card no-body bg-variant="dark" header="Mastery Rank">
         <b-list-group flush>
             <b-list-group-item class="text-center">
                 <div style="height: 70px" v-if="!rank.img_url">

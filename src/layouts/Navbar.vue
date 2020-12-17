@@ -1,60 +1,53 @@
 <template>
-    <div>
-        <b-navbar class="bg-dark" toggleable="lg" type="dark">
-            <b-navbar-brand class="d-flex" :href="index">
-                <b-img
-                    alt="warframes-tools-logo"
-                    height="30"
-                    src="https://ik.imagekit.io/seaw0jfghdk/logo-white_oE-VCZ9u4.png"
-                />
-            </b-navbar-brand>
+    <b-navbar variant="info" toggleable="md" type="dark">
+        <b-navbar-brand class="d-flex align-items-center" :href="index">
+            <b-img
+                class="mr-3"
+                alt="warframes-tools-logo"
+                height="45"
+                width="45"
+                :src="`${getImgUrl}/logo-white_oE-VCZ9u4.png?tr=h-45,w-45`"
+            />
+            <div>
+                <h5 class="mb-0 font-weight-bold">
+                    Warframes<span class="text-primary">tools</span>
+                </h5>
+                <p class="small text-white-50 font-weight-light mb-0">
+                    Tools & Guides
+                </p>
+            </div>
+        </b-navbar-brand>
 
-            <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-            <b-collapse id="nav-collapse" is-nav>
-                <b-navbar-nav>
-                    <b-nav-item
-                        v-for="(n, i) in navs"
-                        :key="i"
-                        :active="$route.path === n.path"
-                        :to="n.path"
-                        >{{ n.label }}</b-nav-item
-                    >
-                </b-navbar-nav>
-
-                <b-navbar-nav class="ml-auto m-0 p-0">
-                    <b-nav-item
-                        class="m-0 p-0"
-                        href="https://github.com/sy97/warframes-tools-v1"
-                        target="_blank"
-                    >
-                        <span class="mr-2"
-                            >v{{ $static.metadata.version.version }}</span
-                        >
-                        <fa-icon
-                            style="width: 16px"
-                            :icon="['fab', 'github']"
-                        />
-                    </b-nav-item>
-                </b-navbar-nav>
-            </b-collapse>
-        </b-navbar>
-
-        <b-alert class="m-3" :show="true" variant="success">
-            <b-icon icon="info-circle-fill" class="mr-1"></b-icon>
-            New update! v{{ $static.metadata.version.version }} -
-            {{ $static.metadata.version.update }}
-        </b-alert>
-    </div>
+        <b-collapse id="nav-collapse" is-nav>
+            <b-navbar-nav class="ml-auto m-0 p-0">
+                <b-nav-item
+                    v-for="(n, i) in navs"
+                    :key="i"
+                    active-class="text-primary"
+                    :active="$route.path === n.path"
+                    :to="n.path"
+                    >{{ n.label }}</b-nav-item
+                >
+                <b-nav-item
+                    class="m-0 p-0"
+                    href="https://github.com/sy97/warframes-tools-v1"
+                    target="_blank"
+                >
+                    <span class="mr-2">v{{ getMetaData.version.version }}</span>
+                    <fa-icon style="width: 16px" :icon="['fab', 'github']" />
+                </b-nav-item>
+            </b-navbar-nav>
+        </b-collapse>
+    </b-navbar>
 </template>
 
 <static-query>
 query {
 metadata {
-siteName
 version {
 version
-update
 }
 }
 }
@@ -63,16 +56,20 @@ update
 <script>
 export default {
     name: 'Navbar',
+    props: {
+        siteName: String,
+        version: String
+    },
     data() {
         return {
             index: '/',
             navs: [
                 {
-                    label: 'Warframes',
+                    label: 'Warframe',
                     path: '/warframes'
                 },
                 {
-                    label: 'Mastery Calculator',
+                    label: 'Mastery',
                     path: '/mastery-calculator'
                 },
                 {
@@ -81,6 +78,14 @@ export default {
                 }
             ]
         };
+    },
+    computed: {
+        getImgUrl() {
+            return process.env.GRIDSOME_IMG_URL;
+        },
+        getMetaData() {
+            return this.$static.metadata;
+        }
     }
 };
 </script>

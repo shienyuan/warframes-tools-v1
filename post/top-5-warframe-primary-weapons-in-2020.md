@@ -15,10 +15,11 @@ There's no such weapon as the best weapon in Warframe it all comes down to your 
 
 Enough of introduction, let's get down to the list of primary weapons that I think is great and good to have. Be aware that the following weapons I recommend are heavily opinionated, you should always choose the weapon that fits your playstyle. Sorry if your favourite weapon is not on the list.
 
-<hr class="bg-secondary my-4"/>
 
 import weaponCard from '~/components/guide/WeaponCard.vue'
 import data from './data/top-5-warframe-primary-weapons-in-2020.json'
+
+<div class="mt-4"></div>
 
 ### 5. Kuva Kohm
 

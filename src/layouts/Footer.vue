@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-dark text-white py-4 text-center">
+    <footer class="bg-info text-white py-4 text-center">
         <p class="mb-0">
             <b-link href="https://github.com/sy97" target="_blank">sy97</b-link
             ><span class="text-secondary">@</span>

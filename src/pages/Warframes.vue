@@ -1,6 +1,8 @@
 <template>
     <Layout>
-        <page-header title="WARFRAME ACQUISITIONS" />
+        <template v-slot:header>
+            Warframe List
+        </template>
 
         <p class="font-italic text-white-50 text-right small">
             Last updated at: 15/12/2020

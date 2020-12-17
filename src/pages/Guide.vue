@@ -1,6 +1,9 @@
 <template>
     <Layout>
-        <page-header title="GUIDES" />
+        <template v-slot:header>
+            Guides
+        </template>
+
         <b-row
             @click="$router.push(p.node.path)"
             style="cursor: pointer"
