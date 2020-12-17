@@ -1,6 +1,6 @@
 <template>
     <Layout>
-        <page-header title="WARFRAMES" />
+        <page-header title="WARFRAME ACQUISITIONS" />
 
         <p class="font-italic text-white-50 text-right small">
             Last updated at: 15/12/2020
@@ -9,6 +9,7 @@
         <b-table
             stacked="lg"
             dark
+            bordered
             hover
             :fields="fields"
             :items="$page.warframes.edges"
@@ -26,40 +27,46 @@
             </template>
 
             <template #cell(node.blueprint)="data">
-                <span v-if="data.value.length === 0">
-                    <b-img
-                        src="https://ik.imagekit.io/seaw0jfghdk/Credits64_B3FTEVn9h.png?tr=h-15,w-15"
-                    />
-                    <span> {{ data.item.node.price }}</span>
-                </span>
-                <div v-else v-for="(b, i) in data.value" :key="i">
-                    <b-link :href="getWikiUrl + b.link" target="_blank"
-                        >{{ b.name }}
+                <div class="mb-2" v-for="(b, i) in data.value" :key="i">
+                    <span class="text-white-50">• </span>
+                    <b-link :href="getWikiUrl + b.link" target="_blank">
+                        {{ b.name }}
+                    </b-link>
+                    <span v-if="b.price > 0">
+                        <b-img
+                            class="mr-1"
+                            src="https://ik.imagekit.io/seaw0jfghdk/Credits64_B3FTEVn9h.png?tr=h-15,w-15"
+                        />
+                        <span>{{ b.price | formatPrice }}</span>
+                    </span>
+                </div>
+            </template>
+
+            <template #cell(node.neuroptics)="data">
+                <div v-for="(n, i) in data.value" :key="i">
+                    <span class="text-white-50">• </span>
+                    <b-link :href="getWikiUrl + n.link" target="_blank"
+                        >{{ n.name }}
                     </b-link>
                 </div>
             </template>
 
-            <template #cell(node.components)="data">
-                <li v-for="(c, i) in data.value" :key="i">
+            <template #cell(node.chassis)="data">
+                <div v-for="(c, i) in data.value" :key="i">
+                    <span class="text-white-50">• </span>
                     <b-link :href="getWikiUrl + c.link" target="_blank"
                         >{{ c.name }}
                     </b-link>
-                </li>
+                </div>
             </template>
 
-            <template #cell(node.chances)="data">
-                <p class="mb-1">
-                    <span class="text-white-50">Neuroptics:</span>
-                    {{ data.value.neuroptics }}%
-                </p>
-                <p class="mb-1">
-                    <span class="text-white-50">Chassis:</span>
-                    {{ data.value.chassis }}%
-                </p>
-                <p class="mb-0">
-                    <span class="text-white-50">Systems:</span>
-                    {{ data.value.systems }}%
-                </p>
+            <template #cell(node.systems)="data">
+                <div v-for="(s, i) in data.value" :key="i">
+                    <span class="text-white-50">• </span>
+                    <b-link :href="getWikiUrl + s.link" target="_blank"
+                        >{{ s.name }}
+                    </b-link>
+                </div>
             </template>
         </b-table>
     </Layout>
@@ -72,22 +79,28 @@ edges {
 node {
 id
 name
-price
 img
 blueprint{
 name
 link
+price
 }
-components{
+neuroptics{
 name
 link
 }
-chances{
-neuroptics
-chassis
-systems
-}
+neuroptics{
+name
 link
+}
+chassis{
+name
+link
+}
+systems{
+name
+link
+}
 }
 }
 }
@@ -131,15 +144,24 @@ export default {
                     key: 'node.blueprint'
                 },
                 {
-                    label: 'Component',
-                    key: 'node.components'
+                    label: 'Neuroptics',
+                    key: 'node.neuroptics'
                 },
                 {
-                    label: 'Chances',
-                    key: 'node.chances'
+                    label: 'Chassis',
+                    key: 'node.chassis'
+                },
+                {
+                    label: 'Systems',
+                    key: 'node.systems'
                 }
             ]
         };
+    },
+    filters: {
+        formatPrice(val) {
+            return val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+        }
     },
     computed: {
         getImgUrl() {
