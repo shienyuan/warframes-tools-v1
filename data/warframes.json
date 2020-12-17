@@ -1,66 +1,89 @@
 [
   {
     "name": "Ash",
-    "img": "AshNewLook_OO_4cBH3G.png",
     "link": "Ash",
-    "price": 35000,
+    "img": "AshNewLook_OO_4cBH3G.png",
     "blueprint": [
+      {
+        "price": 35000
+      }
     ],
-    "components": [
+    "neuroptics": [
       {
         "name": "Grineer Manic",
         "link": "Manic"
       }
     ],
-    "chances": {
-      "neuroptics": 12.907,
-      "chassis": 12.907,
-      "systems": 7.52
-    }
+    "chassis": [
+      {
+        "name": "Grineer Manic",
+        "link": "Manic"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Grineer Manic",
+        "link": "Manic"
+      }
+    ]
   },
   {
     "name": "Atlas",
-    "img": "AtlasNewLook_m18FDP5DC-.png",
     "link": "Atlas",
+    "img": "AtlasNewLook_m18FDP5DC-.png",
     "blueprint": [
       {
         "name": "The Jordas Precept",
         "link": "The_Jordas_Precept"
       }
     ],
-    "components": [
+    "neuroptics": [
       {
         "name": "Jordas Golem",
         "link": "Jordas_Golem"
       }
     ],
-    "chances": {
-      "neuroptics": 38.72,
-      "chassis": 38.72,
-      "systems": 22.56
-    }
+    "chassis": [
+      {
+        "name": "Jordas Golem",
+        "link": "Jordas_Golem"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Jordas Golem",
+        "link": "Jordas_Golem"
+      }
+    ]
   },
   {
     "name": "Banshee",
-    "img": "BansheeNewLook_Z06rDwOVV.png",
     "link": "Banshee",
+    "img": "BansheeNewLook_Z06rDwOVV.png",
     "blueprint": [
       {
-        "name": "Tenno Lab",
+        "name": "Tenno Research Lab",
         "link": "Research/Tenno_Lab"
       }
     ],
-    "components": [
+    "neuroptics": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Research/Tenno_Lab"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Research/Tenno_Lab"
+      }
+    ],
+    "systems": [
       {
         "name": "Tenno Lab",
         "link": "Research/Tenno_Lab"
       }
-    ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    ]
   },
   {
     "name": "Baruuk",
@@ -68,21 +91,28 @@
     "link": "Baruuk",
     "blueprint": [
       {
-        "name": "Vox Solaris(Agent rank)",
-        "link": "Vox_Solaris_(Syndicate)"
+        "name": "Little Duck",
+        "link": "Little_Duck"
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "Vox Solaris(Hand rank)",
-        "link": "Vox_Solaris_(Syndicate)"
+        "name": "Little Duck",
+        "link": "Little_Duck"
       }
     ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    "chassis": [
+      {
+        "name": "Little Duck",
+        "link": "Little_Duck"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Little Duck",
+        "link": "Little_Duck"
+      }
+    ]
   },
   {
     "name": "Chroma",
@@ -94,43 +124,52 @@
         "link": "The_New_Strange"
       }
     ],
-    "components": [
+    "neuroptics": [
       {
         "name": "Uranus Junction",
         "link": "Uranus"
-      },
+      }
+    ],
+    "chassis": [
       {
         "name": "Neptune Junction",
         "link": "Neptune"
-      },
+      }
+    ],
+    "systems": [
       {
         "name": "Pluto Junction",
         "link": "Pluto"
       }
-    ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    ]
   },
   {
     "name": "Ember",
     "img": "EmberNewLook_9-zHzAiit.png",
     "link": "Ember",
     "blueprint": [
+      {
+        "price": 25000
+      }
     ],
-    "components": [
+    "neuroptics": [
       {
         "name": "General Sargas Ruk",
         "link": "General_Sargas_Ruk"
       }
     ],
-    "chances": {
-      "neuroptics": 38.72,
-      "chassis": 38.72,
-      "systems": 22.56
-    }
+    "chassis": [
+      {
+        "name": "General Sargas Ruk",
+        "link": "General_Sargas_Ruk"
+      }
+    ],
+    "systems": [
+      {
+        "name": "General Sargas Ruk",
+        "link": "General_Sargas_Ruk"
+      }
+    ]
   },
   {
     "name": "Equinox",
@@ -138,55 +177,74 @@
     "link": "Equinox",
     "blueprint": [
       {
-        "name": "Market(Main)",
-        "link": "Market"
+        "price": 25000
       },
       {
-        "name": "Tyl Regor(Day)",
-        "link": "Tyl_Regor"
-      },
-      {
-        "name": "Tyl Regor(Night)",
+        "name": "Tyl Regor",
         "link": "Tyl_Regor"
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "General Sargas Ruk",
-        "link": "General_Sargas_Ruk"
+        "name": "Tyl Regor",
+        "link": "Tyl_Regor"
       }
     ],
-    "chances": {
-      "neuroptics": 38.72,
-      "chassis": 38.72,
-      "systems": 22.56
-    }
+    "chassis": [
+      {
+        "name": "Tyl Regor",
+        "link": "Tyl_Regor"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Tyl Regor",
+        "link": "Tyl_Regor"
+      }
+    ]
   },
   {
     "name": "Excalibur",
     "img": "ExcaliburNewLook_G45p_tX-Y.png",
     "link": "Excalibur",
     "blueprint": [
+      {
+        "price": 35000
+      },
+      {
+        "name": "Teshin",
+        "link": "Teshin"
+      }
     ],
-    "components": [
+    "neuroptics": [
       {
         "name": "Lieutenant Lech Kril",
         "link": "Lieutenant_Lech_Kril"
       }
     ],
-    "chances": {
-      "neuroptics": 38.72,
-      "chassis": 38.72,
-      "systems": 22.56
-    }
+    "chassis": [
+      {
+        "name": "Lieutenant Lech Kril",
+        "link": "Lieutenant_Lech_Kril"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Lieutenant Lech Kril",
+        "link": "Lieutenant_Lech_Kril"
+      }
+    ]
   },
   {
     "name": "Frost",
     "img": "FrostNewLook_iGLSd-wtD.png",
     "link": "Excalibur",
     "blueprint": [
+      {
+        "price": 25000
+      }
     ],
-    "components": [
+    "neuroptics": [
       {
         "name": "Lieutenant Lech Kril",
         "link": "Lieutenant_Lech_Kril"
@@ -196,11 +254,26 @@
         "link": "Captain_Vor"
       }
     ],
-    "chances": {
-      "neuroptics": 38.72,
-      "chassis": 38.72,
-      "systems": 22.56
-    }
+    "chassis": [
+      {
+        "name": "Lieutenant Lech Kril",
+        "link": "Lieutenant_Lech_Kril"
+      },
+      {
+        "name": "Captain Vor",
+        "link": "Captain_Vor"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Lieutenant Lech Kril",
+        "link": "Lieutenant_Lech_Kril"
+      },
+      {
+        "name": "Captain Vor",
+        "link": "Captain_Vor"
+      }
+    ]
   },
   {
     "name": "Gara",
@@ -209,20 +282,27 @@
     "blueprint": [
       {
         "name": "Saya's Vigil",
-        "link": "Saya7s_Vigil"
+        "link": "Saya's_Vigil"
       }
     ],
-    "components": [
+    "neuroptics": [
       {
         "name": "Plains of Eidolon Bounties",
         "link": "Plains_of_Eidolon"
       }
     ],
-    "chances": {
-      "neuroptics": 20.51,
-      "chassis": 30.56,
-      "systems": 21.82
-    }
+    "chassis": [
+      {
+        "name": "Plains of Eidolon Bounties",
+        "link": "Plains_of_Eidolon"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Plains of Eidolon Bounties",
+        "link": "Plains_of_Eidolon"
+      }
+    ]
   },
   {
     "name": "Garuda",
@@ -234,61 +314,80 @@
         "link": "Vox_Solaris_(Quest)"
       }
     ],
-    "components": [
+    "neuroptics": [
       {
         "name": "Orb Vallis Bounties",
         "link": "Orb_Vallis"
       }
     ],
-    "chances": {
-      "neuroptics": 25,
-      "chassis": 30.56,
-      "systems": 22.22
-    }
+    "chassis": [
+      {
+        "name": "Orb Vallis Bounties",
+        "link": "Orb_Vallis"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Orb Vallis Bounties",
+        "link": "Orb_Vallis"
+      }
+    ]
   },
   {
     "name": "Gauss",
     "img": "Gauss_eCiPVpbD8.png",
     "link": "Gauss",
     "blueprint": [
-    ],
-    "components": [
       {
-        "name": "Kelpie, Sedna(C)",
-        "link": "Sedna"
+        "price": 30000
       }
     ],
-    "chances": {
-      "neuroptics": 7.84,
-      "chassis": 7.84,
-      "systems": 7.84
-    }
+    "neuroptics": [
+      {
+        "name": "Tier C Disruption",
+        "link": "Disruption"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Tier C Disruption",
+        "link": "Disruption"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Tier C Disruption",
+        "link": "Disruption"
+      }
+    ]
   },
   {
     "name": "Grendel",
     "img": "Grendel_PSF7bsPOw.png",
     "link": "Grendel",
     "blueprint": [
+      {
+        "price": 35000
+      }
     ],
-    "components": [
+    "neuroptics": [
       {
         "name": "Neuroptics Locator",
         "link": "Arbiters_of_Hexis#Arbitration_Honors"
-      },
+      }
+    ],
+    "chassis": [
       {
         "name": "Chassis Locator",
         "link": "Arbiters_of_Hexis#Arbitration_Honors"
-      },
+      }
+    ],
+    "systems": [
       {
         "name": "Systems Locator",
         "link": "Arbiters_of_Hexis#Arbitration_Honors"
       }
-    ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    ]
   },
   {
     "name": "Harrow",
@@ -300,25 +399,24 @@
         "link": "Chains_of_Harrow"
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "Neuroptics: Kuva Fortress, Pago(C)",
-        "link": "Kuva_Fortress"
-      },
-      {
-        "name": "Chassis: Void Fissure Enemies",
-        "link": "Void_Fissure"
-      },
-      {
-        "name": "Systems: Defection missions(B, C)",
-        "link": "Defection"
+        "name": "Rot C Spy",
+        "link": "Spy"
       }
     ],
-    "chances": {
-      "neuroptics": 11.28,
-      "chassis": 3,
-      "systems": 11.28
-    }
+    "chassis": [
+      {
+        "name": "Void Fissure enemies",
+        "link": "Void_Fissure"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Rot B & C Defection",
+        "link": "Defection"
+      }
+    ]
   },
   {
     "name": "Hildryn",
@@ -330,35 +428,52 @@
         "link": "Little_Duck"
       }
     ],
-    "components": [
+    "neuroptics": [
       {
         "name": "Exploiter Orb",
         "link": "Exploiter_Orb"
       }
     ],
-    "chances": {
-      "neuroptics": 38.72,
-      "chassis": 38.72,
-      "systems": 22.56
-    }
+    "chassis": [
+      {
+        "name": "Exploiter Orb",
+        "link": "Exploiter_Orb"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Exploiter Orb",
+        "link": "Exploiter_Orb"
+      }
+    ]
   },
   {
     "name": "Hydroid",
     "img": "HydroidNewLook_hgm20AT2A.png",
     "link": "Hydroid",
     "blueprint": [
+      {
+        "price": 50000
+      }
     ],
-    "components": [
+    "neuroptics": [
       {
         "name": "Councilor Vay Hek",
         "link": "Councilor_Vay_Hek"
       }
     ],
-    "chances": {
-      "neuroptics": 38.72,
-      "chassis": 38.72,
-      "systems": 22.56
-    }
+    "chassis": [
+      {
+        "name": "Councilor Vay Hek",
+        "link": "Councilor_Vay_Hek"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Councilor Vay Hek",
+        "link": "Councilor_Vay_Hek"
+      }
+    ]
   },
   {
     "name": "Inaros",
@@ -370,17 +485,24 @@
         "link": "Sands_of_Inaros"
       }
     ],
-    "components": [
+    "neuroptics": [
       {
         "name": "Cephalon Simaris",
         "link": "Cephalon_Simaris"
       }
     ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    "chassis": [
+      {
+        "name": "Cephalon Simaris",
+        "link": "Cephalon_Simaris"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Cephalon Simaris",
+        "link": "Cephalon_Simaris"
+      }
+    ]
   },
   {
     "name": "Ivara",
@@ -388,21 +510,28 @@
     "link": "Inaros",
     "blueprint": [
       {
-        "name": "Spy Missions(C)",
+        "name": "Spy Missions",
         "link": "Spy"
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "Spy Missions(C)",
+        "name": "Spy Missions",
         "link": "Spy"
       }
     ],
-    "chances": {
-      "neuroptics": 7.52,
-      "chassis": 7.37,
-      "systems": 9.09
-    }
+    "chassis": [
+      {
+        "name": "Spy Missions",
+        "link": "Spy"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Spy Missions",
+        "link": "Spy"
+      }
+    ]
   },
   {
     "name": "Khora",
@@ -410,93 +539,140 @@
     "link": "Khora",
     "blueprint": [
       {
-        "name": "Sanctuary Onslaught(A-A-B-C)",
+        "name": "Sanctuary Onslaught",
         "link": "Sanctuary_Onslaught"
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "Sanctuary Onslaught(A-A-B-C)",
+        "name": "Sanctuary Onslaught",
         "link": "Sanctuary_Onslaught"
       }
     ],
-    "chances": {
-      "neuroptics": 9.09,
-      "chassis": 8.33,
-      "systems": 11.28
-    }
+    "chassis": [
+      {
+        "name": "Sanctuary Onslaught",
+        "link": "Sanctuary_Onslaught"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Sanctuary Onslaught",
+        "link": "Sanctuary_Onslaught"
+      }
+    ]
   },
   {
     "name": "Limbo",
     "img": "LimboNewLook_uOMD65vjC.png",
     "link": "Limbo",
     "blueprint": [
+      {
+        "price": 35000
+      }
     ],
-    "components": [
+    "neuroptics": [
       {
         "name": "The Limbo Theorem",
         "link": "The_Limbo_Theorem"
       }
     ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    "chassis": [
+      {
+        "name": "The Limbo Theorem",
+        "link": "The_Limbo_Theorem"
+      }
+    ],
+    "systems": [
+      {
+        "name": "The Limbo Theorem",
+        "link": "The_Limbo_Theorem"
+      }
+    ]
   },
   {
     "name": "Loki",
     "img": "LokiNewLook_08dgm3ePN.png",
     "link": "Loki",
     "blueprint": [
-    ],
-    "components": [
       {
-        "name": "Hyena Pack (Psamathe, Neptune)",
+        "price": 35000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Hyena Pack",
         "link": "Hyena_Pack"
       }
     ],
-    "chances": {
-      "neuroptics": 38.72,
-      "chassis": 38.72,
-      "systems": 22.56
-    }
+    "chassis": [
+      {
+        "name": "Hyena Pack",
+        "link": "Hyena_Pack"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Hyena Pack",
+        "link": "Hyena_Pack"
+      }
+    ]
   },
   {
     "name": "Mag",
     "img": "MagNewLook_pQdTlRIUn.png",
     "link": "Mag",
     "blueprint": [
-    ],
-    "components": [
       {
-        "name": "The Sergeant (Iliad, Phobos)",
+        "price": 25000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "The Sergeant",
         "link": "The_Sergeant"
       }
     ],
-    "chances": {
-      "neuroptics": 38.72,
-      "chassis": 38.72,
-      "systems": 22.56
-    }
+    "chassis": [
+      {
+        "name": "The Sergeant",
+        "link": "The_Sergeant"
+      }
+    ],
+    "systems": [
+      {
+        "name": "The Sergeant",
+        "link": "The_Sergeant"
+      }
+    ]
   },
   {
     "name": "Mesa",
     "img": "MesaLarge_4EbTPPiAk.png",
     "link": "Mesa",
     "blueprint": [
-    ],
-    "components": [
       {
-        "name": "Mutalist Alad V (Mutalist Alad V Assassination, Eris)",
+        "price": 30000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Mutalist Alad V",
         "link": "Mutalist_Alad_V"
       }
     ],
-    "chances": {
-      "neuroptics": 38.72,
-      "chassis": 38.72,
-      "systems": 22.56
-    }
+    "chassis": [
+      {
+        "name": "Mutalist Alad V",
+        "link": "Mutalist_Alad_V"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Mutalist Alad V",
+        "link": "Mutalist_Alad_V"
+      }
+    ]
   },
   {
     "name": "Mirage",
@@ -504,21 +680,27 @@
     "link": "Mirage",
     "blueprint": [
       {
-        "name": "",
-        "link": ""
+        "price": 35000
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "",
-        "link": ""
+        "name": "Hidden Messages",
+        "link": "Hidden_Messages"
       }
     ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    "chassis": [
+      {
+        "name": "Hidden Messages",
+        "link": "Hidden_Messages"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Hidden Messages",
+        "link": "Hidden_Messages"
+      }
+    ]
   },
   {
     "name": "Nekros",
@@ -526,21 +708,27 @@
     "link": "Nekros",
     "blueprint": [
       {
-        "name": "",
-        "link": ""
+        "price": 100000
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "",
-        "link": ""
+        "name": "Lephantis",
+        "link": "Lephantis"
       }
     ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    "chassis": [
+      {
+        "name": "Lephantis",
+        "link": "Lephantis"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Lephantis",
+        "link": "Lephantis"
+      }
+    ]
   },
   {
     "name": "Nezha",
@@ -548,21 +736,27 @@
     "link": "Nezha",
     "blueprint": [
       {
-        "name": "",
-        "link": ""
+        "price": 35000
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "",
-        "link": ""
+        "name": "Tenno Research Lab",
+        "link": "Research/Tenno_Lab"
       }
     ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    "chassis": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Research/Tenno_Lab"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Research/Tenno_Lab"
+      }
+    ]
   },
   {
     "name": "Nidus",
@@ -570,21 +764,28 @@
     "link": "Nidus",
     "blueprint": [
       {
-        "name": "",
-        "link": ""
+        "name": "The Glast Gambit",
+        "link": "The_Glast_Gambit"
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "",
-        "link": ""
+        "name": "Rot C Oestrus, Eris",
+        "link": "Eris"
       }
     ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    "chassis": [
+      {
+        "name": "Rot C Oestrus, Eris",
+        "link": "Eris"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Rot C Oestrus, Eris",
+        "link": "Eris"
+      }
+    ]
   },
   {
     "name": "Nova",
@@ -592,21 +793,27 @@
     "link": "Nova",
     "blueprint": [
       {
-        "name": "",
-        "link": ""
+        "price": 35000
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "",
-        "link": ""
+        "name": "Raptors",
+        "link": "Raptors"
       }
     ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    "chassis": [
+      {
+        "name": "Raptors",
+        "link": "Raptors"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Raptors",
+        "link": "Raptors"
+      }
+    ]
   },
   {
     "name": "Nyx",
@@ -614,21 +821,27 @@
     "link": "Nyx",
     "blueprint": [
       {
-        "name": "",
-        "link": ""
+        "price": 25000
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "",
-        "link": ""
+        "name": "Phorid",
+        "link": "https://warframe.fandom.com/wiki/Phorid"
       }
     ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    "chassis": [
+      {
+        "name": "Phorid",
+        "link": "https://warframe.fandom.com/wiki/Phorid"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Phorid",
+        "link": "https://warframe.fandom.com/wiki/Phorid"
+      }
+    ]
   },
   {
     "name": "Oberon",
@@ -636,21 +849,27 @@
     "link": "Oberon",
     "blueprint": [
       {
-        "name": "",
-        "link": ""
+        "price": 30000
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "",
-        "link": ""
+        "name": "Eximus",
+        "link": "Eximus"
       }
     ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    "chassis": [
+      {
+        "name": "Eximus",
+        "link": "Eximus"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Eximus",
+        "link": "Eximus"
+      }
+    ]
   },
   {
     "name": "Octavia",
@@ -658,21 +877,28 @@
     "link": "Octavia",
     "blueprint": [
       {
-        "name": "",
-        "link": ""
+        "name": "Octavia's Anthem",
+        "link": "Octavia%27s_Anthem"
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "",
-        "link": ""
+        "name": "Rot C Deimos Survival",
+        "link": "Deimos"
       }
     ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    "chassis": [
+      {
+        "name": "Lua Music Puzzle",
+        "link": "Orokin_Moon#Lua_Music_Puzzle_Room"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Lua Crossfire Exterminate",
+        "link": "Crossfire"
+      }
+    ]
   },
   {
     "name": "Protea",
@@ -680,21 +906,28 @@
     "link": "Protea",
     "blueprint": [
       {
-        "name": "",
-        "link": ""
+        "name": "The Deadlock Protocol",
+        "link": "The_Deadlock_Protocol"
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "",
-        "link": ""
+        "name": "Rot C basic Granum Void",
+        "link": "Granum_Void"
       }
     ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    "chassis": [
+      {
+        "name": "Rot C extended Granum Void",
+        "link": "Granum_Void"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Rot C nightmare Granum Void",
+        "link": "Granum_Void"
+      }
+    ]
   },
   {
     "name": "Revenant",
@@ -702,21 +935,28 @@
     "link": "Revenant",
     "blueprint": [
       {
-        "name": "",
-        "link": ""
+        "name": "Mask of the Revenant",
+        "link": "Mask_of_the_Revenant"
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "",
-        "link": ""
+        "name": "Plains of Eidolon bounties",
+        "link": "Plains_of_Eidolon"
       }
     ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    "chassis": [
+      {
+        "name": "Plains of Eidolon bounties",
+        "link": "Plains_of_Eidolon"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Plains of Eidolon bounties",
+        "link": "Plains_of_Eidolon"
+      }
+    ]
   },
   {
     "name": "Rhino",
@@ -724,21 +964,27 @@
     "link": "Rhino",
     "blueprint": [
       {
-        "name": "",
-        "link": ""
+        "price": 35000
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "",
-        "link": ""
+        "name": "Jackal",
+        "link": "Jackal"
       }
     ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    "chassis": [
+      {
+        "name": "Jackal",
+        "link": "Jackal"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Jackal",
+        "link": "Jackal"
+      }
+    ]
   },
   {
     "name": "Saryn",
@@ -746,21 +992,27 @@
     "link": "Saryn",
     "blueprint": [
       {
-        "name": "",
-        "link": ""
+        "price": 35000
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "",
-        "link": ""
+        "name": "Kela De Thaym",
+        "link": "Kela_De_Thaym"
       }
     ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    "chassis": [
+      {
+        "name": "Kela De Thaym",
+        "link": "Kela_De_Thaym"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Kela De Thaym",
+        "link": "Kela_De_Thaym"
+      }
+    ]
   },
   {
     "name": "Titania",
@@ -768,21 +1020,27 @@
     "link": "Titania",
     "blueprint": [
       {
-        "name": "",
-        "link": ""
+        "price": 35000
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "",
-        "link": ""
+        "name": "The Silver Grove",
+        "link": "The_Silver_Grove"
       }
     ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    "chassis": [
+      {
+        "name": "The Silver Grove",
+        "link": "The_Silver_Grove"
+      }
+    ],
+    "systems": [
+      {
+        "name": "The Silver Grove",
+        "link": "The_Silver_Grove"
+      }
+    ]
   },
   {
     "name": "Trinity",
@@ -790,21 +1048,27 @@
     "link": "Titania",
     "blueprint": [
       {
-        "name": "",
-        "link": ""
+        "price": 25000
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "",
-        "link": ""
+        "name": "Ambulas",
+        "link": "Ambulas"
       }
     ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    "chassis": [
+      {
+        "name": "Ambulas",
+        "link": "Ambulas"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Ambulas",
+        "link": "Ambulas"
+      }
+    ]
   },
   {
     "name": "Valkyr",
@@ -812,21 +1076,27 @@
     "link": "Valkyr",
     "blueprint": [
       {
-        "name": "",
-        "link": ""
+        "price": 35000
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "",
-        "link": ""
+        "name": "Alad V",
+        "link": "Alad_V"
       }
     ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    "chassis": [
+      {
+        "name": "Alad V",
+        "link": "Alad_V"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Alad V",
+        "link": "Alad_V"
+      }
+    ]
   },
   {
     "name": "Vauban",
@@ -834,21 +1104,27 @@
     "link": "Vauban",
     "blueprint": [
       {
-        "name": "",
-        "link": ""
+        "price": 35000
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "",
-        "link": ""
+        "name": "Nightwave",
+        "link": "Nightwave"
       }
     ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    "chassis": [
+      {
+        "name": "Nightwave",
+        "link": "Nightwave"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Nightwave",
+        "link": "Nightwave"
+      }
+    ]
   },
   {
     "name": "Volt",
@@ -856,21 +1132,28 @@
     "link": "Volt",
     "blueprint": [
       {
-        "name": "",
-        "link": ""
+        "name": "Tenno Research Lab",
+        "link": "Tenno_Lab"
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "",
-        "link": ""
+        "name": "Tenno Research Lab",
+        "link": "Tenno_Lab"
       }
     ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    "chassis": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Tenno_Lab"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Tenno_Lab"
+      }
+    ]
   },
   {
     "name": "Wisp",
@@ -878,21 +1161,28 @@
     "link": "Wisp",
     "blueprint": [
       {
-        "name": "",
-        "link": ""
+        "name": "Ropalolyst",
+        "link": "Ropalolyst"
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "",
-        "link": ""
+        "name": "Ropalolyst",
+        "link": "Ropalolyst"
       }
     ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    "chassis": [
+      {
+        "name": "Ropalolyst",
+        "link": "Ropalolyst"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Ropalolyst",
+        "link": "Ropalolyst"
+      }
+    ]
   },
   {
     "name": "Wukong",
@@ -900,21 +1190,28 @@
     "link": "Wukong",
     "blueprint": [
       {
-        "name": "",
-        "link": ""
+        "name": "Tenno Research Lab",
+        "link": "Tenno_Lab"
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "",
-        "link": ""
+        "name": "Tenno Research Lab",
+        "link": "Tenno_Lab"
       }
     ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    "chassis": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Tenno_Lab"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Tenno_Lab"
+      }
+    ]
   },
   {
     "name": "Xaku",
@@ -922,21 +1219,28 @@
     "link": "Xaku",
     "blueprint": [
       {
-        "name": "",
-        "link": ""
+        "name": "Heart of Deimos",
+        "link": "Heart_of_Deimos"
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "",
-        "link": ""
+        "name": "Cambion Drift Bounties",
+        "link": "Cambion_Drift"
       }
     ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    "chassis": [
+      {
+        "name": "Cambion Drift Bounties",
+        "link": "Cambion_Drift"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Cambion Drift Bounties",
+        "link": "Cambion_Drift"
+      }
+    ]
   },
   {
     "name": "Zephyr",
@@ -944,20 +1248,27 @@
     "link": "Zephyr",
     "blueprint": [
       {
-        "name": "",
-        "link": ""
+        "name": "Tenno Research Lab",
+        "link": "Tenno_Lab"
       }
     ],
-    "components": [
+    "neuroptics": [
       {
-        "name": "",
-        "link": ""
+        "name": "Tenno Research Lab",
+        "link": "Tenno_Lab"
       }
     ],
-    "chances": {
-      "neuroptics": 100,
-      "chassis": 100,
-      "systems": 100
-    }
+    "chassis": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Tenno_Lab"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Tenno_Lab"
+      }
+    ]
   }
 ]
