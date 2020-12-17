@@ -1,12 +1,9 @@
 import { BootstrapVue, BootstrapVueIcons } from 'bootstrap-vue';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-vue/dist/bootstrap-vue.css';
-import DefaultLayout from '~/layouts/Default.vue';
+import './assets/bootstrap-theme.scss';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { defaultTags } from './utils/seoUtil';
-import './assets/style.css';
 import VueDisqus from 'vue-disqus';
 
 export default function(Vue, { _, head, __ }) {
@@ -26,5 +23,5 @@ export default function(Vue, { _, head, __ }) {
     });
 
     Vue.component('faIcon', FontAwesomeIcon);
-    Vue.component('Layout', DefaultLayout);
+    Vue.component('Layout', () => import('~/layouts/Default.vue'));
 }

@@ -1,20 +1,18 @@
 <template>
     <Layout>
-        <b-card
-            bg-variant="dark"
-            class="mx-auto p-sm-3"
-            style="max-width: 680px"
-        >
-            <b-button class="mb-3" to="/guide">
+        <template v-slot:header>
+            <b-button class="mr-3" variant="danger" to="/guide">
                 <b-icon icon="arrow-left"></b-icon>
                 BACK
             </b-button>
+        </template>
 
+        <div class="mx-auto p-sm-3" style="max-width: 680px">
             <header class="text-white">
                 <h1 class="font-weight-bold">
                     {{ data.title }}
                 </h1>
-                <p class="small text-secondary">
+                <p class="small">
                     Published
                     {{ formatDate(data.created_at) }}
                     <span> · </span>
@@ -28,18 +26,18 @@
                 <div class="lead">{{ $page.post.excerpt }}</div>
             </header>
 
-            <hr class="my-4 bg-secondary" />
+            <hr class="my-4 bg-white" />
 
             <article class="text-white">
                 <VueRemarkContent />
             </article>
 
-            <hr class="my-5 bg-secondary" />
+            <hr class="my-5 bg-white" />
 
             <ClientOnly>
                 <Disqus />
             </ClientOnly>
-        </b-card>
+        </div>
         <script v-html="jsonld" type="application/ld+json" />
     </Layout>
 </template>

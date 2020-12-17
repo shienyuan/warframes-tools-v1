@@ -1,0 +1,18 @@
+//body {
+//    background-image: url("https://ik.imagekit.io/seaw0jfghdk/bg_wLQoXNszh.png");
+//    font-family: 'Roboto', sans-serif;
+//}
+
+$info: #364f6b;
+$primary: #00dce7;
+$dark: rgba(255,255,255, 0.1);
+$danger: #fc5185;
+$table-dark-bg: $dark;
+$body-bg: #316b6f;
+$body-color: white;
+$input-bg:$dark;
+$text-muted: rgba(255,255,255, 0.5);
+$list-group-bg: rgba(255,255,255, 0.0);
+
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';

@@ -1,6 +1,8 @@
 <template>
     <Layout>
-        <page-header title="WARFRAME ACQUISITIONS" />
+        <template v-slot:header>
+            Warframe List
+        </template>
 
         <p class="font-italic text-white-50 text-right small">
             Last updated at: 15/12/2020
@@ -118,7 +120,7 @@ export default {
             title: 'Warframe Acquisition List',
             keywords: 'warframe,warframes,warframe acquisition',
             description:
-                'A compact collection of all Warframe acquisitions, ways and method to get certain warframe'
+                'A compact collection of all Warframe acquisitions, easily check out ways to get certain warframe'
         });
     },
     components: {

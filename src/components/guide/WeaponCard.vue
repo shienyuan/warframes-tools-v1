@@ -1,11 +1,11 @@
 <template>
     <div>
         <q :cite="data.link">{{ data.intro }}</q
-        ><span class="text-secondary"> -- Warframe Wiki</span>
+        ><span class="text-primary"> -- Warframe Wiki</span>
 
-        <b-card class="mt-3" no-body text-variant="dark" :header="data.name">
+        <b-card class="mt-3" bg-variant="dark" no-body :header="data.name">
             <b-list-group flush>
-                <b-list-group-item class="text-center" variant="dark">
+                <b-list-group-item class="text-center">
                     <b-img
                         height="150"
                         :src="data.img"
@@ -16,25 +16,25 @@
                     class="d-flex justify-content-between align-items-center"
                 >
                     <span>Mastery</span>
-                    <span>{{ data.mastery }}</span>
+                    <span class="text-primary">{{ data.mastery }}</span>
                 </b-list-group-item>
                 <b-list-group-item
                     class="d-flex justify-content-between align-items-center"
                 >
                     <span>Type</span>
-                    <span>{{ data.type }}</span>
+                    <span class="text-primary">{{ data.type }}</span>
                 </b-list-group-item>
                 <b-list-group-item
                     class="d-flex justify-content-between align-items-center"
                 >
                     <span>Trigger</span>
-                    <span>{{ data.trigger }}</span>
+                    <span class="text-primary">{{ data.trigger }}</span>
                 </b-list-group-item>
                 <b-list-group-item
                     class="d-flex justify-content-between align-items-center"
                 >
                     <span>Acquisition</span>
-                    <span>{{ data.acquisition }} </span>
+                    <span class="text-primary">{{ data.acquisition }} </span>
                 </b-list-group-item>
                 <b-list-group-item
                     class="d-flex justify-content-between align-items-center"
@@ -42,7 +42,7 @@
                     <span>Acquire Difficulty</span>
                     <span>
                         <b-form-rating
-                            class="p-0"
+                            class="p-0 bg-transparent text-primary"
                             :value="data.acLevel"
                             no-border
                             readonly
@@ -60,15 +60,6 @@
                     </b-embed>
                 </b-list-group-item>
             </b-list-group>
-            <b-card-footer
-                ><b-button
-                    block
-                    target="_blank"
-                    variant="primary"
-                    :href="data.link"
-                    >More Details</b-button
-                ></b-card-footer
-            >
         </b-card>
     </div>
 </template>

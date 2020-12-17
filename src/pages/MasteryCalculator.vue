@@ -1,6 +1,8 @@
 <template>
     <Layout>
-        <page-header title="MASTERY CALCULATOR" />
+        <template v-slot:header>
+            Mastery Calculator
+        </template>
 
         <b-row class="mb-5" align-v="stretch">
             <b-col cols="12" lg="4" class="mb-5 mb-lg-0">

@@ -1,6 +1,7 @@
 <template>
     <div>
-        <navbar></navbar>
+        <navbar />
+
         <b-container class="text-center">
             <b-row class="my-5">
                 <b-col cols="12">
