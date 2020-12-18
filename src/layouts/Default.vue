@@ -2,9 +2,9 @@
     <main>
         <div class="bg-info">
             <b-container>
-                <Navbar class="p-0 pt-2" />
+                <Navbar class="p-0 pt-2 pb-2" />
 
-                <section class="py-4 m-0 text-white h2">
+                <section v-if="showHeader" class="pt-2 pb-4 m-0 text-white h2">
                     <slot name="header" />
                 </section>
             </b-container>
@@ -43,6 +43,12 @@ export default {
     components: {
         Navbar: () => import('./Navbar'),
         Footer: () => import('./Footer')
+    },
+    props: {
+        showHeader: {
+            type: Boolean,
+            default: true
+        }
     },
     metaInfo() {
         return {

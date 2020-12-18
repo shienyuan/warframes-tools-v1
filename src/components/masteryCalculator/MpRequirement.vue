@@ -6,7 +6,7 @@
             <h1 class="display-4 font-weight-bold">
                 {{ targetMp || 0 }}
             </h1>
-            <p class="text-info mb-0">MP required</p>
+            <p class="text-secondary mb-0">MP required</p>
         </b-card-body>
     </b-card>
 </template>
