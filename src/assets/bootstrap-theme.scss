@@ -1,18 +1,18 @@
-//body {
-//    background-image: url("https://ik.imagekit.io/seaw0jfghdk/bg_wLQoXNszh.png");
-//    font-family: 'Roboto', sans-serif;
-//}
-
-$info: #364f6b;
-$primary: #00dce7;
-$dark: rgba(255,255,255, 0.1);
 $danger: #fc5185;
-$table-dark-bg: $dark;
+$info: #364f6b;
+
 $body-bg: #316b6f;
-$body-color: white;
-$input-bg:$dark;
-$text-muted: rgba(255,255,255, 0.5);
-$list-group-bg: rgba(255,255,255, 0.0);
+$card-bg: rgba(255,255,255, 0.1);
+$card-color: white;
+
+.card-header {
+    color: white;
+}
 
 @import '~bootstrap/scss/bootstrap.scss';
 @import '~bootstrap-vue/src/index.scss';
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}

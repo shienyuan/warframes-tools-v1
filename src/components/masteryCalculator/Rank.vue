@@ -1,7 +1,7 @@
 <template>
     <b-card no-body bg-variant="dark" header="Mastery Rank">
         <b-list-group flush>
-            <b-list-group-item class="text-center">
+            <b-list-group-item variant="dark" class="text-center">
                 <div style="height: 70px" v-if="!rank.img_url">
                     <em class="block">No Image</em>
                 </div>
@@ -15,6 +15,7 @@
             </b-list-group-item>
 
             <b-list-group-item
+                variant="dark"
                 class="d-flex justify-content-between align-items-center"
             >
                 <span>Name</span>
@@ -22,6 +23,7 @@
             </b-list-group-item>
 
             <b-list-group-item
+                variant="dark"
                 class="d-flex justify-content-between align-items-center"
             >
                 <span>Level</span>
@@ -29,6 +31,7 @@
             </b-list-group-item>
 
             <b-list-group-item
+                variant="dark"
                 class="d-flex justify-content-between align-items-center"
             >
                 <span>Test</span>
@@ -38,6 +41,7 @@
             </b-list-group-item>
 
             <b-list-group-item
+                variant="dark"
                 class="d-flex justify-content-between align-items-center"
             >
                 <span>Test Video</span>
