@@ -1,27 +1,25 @@
 <template>
     <Layout>
-        <template v-slot:header>
-            Clan Recruitment
-        </template>
+        <ClientOnly>
+            <template v-slot:header>
+                Clan Recruitment
+            </template>
 
-        <div class="text-right">
-            <b-button v-b-toggle.collapse-1 class="mb-3" variant="info">
-                <b-icon class="mr-2" icon="plus-circle-fill" />
-                Register Clan
-            </b-button>
-        </div>
+            <div class="text-right">
+                <b-button v-b-toggle.collapse-1 class="mb-3" variant="info">
+                    <b-icon class="mr-2" icon="plus-circle-fill" />
+                    Register Clan
+                </b-button>
+            </div>
 
-        <b-collapse class="mb-3" id="collapse-1">
-            <ClientOnly>
+            <b-collapse class="mb-3" id="collapse-1">
                 <register
                     ref="register"
                     @onRegister="handleRegister"
                     :isRegisterLoading="isRegisterLoading"
                 />
-            </ClientOnly>
-        </b-collapse>
+            </b-collapse>
 
-        <ClientOnly>
             <b-form-input
                 v-model="filter"
                 class="mb-3"
@@ -94,19 +92,24 @@
                     <b-badge v-if="data.value.dryDock">Dry Dock</b-badge>
                 </template>
             </b-table>
-        </ClientOnly>
 
-        <b-modal id="join" centered hide-footer title="Chat to join">
-            <b-form-input :autofocus="true" ref="joinInput" :value="joinText" />
-            <p class="mb-0 mt-2 text-secondary">
-                Copy paste the above text and send in game
-            </p>
-        </b-modal>
+            <b-modal id="join" centered hide-footer title="Chat to join">
+                <b-form-input
+                    :autofocus="true"
+                    ref="joinInput"
+                    :value="joinText"
+                />
+                <p class="mb-0 mt-2 text-secondary">
+                    Copy paste the above text and send in game
+                </p>
+            </b-modal>
+        </ClientOnly>
     </Layout>
 </template>
 
 <script>
 import { getSeo } from '../utils/seoUtil';
+import firebase from 'firebase/app';
 
 export default {
     name: 'Clan',
@@ -179,24 +182,40 @@ export default {
         };
     },
     async mounted() {
+        await this.initFirestore();
         await this.getAllClans();
     },
     methods: {
+        async initFirestore() {
+            await import('firebase/firestore');
+
+            firebase.initializeApp({
+                apiKey: process.env.GRIDSOME_API_KEY,
+                authDomain: process.env.GRIDSOME_AUTH_DOMAIN,
+                projectId: process.env.GRIDSOME_PROJECT_ID,
+                storageBucket: process.env.GRIDSOME_STORAGE_BUCKET,
+                messagingSenderId: process.env.GRIDSOME_MESSAGING_SENDER_ID,
+                appId: process.env.GRIDSOME_APP_ID,
+                measurementId: process.env.GRIDSOME_MEASUREMENT_ID
+            });
+
+            window.db = firebase.firestore();
+        },
         async getAllClans() {
-            const snap = await this.$db
-                .firestore()
-                .collection(process.env.GRIDSOME_CLAN_COL)
-                .get();
-            this.clans = snap.docs.map(doc => doc.data());
+            try {
+                const snap = await db
+                    .collection(process.env.GRIDSOME_CLAN_COL)
+                    .get();
+                this.clans = snap.docs.map(doc => doc.data());
+            } catch (e) {
+                console.error(e);
+            }
         },
         async handleRegister(data) {
             try {
                 this.isRegisterLoading = true;
 
-                await this.$db
-                    .firestore()
-                    .collection(process.env.GRIDSOME_CLAN_COL)
-                    .add(data);
+                await db.collection(process.env.GRIDSOME_CLAN_COL).add(data);
 
                 this.clans.push(data);
 
@@ -208,6 +227,7 @@ export default {
                     solid: true
                 });
             } catch (e) {
+                console.error(e);
                 this.$bvToast.toast('Something went wrong, please try again', {
                     title: `Failed`,
                     variant: 'danger',
