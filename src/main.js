@@ -6,10 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { defaultTags } from './utils/seoUtil';
 import VueDisqus from 'vue-disqus';
 import firebase from 'firebase/app';
-import 'firebase/analytics';
-import 'firebase/firebase-firestore';
 
-export default function(Vue, { _, head, __ }) {
+export default function(Vue, { _, head, __, isClient }) {
     head.meta.push(...defaultTags);
     head.link.push({
         rel: 'stylesheet',
@@ -28,14 +26,21 @@ export default function(Vue, { _, head, __ }) {
     Vue.use(VueDisqus, {
         shortname: 'warframes-tools'
     });
-    // firebase
-    firebase.initializeApp({
-        apiKey: process.env.GRIDSOME_API_KEY,
-        authDomain: process.env.GRIDSOME_AUTH_DOMAIN,
-        projectId: process.env.GRIDSOME_PROJECT_ID,
-        storageBucket: process.env.GRIDSOME_STORAGE_BUCKET,
-        messagingSenderId: process.env.GRIDSOME_MESSAGING_SENDER_ID,
-        appId: process.env.GRIDSOME_APP_ID,
-        measurementId: process.env.GRIDSOME_MEASUREMENT_ID
-    });
+
+    if (isClient) {
+        import('firebase/firestore');
+        import('firebase/analytics');
+
+        firebase.initializeApp({
+            apiKey: process.env.GRIDSOME_API_KEY,
+            authDomain: process.env.GRIDSOME_AUTH_DOMAIN,
+            projectId: process.env.GRIDSOME_PROJECT_ID,
+            storageBucket: process.env.GRIDSOME_STORAGE_BUCKET,
+            messagingSenderId: process.env.GRIDSOME_MESSAGING_SENDER_ID,
+            appId: process.env.GRIDSOME_APP_ID,
+            measurementId: process.env.GRIDSOME_MEASUREMENT_ID
+        });
+
+        Vue.prototype.$db = firebase;
+    }
 }
