@@ -182,7 +182,9 @@ export default {
         };
     },
     async mounted() {
-        await this.initFirestore();
+        if (!window.db) {
+            await this.initFirestore();
+        }
         await this.getAllClans();
     },
     methods: {
