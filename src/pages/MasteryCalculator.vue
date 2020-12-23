@@ -76,7 +76,6 @@ export default {
         });
     },
     components: {
-        pageHeader: () => import('~/components/PageHeader'),
         rank: () => import('~/components/masteryCalculator/Rank'),
         recommends: () => import('~/components/masteryCalculator/Recommends'),
         rankSelector: () =>

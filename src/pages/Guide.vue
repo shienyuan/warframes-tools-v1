@@ -58,13 +58,17 @@ image_caption,
 
 <script>
 import { formatDate } from '~/utils/dateUtil';
+import { getSeo } from '../utils/seoUtil';
 
 export default {
-    metaInfo: {
-        title: 'GUIDES'
-    },
-    components: {
-        pageHeader: () => import('~/components/PageHeader')
+    metaInfo() {
+        return getSeo({
+            path: this.$route.path,
+            title: 'Guide',
+            keywords: 'warframe, guide',
+            description:
+                'Warframe guides ranging from beginner to advanced, helping player from all levels to learn more about Warframe'
+        });
     },
     methods: {
         formatExcerpt(val) {

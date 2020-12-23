@@ -66,14 +66,18 @@ export default {
             navs: [
                 {
                     label: 'Warframe',
-                    path: '/warframes'
+                    path: '/warframe'
                 },
                 {
                     label: 'Mastery',
                     path: '/mastery-calculator'
                 },
                 {
-                    label: 'Guides',
+                    label: 'Clan',
+                    path: '/clan'
+                },
+                {
+                    label: 'Guide',
                     path: '/guide'
                 }
             ]

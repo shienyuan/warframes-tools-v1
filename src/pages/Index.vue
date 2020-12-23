@@ -34,7 +34,7 @@
                     <b-button
                         block
                         class="border-0"
-                        to="/warframes"
+                        to="/warframe"
                         style="background-color: rgba(255,255,255,0.1)"
                         >All Warframes
                     </b-button>
@@ -85,14 +85,14 @@ import { getSeo } from '../utils/seoUtil';
 
 export default {
     name: 'Index',
-    components: {
-        navbar: () => import('../layouts/Navbar')
-    },
     metaInfo() {
         return getSeo({
             path: this.$route.path,
             title: 'Useful Warframe tools and guides'
         });
+    },
+    components: {
+        navbar: () => import('../layouts/Navbar')
     },
     computed: {
         getWarframes() {

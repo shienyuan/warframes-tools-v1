@@ -113,7 +113,7 @@ link
 import { getSeo } from '../utils/seoUtil';
 
 export default {
-    name: 'Warframes',
+    name: 'Warframe',
     metaInfo() {
         return getSeo({
             path: this.$route.path,
@@ -122,10 +122,6 @@ export default {
             description:
                 'A compact collection of all Warframe acquisitions, easily check out ways to get certain warframe'
         });
-    },
-    components: {
-        pageHeader: () => import('~/components/PageHeader'),
-        warframeCard: () => import('../components/warframes/warframe-card')
     },
     data() {
         return {
