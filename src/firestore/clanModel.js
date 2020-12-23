@@ -1,6 +1,8 @@
 import firebase from 'firebase/app';
 
-export default class ClanModel {
+class ClanModel {
+    constructor() {}
+
     col = process.env.GRIDSOME_CLAN_COL;
     db = firebase.firestore().collection(this.col);
 
@@ -13,6 +15,8 @@ export default class ClanModel {
         return snap.docs.map(doc => doc.data());
     }
 }
+
+export default new ClanModel();
 
 // db.collection("users").add({
 // 	first: "Ada",
