@@ -28,19 +28,5 @@ export default function(Vue, { _, head, __, isClient }) {
     });
 
     if (isClient) {
-        import('firebase/firestore');
-        import('firebase/analytics');
-
-        firebase.initializeApp({
-            apiKey: process.env.GRIDSOME_API_KEY,
-            authDomain: process.env.GRIDSOME_AUTH_DOMAIN,
-            projectId: process.env.GRIDSOME_PROJECT_ID,
-            storageBucket: process.env.GRIDSOME_STORAGE_BUCKET,
-            messagingSenderId: process.env.GRIDSOME_MESSAGING_SENDER_ID,
-            appId: process.env.GRIDSOME_APP_ID,
-            measurementId: process.env.GRIDSOME_MEASUREMENT_ID
-        });
-
-        Vue.prototype.$db = firebase;
     }
 }
