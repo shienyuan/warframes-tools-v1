@@ -11,6 +11,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@gridsome/plugin-google-analytics": "^0.1.2",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/vue-remark": "^0.2.6",
     "bootstrap": "^4.5.3",

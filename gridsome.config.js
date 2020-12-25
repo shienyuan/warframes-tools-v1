@@ -32,6 +32,12 @@ module.exports = {
                     autolinkHeadings: false // disable auto-adding links to headings
                 }
             }
+        },
+        {
+            use: '@gridsome/plugin-google-analytics',
+            options: {
+                id: process.env.GRIDSOME_G_ANALYTICS
+            }
         }
     ]
 };
