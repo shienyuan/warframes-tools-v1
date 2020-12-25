@@ -4,16 +4,32 @@
             Warframe List
         </template>
 
-        <p class="font-italic text-white-50 text-right small">
-            Last updated at: 15/12/2020
-        </p>
+        <b-row align-v="center" class="mb-3">
+            <b-col>
+                <b-form-input
+                    v-model="filter"
+                    placeholder="Search by Warframe name"
+                />
+            </b-col>
+            <b-col>
+                <p class="mb-0 font-italic text-white-50 text-right small">
+                    Last updated at: 15/12/2020
+                </p>
+            </b-col>
+        </b-row>
+
+        <!--        <b-tabs>-->
+        <!--            <b-tab title="First"><p>I'm the first tab</p></b-tab>-->
+        <!--            <b-tab title="Second"><p>I'm the second tab</p></b-tab>-->
+        <!--        </b-tabs>-->
 
         <b-table
             stacked="lg"
             dark
-            bordered
             hover
+            :filter="filter"
             :fields="fields"
+            sort-by="node.name"
             :items="$page.warframes.edges"
         >
             <template #cell(node.img)="data">
@@ -30,7 +46,9 @@
 
             <template #cell(node.blueprint)="data">
                 <div class="mb-2" v-for="(b, i) in data.value" :key="i">
-                    <span class="text-white-50">• </span>
+                    <small class="text-white-50" v-if="data.value.length > 1"
+                        >{{ i + 1 }}.
+                    </small>
                     <b-link :href="getWikiUrl + b.link" target="_blank">
                         {{ b.name }}
                     </b-link>
@@ -46,7 +64,9 @@
 
             <template #cell(node.neuroptics)="data">
                 <div v-for="(n, i) in data.value" :key="i">
-                    <span class="text-white-50">• </span>
+                    <small class="text-white-50" v-if="data.value.length > 1"
+                        >{{ i + 1 }}.
+                    </small>
                     <b-link :href="getWikiUrl + n.link" target="_blank"
                         >{{ n.name }}
                     </b-link>
@@ -55,7 +75,9 @@
 
             <template #cell(node.chassis)="data">
                 <div v-for="(c, i) in data.value" :key="i">
-                    <span class="text-white-50">• </span>
+                    <small class="text-white-50" v-if="data.value.length > 1"
+                        >{{ i + 1 }}.
+                    </small>
                     <b-link :href="getWikiUrl + c.link" target="_blank"
                         >{{ c.name }}
                     </b-link>
@@ -64,7 +86,9 @@
 
             <template #cell(node.systems)="data">
                 <div v-for="(s, i) in data.value" :key="i">
-                    <span class="text-white-50">• </span>
+                    <small class="text-white-50" v-if="data.value.length > 1"
+                        >{{ i + 1 }}.
+                    </small>
                     <b-link :href="getWikiUrl + s.link" target="_blank"
                         >{{ s.name }}
                     </b-link>
@@ -125,7 +149,7 @@ export default {
     },
     data() {
         return {
-            search: '',
+            filter: null,
             fields: [
                 {
                     label: '',

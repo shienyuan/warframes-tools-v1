@@ -1,12 +1,15 @@
 <template>
     <Layout>
+        <template v-slot:header>
+            Clan Recruitment
+        </template>
         <ClientOnly>
-            <template v-slot:header>
-                Clan Recruitment
-            </template>
-
             <div class="text-right">
-                <b-button v-b-toggle.collapse-1 class="mb-3" variant="info">
+                <b-button
+                    v-b-toggle.collapse-1
+                    class="mb-3"
+                    variant="outline-primary"
+                >
                     <b-icon class="mr-2" icon="plus-circle-fill" />
                     Register Clan
                 </b-button>
@@ -27,7 +30,6 @@
             ></b-form-input>
 
             <b-table
-                bordered
                 stacked="lg"
                 dark
                 sort-by="vote"
@@ -77,7 +79,7 @@
                 </template>
 
                 <template #row-details="row">
-                    <b-card>
+                    <b-card bg-variant="dark">
                         <p class="mb-0">
                             {{ row.item.intro || 'Nothing to show...' }}
                         </p>
@@ -93,7 +95,13 @@
                 </template>
             </b-table>
 
-            <b-modal id="join" centered hide-footer title="Chat to join">
+            <b-modal
+                id="join"
+                centered
+                hide-footer
+                title="Chat to join"
+                title-class="text-dark"
+            >
                 <b-form-input
                     :autofocus="true"
                     ref="joinInput"
