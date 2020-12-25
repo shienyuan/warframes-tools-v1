@@ -1,5 +1,5 @@
 <template>
-    <b-card>
+    <b-card bg-variant="dark">
         <b-overlay variant="dark" :show="isRegisterLoading" no-wrap></b-overlay>
         <b-form>
             <b-row>
@@ -91,7 +91,7 @@
                 </b-col>
             </b-row>
 
-            <b-button class="mt-4" block variant="info" @click="onRegister"
+            <b-button class="mt-4" block variant="primary" @click="onRegister"
                 >REGISTER</b-button
             >
         </b-form>
