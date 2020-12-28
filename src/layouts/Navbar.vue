@@ -65,8 +65,12 @@ export default {
             index: '/',
             navs: [
                 {
-                    label: 'Warframe',
+                    label: 'Warframes',
                     path: '/warframe'
+                },
+                {
+                    label: 'Resources',
+                    path: '/resource'
                 },
                 {
                     label: 'Mastery',

@@ -37,9 +37,39 @@ module.exports = function(api) {
         for (const w of warframes) {
             warframesCol.addNode(w);
         }
+
+        // primary
+        const primary = require('./data/primary.json');
+        const primaryCol = addCollection({
+            typeName: 'primary'
+        });
+        for (const p of primary) {
+            primaryCol.addNode(p);
+        }
     });
 
-    // api.createPages(({ createPage }) => {
-    //     // Use the Pages API here: https://gridsome.org/docs/pages-api/
-    // });
+    api.createPages(async ({ graphql, createPage }) => {
+        const { data } = await graphql(`
+            {
+                allWarframes {
+                    edges {
+                        node {
+                            id
+                            name
+                        }
+                    }
+                }
+            }
+        `);
+
+        data.allWarframes.edges.forEach(({ node }) => {
+            createPage({
+                path: `/warframe/${node.name}`,
+                component: './src/templates/Warframe.vue',
+                context: {
+                    id: node.id
+                }
+            });
+        });
+    });
 };
