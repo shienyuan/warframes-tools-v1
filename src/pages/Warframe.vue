@@ -23,6 +23,16 @@
         <!--            <b-tab title="Second"><p>I'm the second tab</p></b-tab>-->
         <!--        </b-tabs>-->
 
+        <b-row>
+            <warframe-card
+                v-for="(w, i) in $page.warframes.edges"
+                :data="w.node"
+                :key="i"
+                @onWarframeClick="$router.push(`/warframe/${w.node.name}`)"
+            >
+            </warframe-card>
+        </b-row>
+
         <b-table
             stacked="lg"
             dark
@@ -147,6 +157,9 @@ export default {
                 'A compact collection of all Warframe acquisitions, easily check out ways to get certain warframe'
         });
     },
+    components: {
+        warframeCard: () => import('~/components/warframe/warframe-card')
+    },
     data() {
         return {
             filter: null,
@@ -191,6 +204,11 @@ export default {
         },
         getWikiUrl() {
             return `${process.env.GRIDSOME_WIKI_URL}/`;
+        }
+    },
+    methods: {
+        handleWarframeClick() {
+            console.log('123');
         }
     }
 };
