@@ -9,34 +9,34 @@
             <h1 class="m-0 mt-3 bg-dark p-2 rounded">{{ data.name }}</h1>
         </div>
 
-        <h3 class="mt-5 mb-3">Obtain</h3>
-        <b-row>
-            <b-col v-for="(c, i) in components" :key="i" cols="12">
-                <b-card bg-variant="dark" class="mb-3">
-                    <b-row>
-                        <b-col cols="4">
-                            <b-card-img :src="getImgUrl + c.imageName" />
-                        </b-col>
+        <!--        <h3 class="mt-5 mb-3">Obtain</h3>-->
+        <!--        <b-row>-->
+        <!--            <b-col v-for="(c, i) in components" :key="i" cols="12">-->
+        <!--                <b-card bg-variant="dark" class="mb-3">-->
+        <!--                    <b-row>-->
+        <!--                        <b-col cols="4" v-if="c.imageName !== undefined">-->
+        <!--                            <b-card-img :src="getImgUrl + c.imageName" />-->
+        <!--                        </b-col>-->
 
-                        <b-col>
-                            <b-row>
-                                <b-col cols="5">Volume:</b-col>
-                                <b-col>{{ c.itemCount }}</b-col>
-                            </b-row>
+        <!--                        <b-col>-->
+        <!--                            <b-row>-->
+        <!--                                <b-col cols="5">Volume:</b-col>-->
+        <!--                                <b-col>{{ c.itemCount }}</b-col>-->
+        <!--                            </b-row>-->
 
-                            <b-row v-if="c.drops.length > 0">
-                                <b-col cols="5">Chance:</b-col>
-                                <b-col
-                                    >{{
-                                        (c.drops[0].chance * 100).toFixed(2)
-                                    }}%</b-col
-                                >
-                            </b-row>
-                        </b-col>
-                    </b-row>
-                </b-card>
-            </b-col>
-        </b-row>
+        <!--                            <b-row v-if="c.drops.length > 0">-->
+        <!--                                <b-col cols="5">Chance:</b-col>-->
+        <!--                                <b-col-->
+        <!--                                    >{{-->
+        <!--                                        (c.drops[0].chance * 100).toFixed(2)-->
+        <!--                                    }}%</b-col-->
+        <!--                                >-->
+        <!--                            </b-row>-->
+        <!--                        </b-col>-->
+        <!--                    </b-row>-->
+        <!--                </b-card>-->
+        <!--            </b-col>-->
+        <!--        </b-row>-->
     </Layout>
 </template>
 
