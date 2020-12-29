@@ -18,9 +18,11 @@
             </b-alert>
         </b-container>
 
-        <b-container class="my-4" tag="section">
-            <slot />
-        </b-container>
+        <transition name="fade" appear>
+            <b-container class="my-4" tag="section">
+                <slot />
+            </b-container>
+        </transition>
 
         <Footer class="mt-5" />
     </main>
@@ -42,23 +44,33 @@ export default {
     name: 'Default',
     components: {
         Navbar: () => import('./Navbar'),
-        Footer: () => import('./Footer')
+        Footer: () => import('./Footer'),
     },
     props: {
         showHeader: {
             type: Boolean,
-            default: true
-        }
+            default: true,
+        },
     },
     metaInfo() {
         return {
             link: [
                 {
                     rel: 'canonical',
-                    href: `https://waframes.tools${this.$route.path}`
-                }
-            ]
+                    href: `https://waframes.tools${this.$route.path}`,
+                },
+            ],
         };
-    }
+    },
 };
 </script>
+
+<style>
+.fade-enter-active {
+    transition: opacity 0.5s;
+}
+
+.fade-enter {
+    opacity: 0;
+}
+</style>

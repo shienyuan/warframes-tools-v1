@@ -5,7 +5,7 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-module.exports = function(api) {
+module.exports = function (api) {
     api.loadSource(({ addCollection, addMetadata }) => {
         const mrcMethods = require('./data/masteryPoints.json');
         const mrcRanks = require('./data/masteryRanks.json');
@@ -15,15 +15,15 @@ module.exports = function(api) {
         addMetadata('version', meta);
 
         const mrcMethodsCol = addCollection({
-            typeName: 'mrcMethods'
+            typeName: 'mrcMethods',
         });
 
         const mrcRanksCol = addCollection({
-            typeName: 'mrcRanks'
+            typeName: 'mrcRanks',
         });
 
         const warframesCol = addCollection({
-            typeName: 'warframes'
+            typeName: 'warframes',
         });
 
         for (const m of mrcMethods) {
@@ -41,10 +41,28 @@ module.exports = function(api) {
         // primary
         const primary = require('./data/primary.json');
         const primaryCol = addCollection({
-            typeName: 'primary'
+            typeName: 'primary',
         });
         for (const p of primary) {
             primaryCol.addNode(p);
+        }
+
+        // secondary
+        const secondary = require('./data/secondary.json');
+        const secondaryCol = addCollection({
+            typeName: 'secondary',
+        });
+        for (const s of secondary) {
+            secondaryCol.addNode(s);
+        }
+
+        // melee
+        const melee = require('./data/melee.json');
+        const meleeCol = addCollection({
+            typeName: 'melee',
+        });
+        for (const m of melee) {
+            meleeCol.addNode(m);
         }
     });
 
@@ -67,8 +85,8 @@ module.exports = function(api) {
                 path: `/warframe/${node.name}`,
                 component: './src/templates/Warframe.vue',
                 context: {
-                    id: node.id
-                }
+                    id: node.id,
+                },
             });
         });
     });

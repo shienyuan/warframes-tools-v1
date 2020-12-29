@@ -58,7 +58,7 @@ export default {
     name: 'Navbar',
     props: {
         siteName: String,
-        version: String
+        version: String,
     },
     data() {
         return {
@@ -66,25 +66,25 @@ export default {
             navs: [
                 {
                     label: 'Warframes',
-                    path: '/warframe'
+                    path: '/warframe',
                 },
                 {
                     label: 'Resources',
-                    path: '/resource'
+                    path: '/resource',
                 },
                 {
                     label: 'Mastery',
-                    path: '/mastery-calculator'
+                    path: '/mastery',
                 },
                 {
                     label: 'Clan',
-                    path: '/clan'
+                    path: '/clan',
                 },
                 {
                     label: 'Guide',
-                    path: '/guide'
-                }
-            ]
+                    path: '/guide',
+                },
+            ],
         };
     },
     computed: {
@@ -93,8 +93,8 @@ export default {
         },
         getMetaData() {
             return this.$static.metadata;
-        }
-    }
+        },
+    },
 };
 </script>
 
