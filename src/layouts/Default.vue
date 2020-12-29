@@ -4,8 +4,8 @@
             <b-container>
                 <Navbar class="p-0 pt-2 pb-2" />
 
-                <section v-if="showHeader" class="pt-2 pb-4 m-0 text-white h2">
-                    <slot name="header" />
+                <section v-if="showHeader" class="pt-2 pb-4 m-0 text-white">
+                    <h2 class="m-0"><slot name="header" /></h2>
                 </section>
             </b-container>
         </div>

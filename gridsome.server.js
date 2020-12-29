@@ -10,7 +10,6 @@ module.exports = function (api) {
         const mrcMethods = require('./data/masteryPoints.json');
         const mrcRanks = require('./data/masteryRanks.json');
         const meta = require('./data/meta.json');
-        const warframes = require('./data/warframes.json');
 
         addMetadata('version', meta);
 
@@ -22,10 +21,6 @@ module.exports = function (api) {
             typeName: 'mrcRanks',
         });
 
-        const warframesCol = addCollection({
-            typeName: 'warframes',
-        });
-
         for (const m of mrcMethods) {
             mrcMethodsCol.addNode(m);
         }
@@ -34,8 +29,13 @@ module.exports = function (api) {
             mrcRanksCol.addNode(r);
         }
 
-        for (const w of warframes) {
-            warframesCol.addNode(w);
+        // warframe
+        const warframe = require('./data/warframe.json');
+        const warframeCol = addCollection({
+            typeName: 'warframe',
+        });
+        for (const w of warframe) {
+            warframeCol.addNode(w);
         }
 
         // primary
@@ -69,18 +69,31 @@ module.exports = function (api) {
     api.createPages(async ({ graphql, createPage }) => {
         const { data } = await graphql(`
             {
-                allWarframes {
+                allWarframe {
                     edges {
                         node {
                             id
                             name
+                            description
+                            imageName
+                            components {
+                                name
+                                itemCount
+                                imageName
+                                drops {
+                                    location
+                                    type
+                                    chance
+                                    rarity
+                                }
+                            }
                         }
                     }
                 }
             }
         `);
 
-        data.allWarframes.edges.forEach(({ node }) => {
+        data.allWarframe.edges.forEach(({ node }) => {
             createPage({
                 path: `/warframe/${node.name}`,
                 component: './src/templates/Warframe.vue',
