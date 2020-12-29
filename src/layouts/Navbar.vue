@@ -6,7 +6,7 @@
                 alt="warframes-tools-logo"
                 height="45"
                 width="45"
-                :src="`${getImgUrl}/logo-white_oE-VCZ9u4.png?tr=h-45,w-45`"
+                :src="`${getImgUrl}/Frame_4_vJbrR7Y-6.svg?tr=h-100,w-100`"
             />
             <div>
                 <h5 class="mb-0 font-weight-bold">

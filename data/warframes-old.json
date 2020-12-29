@@ -1,0 +1,1274 @@
+[
+  {
+    "name": "Ash",
+    "link": "Ash",
+    "img": "AshNewLook_OO_4cBH3G.png",
+    "blueprint": [
+      {
+        "price": 35000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Grineer Manic",
+        "link": "Manic"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Grineer Manic",
+        "link": "Manic"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Grineer Manic",
+        "link": "Manic"
+      }
+    ]
+  },
+  {
+    "name": "Atlas",
+    "link": "Atlas",
+    "img": "AtlasNewLook_m18FDP5DC-.png",
+    "blueprint": [
+      {
+        "name": "The Jordas Precept",
+        "link": "The_Jordas_Precept"
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Jordas Golem",
+        "link": "Jordas_Golem"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Jordas Golem",
+        "link": "Jordas_Golem"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Jordas Golem",
+        "link": "Jordas_Golem"
+      }
+    ]
+  },
+  {
+    "name": "Banshee",
+    "link": "Banshee",
+    "img": "BansheeNewLook_Z06rDwOVV.png",
+    "blueprint": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Research/Tenno_Lab"
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Research/Tenno_Lab"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Research/Tenno_Lab"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Tenno Lab",
+        "link": "Research/Tenno_Lab"
+      }
+    ]
+  },
+  {
+    "name": "Baruuk",
+    "img": "BaruukIcon272_0G91VFams.png",
+    "link": "Baruuk",
+    "blueprint": [
+      {
+        "name": "Little Duck",
+        "link": "Little_Duck"
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Little Duck",
+        "link": "Little_Duck"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Little Duck",
+        "link": "Little_Duck"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Little Duck",
+        "link": "Little_Duck"
+      }
+    ]
+  },
+  {
+    "name": "Chroma",
+    "img": "ChromaNewLook__CKBe3Vg0.png",
+    "link": "Chroma",
+    "blueprint": [
+      {
+        "name": "The New Strange",
+        "link": "The_New_Strange"
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Uranus Junction",
+        "link": "Uranus"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Neptune Junction",
+        "link": "Neptune"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Pluto Junction",
+        "link": "Pluto"
+      }
+    ]
+  },
+  {
+    "name": "Ember",
+    "img": "EmberNewLook_9-zHzAiit.png",
+    "link": "Ember",
+    "blueprint": [
+      {
+        "price": 25000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "General Sargas Ruk",
+        "link": "General_Sargas_Ruk"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "General Sargas Ruk",
+        "link": "General_Sargas_Ruk"
+      }
+    ],
+    "systems": [
+      {
+        "name": "General Sargas Ruk",
+        "link": "General_Sargas_Ruk"
+      }
+    ]
+  },
+  {
+    "name": "Equinox",
+    "img": "EquinoxSolo___EtBypYr.png",
+    "link": "Equinox",
+    "blueprint": [
+      {
+        "price": 25000
+      },
+      {
+        "name": "Tyl Regor",
+        "link": "Tyl_Regor"
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Tyl Regor",
+        "link": "Tyl_Regor"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Tyl Regor",
+        "link": "Tyl_Regor"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Tyl Regor",
+        "link": "Tyl_Regor"
+      }
+    ]
+  },
+  {
+    "name": "Excalibur",
+    "img": "ExcaliburNewLook_G45p_tX-Y.png",
+    "link": "Excalibur",
+    "blueprint": [
+      {
+        "price": 35000
+      },
+      {
+        "name": "Teshin",
+        "link": "Teshin"
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Lieutenant Lech Kril",
+        "link": "Lieutenant_Lech_Kril"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Lieutenant Lech Kril",
+        "link": "Lieutenant_Lech_Kril"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Lieutenant Lech Kril",
+        "link": "Lieutenant_Lech_Kril"
+      }
+    ]
+  },
+  {
+    "name": "Frost",
+    "img": "FrostNewLook_iGLSd-wtD.png",
+    "link": "Excalibur",
+    "blueprint": [
+      {
+        "price": 25000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Lieutenant Lech Kril",
+        "link": "Lieutenant_Lech_Kril"
+      },
+      {
+        "name": "Captain Vor",
+        "link": "Captain_Vor"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Lieutenant Lech Kril",
+        "link": "Lieutenant_Lech_Kril"
+      },
+      {
+        "name": "Captain Vor",
+        "link": "Captain_Vor"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Lieutenant Lech Kril",
+        "link": "Lieutenant_Lech_Kril"
+      },
+      {
+        "name": "Captain Vor",
+        "link": "Captain_Vor"
+      }
+    ]
+  },
+  {
+    "name": "Gara",
+    "img": "GaraNewLook_Vx1Xx4mNY.png",
+    "link": "Gara",
+    "blueprint": [
+      {
+        "name": "Saya's Vigil",
+        "link": "Saya's_Vigil"
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Plains of Eidolon Bounties",
+        "link": "Plains_of_Eidolon"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Plains of Eidolon Bounties",
+        "link": "Plains_of_Eidolon"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Plains of Eidolon Bounties",
+        "link": "Plains_of_Eidolon"
+      }
+    ]
+  },
+  {
+    "name": "Garuda",
+    "img": "Garuda_LBHPe4TTX.png",
+    "link": "Garuda",
+    "blueprint": [
+      {
+        "name": "Vox Solaris",
+        "link": "Vox_Solaris_(Quest)"
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Orb Vallis Bounties",
+        "link": "Orb_Vallis"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Orb Vallis Bounties",
+        "link": "Orb_Vallis"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Orb Vallis Bounties",
+        "link": "Orb_Vallis"
+      }
+    ]
+  },
+  {
+    "name": "Gauss",
+    "img": "Gauss_eCiPVpbD8.png",
+    "link": "Gauss",
+    "blueprint": [
+      {
+        "price": 30000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Tier C Disruption (Kelpie, Sedna)",
+        "link": "Disruption"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Tier C Disruption (Kelpie, Sedna)",
+        "link": "Disruption"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Tier C Disruption (Kelpie, Sedna)",
+        "link": "Disruption"
+      }
+    ]
+  },
+  {
+    "name": "Grendel",
+    "img": "Grendel_PSF7bsPOw.png",
+    "link": "Grendel",
+    "blueprint": [
+      {
+        "price": 35000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Neuroptics Locator",
+        "link": "Arbiters_of_Hexis#Arbitration_Honors"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Chassis Locator",
+        "link": "Arbiters_of_Hexis#Arbitration_Honors"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Systems Locator",
+        "link": "Arbiters_of_Hexis#Arbitration_Honors"
+      }
+    ]
+  },
+  {
+    "name": "Harrow",
+    "img": "Harrow_zKJdDWBj2.png",
+    "link": "Harrow",
+    "blueprint": [
+      {
+        "name": "Chains of Harrow",
+        "link": "Chains_of_Harrow"
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Rot C Spy (Pago, Kuva Fortress)",
+        "link": "Spy"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Void Fissure enemies",
+        "link": "Void_Fissure"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Rot B & C Defection",
+        "link": "Defection"
+      }
+    ]
+  },
+  {
+    "name": "Hildryn",
+    "img": "HildrynIcon272_mu0WCIgdF.png",
+    "link": "Hildryn",
+    "blueprint": [
+      {
+        "name": "Little Duck",
+        "link": "Little_Duck"
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Exploiter Orb",
+        "link": "Exploiter_Orb"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Exploiter Orb",
+        "link": "Exploiter_Orb"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Exploiter Orb",
+        "link": "Exploiter_Orb"
+      }
+    ]
+  },
+  {
+    "name": "Hydroid",
+    "img": "HydroidNewLook_hgm20AT2A.png",
+    "link": "Hydroid",
+    "blueprint": [
+      {
+        "price": 50000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Councilor Vay Hek",
+        "link": "Councilor_Vay_Hek"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Councilor Vay Hek",
+        "link": "Councilor_Vay_Hek"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Councilor Vay Hek",
+        "link": "Councilor_Vay_Hek"
+      }
+    ]
+  },
+  {
+    "name": "Inaros",
+    "img": "InarosNewLook_XFE11GeBV.png",
+    "link": "Inaros",
+    "blueprint": [
+      {
+        "name": "Sands of Inaros",
+        "link": "Sands_of_Inaros"
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Cephalon Simaris",
+        "link": "Cephalon_Simaris"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Cephalon Simaris",
+        "link": "Cephalon_Simaris"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Cephalon Simaris",
+        "link": "Cephalon_Simaris"
+      }
+    ]
+  },
+  {
+    "name": "Ivara",
+    "img": "IvaraNewLook_0sBtcI1U4.png",
+    "link": "Inaros",
+    "blueprint": [
+      {
+        "name": "Spy Missions",
+        "link": "Spy"
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Spy Missions",
+        "link": "Spy"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Spy Missions",
+        "link": "Spy"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Spy Missions",
+        "link": "Spy"
+      }
+    ]
+  },
+  {
+    "name": "Khora",
+    "img": "Khora_5FTCVHD0N.png",
+    "link": "Khora",
+    "blueprint": [
+      {
+        "name": "Sanctuary Onslaught",
+        "link": "Sanctuary_Onslaught"
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Sanctuary Onslaught",
+        "link": "Sanctuary_Onslaught"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Sanctuary Onslaught",
+        "link": "Sanctuary_Onslaught"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Sanctuary Onslaught",
+        "link": "Sanctuary_Onslaught"
+      }
+    ]
+  },
+  {
+    "name": "Limbo",
+    "img": "LimboNewLook_uOMD65vjC.png",
+    "link": "Limbo",
+    "blueprint": [
+      {
+        "price": 35000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "The Limbo Theorem",
+        "link": "The_Limbo_Theorem"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "The Limbo Theorem",
+        "link": "The_Limbo_Theorem"
+      }
+    ],
+    "systems": [
+      {
+        "name": "The Limbo Theorem",
+        "link": "The_Limbo_Theorem"
+      }
+    ]
+  },
+  {
+    "name": "Loki",
+    "img": "LokiNewLook_08dgm3ePN.png",
+    "link": "Loki",
+    "blueprint": [
+      {
+        "price": 35000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Hyena Pack",
+        "link": "Hyena_Pack"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Hyena Pack",
+        "link": "Hyena_Pack"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Hyena Pack",
+        "link": "Hyena_Pack"
+      }
+    ]
+  },
+  {
+    "name": "Mag",
+    "img": "MagNewLook_pQdTlRIUn.png",
+    "link": "Mag",
+    "blueprint": [
+      {
+        "price": 25000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "The Sergeant",
+        "link": "The_Sergeant"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "The Sergeant",
+        "link": "The_Sergeant"
+      }
+    ],
+    "systems": [
+      {
+        "name": "The Sergeant",
+        "link": "The_Sergeant"
+      }
+    ]
+  },
+  {
+    "name": "Mesa",
+    "img": "MesaLarge_4EbTPPiAk.png",
+    "link": "Mesa",
+    "blueprint": [
+      {
+        "price": 30000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Mutalist Alad V",
+        "link": "Mutalist_Alad_V"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Mutalist Alad V",
+        "link": "Mutalist_Alad_V"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Mutalist Alad V",
+        "link": "Mutalist_Alad_V"
+      }
+    ]
+  },
+  {
+    "name": "Mirage",
+    "img": "MirageNewLook_ePhzFG1V3.png",
+    "link": "Mirage",
+    "blueprint": [
+      {
+        "price": 35000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Hidden Messages",
+        "link": "Hidden_Messages"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Hidden Messages",
+        "link": "Hidden_Messages"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Hidden Messages",
+        "link": "Hidden_Messages"
+      }
+    ]
+  },
+  {
+    "name": "Nekros",
+    "img": "NekrosNewLook_o_1gz6RKy.png",
+    "link": "Nekros",
+    "blueprint": [
+      {
+        "price": 100000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Lephantis",
+        "link": "Lephantis"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Lephantis",
+        "link": "Lephantis"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Lephantis",
+        "link": "Lephantis"
+      }
+    ]
+  },
+  {
+    "name": "Nezha",
+    "img": "NezhaNewLook_Fs_3wryAp.png",
+    "link": "Nezha",
+    "blueprint": [
+      {
+        "price": 35000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Research/Tenno_Lab"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Research/Tenno_Lab"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Research/Tenno_Lab"
+      }
+    ]
+  },
+  {
+    "name": "Nidus",
+    "img": "NidusNewLook_v9-ZUqBTd.png",
+    "link": "Nidus",
+    "blueprint": [
+      {
+        "name": "The Glast Gambit",
+        "link": "The_Glast_Gambit"
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Rot C Oestrus, Eris",
+        "link": "Eris"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Rot C Oestrus, Eris",
+        "link": "Eris"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Rot C Oestrus, Eris",
+        "link": "Eris"
+      }
+    ]
+  },
+  {
+    "name": "Nova",
+    "img": "NovaNewLook_wqH4GrRkM.png",
+    "link": "Nova",
+    "blueprint": [
+      {
+        "price": 35000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Raptors",
+        "link": "Raptors"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Raptors",
+        "link": "Raptors"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Raptors",
+        "link": "Raptors"
+      }
+    ]
+  },
+  {
+    "name": "Nyx",
+    "img": "NyxNewLook_r8FwT_CZS.png",
+    "link": "Nyx",
+    "blueprint": [
+      {
+        "price": 25000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Phorid",
+        "link": "https://warframe.fandom.com/wiki/Phorid"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Phorid",
+        "link": "https://warframe.fandom.com/wiki/Phorid"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Phorid",
+        "link": "https://warframe.fandom.com/wiki/Phorid"
+      }
+    ]
+  },
+  {
+    "name": "Oberon",
+    "img": "OberonNewLook_T14uzNT62.png",
+    "link": "Oberon",
+    "blueprint": [
+      {
+        "price": 30000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Eximus",
+        "link": "Eximus"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Eximus",
+        "link": "Eximus"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Eximus",
+        "link": "Eximus"
+      }
+    ]
+  },
+  {
+    "name": "Octavia",
+    "img": "Octavia_bIv-M3Bq-.png",
+    "link": "Octavia",
+    "blueprint": [
+      {
+        "name": "Octavia's Anthem",
+        "link": "Octavia%27s_Anthem"
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Rot C Deimos Survival",
+        "link": "Deimos"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Lua Music Puzzle",
+        "link": "Orokin_Moon#Lua_Music_Puzzle_Room"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Lua Crossfire Exterminate",
+        "link": "Crossfire"
+      }
+    ]
+  },
+  {
+    "name": "Protea",
+    "img": "Protea__1__HirFiuQA7.png",
+    "link": "Protea",
+    "blueprint": [
+      {
+        "name": "The Deadlock Protocol",
+        "link": "The_Deadlock_Protocol"
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Rot C basic Granum Void",
+        "link": "Granum_Void"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Rot C extended Granum Void",
+        "link": "Granum_Void"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Rot C nightmare Granum Void",
+        "link": "Granum_Void"
+      }
+    ]
+  },
+  {
+    "name": "Revenant",
+    "img": "Revenant_08CEQ-xdT.png",
+    "link": "Revenant",
+    "blueprint": [
+      {
+        "name": "Mask of the Revenant",
+        "link": "Mask_of_the_Revenant"
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Plains of Eidolon bounties",
+        "link": "Plains_of_Eidolon"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Plains of Eidolon bounties",
+        "link": "Plains_of_Eidolon"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Plains of Eidolon bounties",
+        "link": "Plains_of_Eidolon"
+      }
+    ]
+  },
+  {
+    "name": "Rhino",
+    "img": "RhinoNewLook_hE3qqEKDs.png",
+    "link": "Rhino",
+    "blueprint": [
+      {
+        "price": 35000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Jackal",
+        "link": "Jackal"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Jackal",
+        "link": "Jackal"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Jackal",
+        "link": "Jackal"
+      }
+    ]
+  },
+  {
+    "name": "Saryn",
+    "img": "SarynNewLook_IU3upx5GX.png",
+    "link": "Saryn",
+    "blueprint": [
+      {
+        "price": 35000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Kela De Thaym",
+        "link": "Kela_De_Thaym"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Kela De Thaym",
+        "link": "Kela_De_Thaym"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Kela De Thaym",
+        "link": "Kela_De_Thaym"
+      }
+    ]
+  },
+  {
+    "name": "Titania",
+    "img": "TitaniaNewLook_gw4zPYE-R.png",
+    "link": "Titania",
+    "blueprint": [
+      {
+        "price": 35000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "The Silver Grove",
+        "link": "The_Silver_Grove"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "The Silver Grove",
+        "link": "The_Silver_Grove"
+      }
+    ],
+    "systems": [
+      {
+        "name": "The Silver Grove",
+        "link": "The_Silver_Grove"
+      }
+    ]
+  },
+  {
+    "name": "Trinity",
+    "img": "TrinityNewLook_X9octkQO8.png",
+    "link": "Titania",
+    "blueprint": [
+      {
+        "price": 25000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Ambulas",
+        "link": "Ambulas"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Ambulas",
+        "link": "Ambulas"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Ambulas",
+        "link": "Ambulas"
+      }
+    ]
+  },
+  {
+    "name": "Valkyr",
+    "img": "ValkyrNewLook_QM6elvTBR.png",
+    "link": "Valkyr",
+    "blueprint": [
+      {
+        "price": 35000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Alad V",
+        "link": "Alad_V"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Alad V",
+        "link": "Alad_V"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Alad V",
+        "link": "Alad_V"
+      }
+    ]
+  },
+  {
+    "name": "Vauban",
+    "img": "VaubanNewLook_XAJ4t3iUc.png",
+    "link": "Vauban",
+    "blueprint": [
+      {
+        "price": 35000
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Nightwave",
+        "link": "Nightwave"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Nightwave",
+        "link": "Nightwave"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Nightwave",
+        "link": "Nightwave"
+      }
+    ]
+  },
+  {
+    "name": "Volt",
+    "img": "VoltNewLook_2iokVJjN5.png",
+    "link": "Volt",
+    "blueprint": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Tenno_Lab"
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Tenno_Lab"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Tenno_Lab"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Tenno_Lab"
+      }
+    ]
+  },
+  {
+    "name": "Wisp",
+    "img": "WispIcon272_oBGQ-YuMB.png",
+    "link": "Wisp",
+    "blueprint": [
+      {
+        "name": "Ropalolyst",
+        "link": "Ropalolyst"
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Ropalolyst",
+        "link": "Ropalolyst"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Ropalolyst",
+        "link": "Ropalolyst"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Ropalolyst",
+        "link": "Ropalolyst"
+      }
+    ]
+  },
+  {
+    "name": "Wukong",
+    "img": "WukongNewIcon_1bzTNgAjw.png",
+    "link": "Wukong",
+    "blueprint": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Tenno_Lab"
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Tenno_Lab"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Tenno_Lab"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Tenno_Lab"
+      }
+    ]
+  },
+  {
+    "name": "Xaku",
+    "img": "Xaku.PNG_N-RPDbh_y.png",
+    "link": "Xaku",
+    "blueprint": [
+      {
+        "name": "Heart of Deimos",
+        "link": "Heart_of_Deimos"
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Cambion Drift Bounties",
+        "link": "Cambion_Drift"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Cambion Drift Bounties",
+        "link": "Cambion_Drift"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Cambion Drift Bounties",
+        "link": "Cambion_Drift"
+      }
+    ]
+  },
+  {
+    "name": "Zephyr",
+    "img": "ZephyrNewLook_XAZycSab6.png",
+    "link": "Zephyr",
+    "blueprint": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Tenno_Lab"
+      }
+    ],
+    "neuroptics": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Tenno_Lab"
+      }
+    ],
+    "chassis": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Tenno_Lab"
+      }
+    ],
+    "systems": [
+      {
+        "name": "Tenno Research Lab",
+        "link": "Tenno_Lab"
+      }
+    ]
+  }
+]

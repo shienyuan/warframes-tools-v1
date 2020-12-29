@@ -68,12 +68,12 @@ export default {
             title: this.$page.post.title,
             keywords: this.$page.post.keywords,
             description: this.$page.post.excerpt,
-            img: this.$page.post.image
+            img: this.$page.post.image,
         });
     },
     data() {
         return {
-            jsonld: {}
+            jsonld: {},
         };
     },
     created() {
@@ -82,21 +82,21 @@ export default {
             '@type': 'Article',
             mainEntityOfPage: {
                 '@type': 'WebPage',
-                '@id': formatUrl(this.$route.path)
+                '@id': formatUrl(this.$route.path),
             },
             headline: this.data.title,
             image: {
                 '@type': 'ImageObject',
                 url: this.data.image,
                 height: 600,
-                width: 800
+                width: 800,
             },
             datePublished: this.data.created_at,
             dateModified: this.data.created_at,
             author: {
                 '@type': 'Person',
                 '@id': 'https://warframes.tools',
-                name: 'Warframes Tools'
+                name: 'Warframes Tools',
             },
             publisher: {
                 '@type': 'Organization',
@@ -105,21 +105,21 @@ export default {
                 logo: {
                     '@type': 'ImageObject',
                     url:
-                        'https://ik.imagekit.io/seaw0jfghdk/logo-white_oE-VCZ9u4.png',
+                        'https://ik.imagekit.io/seaw0jfghdk/Frame_4_vJbrR7Y-6.svg',
                     height: 70,
-                    width: 70
-                }
+                    width: 70,
+                },
             },
-            description: formatDesc(this.data.excerpt)
+            description: formatDesc(this.data.excerpt),
         };
     },
     computed: {
         data() {
             return this.$page.post;
-        }
+        },
     },
     methods: {
-        formatDate
-    }
+        formatDate,
+    },
 };
 </script>

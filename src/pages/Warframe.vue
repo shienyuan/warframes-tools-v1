@@ -1,142 +1,51 @@
 <template>
     <Layout>
-        <template v-slot:header>
-            Warframe List
-        </template>
-
-        <b-row align-v="center" class="mb-3">
-            <b-col>
-                <b-form-input
-                    v-model="filter"
-                    placeholder="Search by Warframe name"
-                />
-            </b-col>
-            <b-col>
-                <p class="mb-0 font-italic text-white-50 text-right small">
-                    Last updated at: 15/12/2020
-                </p>
-            </b-col>
-        </b-row>
-
-        <!--        <b-tabs>-->
-        <!--            <b-tab title="First"><p>I'm the first tab</p></b-tab>-->
-        <!--            <b-tab title="Second"><p>I'm the second tab</p></b-tab>-->
-        <!--        </b-tabs>-->
+        <template v-slot:header> Warframe List</template>
 
         <b-row>
-            <warframe-card
-                v-for="(w, i) in $page.warframes.edges"
-                :data="w.node"
-                :key="i"
-                @onWarframeClick="$router.push(`/warframe/${w.node.name}`)"
+            <b-col
+                cols="4"
+                md="3"
+                xl="2"
+                v-for="w in $page.warframes.edges"
+                :key="w.id"
             >
-            </warframe-card>
+                <b-card
+                    no-body
+                    class="mb-4"
+                    bg-variant="dark"
+                    @click="$router.push(`/warframe/${w.node.name}`)"
+                >
+                    <b-card-img
+                        :src="getImgUrl + w.node.imageName"
+                    ></b-card-img>
+
+                    <template #footer>
+                        <p
+                            class="m-0 text-center"
+                            style="
+                                white-space: nowrap;
+                                text-overflow: ellipsis;
+                                overflow: hidden;
+                            "
+                        >
+                            {{ w.node.name }}
+                        </p>
+                    </template>
+                </b-card>
+            </b-col>
         </b-row>
-
-        <b-table
-            stacked="lg"
-            dark
-            hover
-            :filter="filter"
-            :fields="fields"
-            sort-by="node.name"
-            :items="$page.warframes.edges"
-        >
-            <template #cell(node.img)="data">
-                <b-img
-                    :src="getImgUrl + data.value + '?tr=w-50,h-50,fo-top'"
-                ></b-img>
-            </template>
-
-            <template #cell(node.name)="data">
-                <b-link :href="getWikiUrl + data.item.node.link" target="_blank"
-                    >{{ data.value }}
-                </b-link>
-            </template>
-
-            <template #cell(node.blueprint)="data">
-                <div class="mb-2" v-for="(b, i) in data.value" :key="i">
-                    <small class="text-white-50" v-if="data.value.length > 1"
-                        >{{ i + 1 }}.
-                    </small>
-                    <b-link :href="getWikiUrl + b.link" target="_blank">
-                        {{ b.name }}
-                    </b-link>
-                    <span v-if="b.price > 0">
-                        <b-img
-                            class="mr-1"
-                            src="https://ik.imagekit.io/seaw0jfghdk/Credits64_B3FTEVn9h.png?tr=h-15,w-15"
-                        />
-                        <span>{{ b.price | formatPrice }}</span>
-                    </span>
-                </div>
-            </template>
-
-            <template #cell(node.neuroptics)="data">
-                <div v-for="(n, i) in data.value" :key="i">
-                    <small class="text-white-50" v-if="data.value.length > 1"
-                        >{{ i + 1 }}.
-                    </small>
-                    <b-link :href="getWikiUrl + n.link" target="_blank"
-                        >{{ n.name }}
-                    </b-link>
-                </div>
-            </template>
-
-            <template #cell(node.chassis)="data">
-                <div v-for="(c, i) in data.value" :key="i">
-                    <small class="text-white-50" v-if="data.value.length > 1"
-                        >{{ i + 1 }}.
-                    </small>
-                    <b-link :href="getWikiUrl + c.link" target="_blank"
-                        >{{ c.name }}
-                    </b-link>
-                </div>
-            </template>
-
-            <template #cell(node.systems)="data">
-                <div v-for="(s, i) in data.value" :key="i">
-                    <small class="text-white-50" v-if="data.value.length > 1"
-                        >{{ i + 1 }}.
-                    </small>
-                    <b-link :href="getWikiUrl + s.link" target="_blank"
-                        >{{ s.name }}
-                    </b-link>
-                </div>
-            </template>
-        </b-table>
     </Layout>
 </template>
 
 <page-query>
 query {
-warframes: allWarframes(sortBy:"name" order: ASC) {
+warframes: allWarframe(sortBy:"name" order: ASC) {
 edges {
 node {
 id
 name
-img
-blueprint{
-name
-link
-price
-}
-neuroptics{
-name
-link
-}
-neuroptics{
-name
-link
-}
-chassis{
-name
-link
-}
-systems{
-name
-link
-}
+imageName
 }
 }
 }
@@ -154,11 +63,11 @@ export default {
             title: 'Warframe Acquisition List',
             keywords: 'warframe,warframes,warframe acquisition',
             description:
-                'A compact collection of all Warframe acquisitions, easily check out ways to get certain warframe'
+                'A compact collection of all Warframe acquisitions, easily check out ways to get certain warframe',
         });
     },
     components: {
-        warframeCard: () => import('~/components/warframe/warframe-card')
+        warframeCard: () => import('~/components/warframe/warframe-card'),
     },
     data() {
         return {
@@ -167,49 +76,49 @@ export default {
                 {
                     label: '',
                     key: 'node.img',
-                    class: 'text-center'
+                    class: 'text-center',
                 },
                 {
                     label: 'Name',
                     key: 'node.name',
-                    sortable: true
+                    sortable: true,
                 },
                 {
                     label: 'Blueprint',
-                    key: 'node.blueprint'
+                    key: 'node.blueprint',
                 },
                 {
                     label: 'Neuroptics',
-                    key: 'node.neuroptics'
+                    key: 'node.neuroptics',
                 },
                 {
                     label: 'Chassis',
-                    key: 'node.chassis'
+                    key: 'node.chassis',
                 },
                 {
                     label: 'Systems',
-                    key: 'node.systems'
-                }
-            ]
+                    key: 'node.systems',
+                },
+            ],
         };
     },
     filters: {
         formatPrice(val) {
             return val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-        }
+        },
     },
     computed: {
         getImgUrl() {
-            return `${process.env.GRIDSOME_IMG_URL}/warframes/`;
+            return `https://cdn.warframestat.us/img/`;
         },
         getWikiUrl() {
             return `${process.env.GRIDSOME_WIKI_URL}/`;
-        }
+        },
     },
     methods: {
         handleWarframeClick() {
             console.log('123');
-        }
-    }
+        },
+    },
 };
 </script>
