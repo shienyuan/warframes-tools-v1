@@ -5,14 +5,13 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { defaultTags } from './utils/seoUtil';
 import VueDisqus from 'vue-disqus';
-import firebase from 'firebase/app';
 
-export default function(Vue, { _, head, __, isClient }) {
+export default function (Vue, { head }) {
     head.meta.push(...defaultTags);
     head.link.push({
         rel: 'stylesheet',
         href:
-            'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap'
+            'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap',
     });
     // bootstrapVue
     Vue.use(BootstrapVue);
@@ -24,9 +23,6 @@ export default function(Vue, { _, head, __, isClient }) {
     Vue.component('Layout', () => import('~/layouts/Default.vue'));
     // Disqus
     Vue.use(VueDisqus, {
-        shortname: 'warframes-tools'
+        shortname: 'warframes-tools',
     });
-
-    if (isClient) {
-    }
 }

@@ -35,3 +35,23 @@ body {
     background-color: $dark;
     color: $body-color;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #535353;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #a9a9a9;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #cfcfcf;
+}

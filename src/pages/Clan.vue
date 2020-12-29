@@ -1,8 +1,6 @@
 <template>
     <Layout>
-        <template v-slot:header>
-            Clan Recruitment
-        </template>
+        <template v-slot:header> Clan Recruitment </template>
         <ClientOnly>
             <div class="text-right">
                 <b-button
@@ -87,11 +85,18 @@
                 </template>
 
                 <template #cell(features)="data">
-                    <b-badge v-if="data.value.trading">Trading</b-badge>
-                    <b-badge class="mx-2" v-if="data.value.research"
+                    <b-badge variant="primary" v-if="data.value.trading"
+                        >Trading</b-badge
+                    >
+                    <b-badge
+                        variant="primary"
+                        class="mx-2"
+                        v-if="data.value.research"
                         >Research
                     </b-badge>
-                    <b-badge v-if="data.value.dryDock">Dry Dock</b-badge>
+                    <b-badge variant="primary" v-if="data.value.dryDock"
+                        >Dry Dock</b-badge
+                    >
                 </template>
             </b-table>
 
@@ -127,11 +132,11 @@ export default {
             title: 'Clan Recruitment',
             keywords: 'warframe, clan',
             description:
-                'Warframe clan recruitment tool, helping clans to promote themselves and recruit new members'
+                'Warframe clan recruitment tool, helping clans to promote themselves and recruit new members',
         });
     },
     components: {
-        register: () => import('~/components/clan/Register')
+        register: () => import('~/components/clan/Register'),
     },
     data() {
         return {
@@ -144,49 +149,49 @@ export default {
                 {
                     key: 'name',
                     label: 'NAME',
-                    sortable: true
+                    sortable: true,
                 },
                 {
                     key: 'tier',
                     label: 'TIER',
                     sortable: true,
-                    class: 'capitalize'
+                    class: 'capitalize',
                 },
                 {
                     key: 'members',
                     label: 'MBR',
                     sortable: true,
-                    thStyle: 'width:100px;'
+                    thStyle: 'width:100px;',
                 },
                 {
                     key: 'platform',
                     label: 'PLAT',
                     sortable: true,
                     thStyle: 'width:100px;',
-                    class: 'capitalize'
+                    class: 'capitalize',
                 },
                 {
                     key: 'region',
                     label: 'RGN',
                     sortable: true,
                     thStyle: 'width:100px;',
-                    class: 'capitalize'
+                    class: 'capitalize',
                 },
                 {
                     key: 'features',
-                    label: 'FEATURES'
+                    label: 'FEATURES',
                 },
                 {
                     key: 'alliance',
                     label: 'ALLIANCE',
-                    sortable: true
+                    sortable: true,
                 },
                 {
                     key: 'action',
                     label: '',
-                    class: 'text-center'
-                }
-            ]
+                    class: 'text-center',
+                },
+            ],
         };
     },
     async mounted() {
@@ -206,7 +211,7 @@ export default {
                 storageBucket: process.env.GRIDSOME_STORAGE_BUCKET,
                 messagingSenderId: process.env.GRIDSOME_MESSAGING_SENDER_ID,
                 appId: process.env.GRIDSOME_APP_ID,
-                measurementId: process.env.GRIDSOME_MEASUREMENT_ID
+                measurementId: process.env.GRIDSOME_MEASUREMENT_ID,
             });
 
             window.db = firebase.firestore();
@@ -216,7 +221,7 @@ export default {
                 const snap = await db
                     .collection(process.env.GRIDSOME_CLAN_COL)
                     .get();
-                this.clans = snap.docs.map(doc => doc.data());
+                this.clans = snap.docs.map((doc) => doc.data());
             } catch (e) {
                 console.error(e);
             }
@@ -234,14 +239,14 @@ export default {
                 this.$bvToast.toast('Clan successfully registered', {
                     title: `Success`,
                     variant: 'success',
-                    solid: true
+                    solid: true,
                 });
             } catch (e) {
                 console.error(e);
                 this.$bvToast.toast('Something went wrong, please try again', {
                     title: `Failed`,
                     variant: 'danger',
-                    solid: true
+                    solid: true,
                 });
             } finally {
                 this.isRegisterLoading = false;
@@ -252,13 +257,9 @@ export default {
             await this.$bvModal.show('join');
             this.$refs.joinInput.select();
             this.$refs.joinInput.setSelectionRange(0, this.joinText.length);
-        }
-    }
+        },
+    },
 };
 </script>
 
-<style>
-.capitalize {
-    text-transform: capitalize;
-}
-</style>
+<style></style>
