@@ -24,7 +24,7 @@
                                 <b-col>{{ c.itemCount }}</b-col>
                             </b-row>
 
-                            <b-row>
+                            <b-row v-if="c.drops.length > 0">
                                 <b-col cols="5">Chance:</b-col>
                                 <b-col
                                     >{{
