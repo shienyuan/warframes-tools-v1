@@ -5,8 +5,10 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-module.exports = function (api) {
-    api.loadSource(({ addCollection, addMetadata }) => {
+const axios = require('axios');
+
+module.exports = async (api) => {
+    await api.loadSource(async ({ addCollection, addMetadata }) => {
         const mrcMethods = require('./data/masteryPoints.json');
         const mrcRanks = require('./data/masteryRanks.json');
         const meta = require('./data/meta.json');
@@ -30,12 +32,28 @@ module.exports = function (api) {
         }
 
         // warframe
-        const warframe = require('./data/warframe.json');
-        const warframeCol = addCollection({
-            typeName: 'warframe',
+
+        const warframeNormal = await axios.get(
+            'http://localhost:8081/warframe?type=normal'
+        );
+        const warframePrime = await axios.get(
+            'http://localhost:8081/warframe?type=prime'
+        );
+
+        const warframeNormalCol = addCollection({
+            typeName: 'warframeNormal',
         });
-        for (const w of warframe) {
-            warframeCol.addNode(w);
+
+        const warframePrimeCol = addCollection({
+            typeName: 'warframePrime',
+        });
+
+        for (const w of warframeNormal.data) {
+            warframeNormalCol.addNode(w);
+        }
+
+        for (const w of warframePrime.data) {
+            warframePrimeCol.addNode(w);
         }
 
         // primary
@@ -69,20 +87,31 @@ module.exports = function (api) {
     api.createPages(async ({ graphql, createPage }) => {
         const { data } = await graphql(`
             {
-                allWarframe {
+                allWarframeNormal {
                     edges {
                         node {
                             id
                             name
+                            image_name
                             description
-                            imageName
+                            health
+                            shield
+                            armor
+                            power
+                            sprint
+                            mastery_req
+                            build_price
+                            build_time
+                            build_skip_price
+                            abilities {
+                                name
+                                description
+                            }
                             components {
                                 name
-                                itemCount
-                                imageName
+                                item_count
                                 drops {
                                     location
-                                    type
                                     chance
                                     rarity
                                 }
@@ -93,7 +122,7 @@ module.exports = function (api) {
             }
         `);
 
-        data.allWarframe.edges.forEach(({ node }) => {
+        data.allWarframeNormal.edges.forEach(({ node }) => {
             createPage({
                 path: `/warframe/${node.name}`,
                 component: './src/templates/Warframe.vue',
