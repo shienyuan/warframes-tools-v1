@@ -7,7 +7,7 @@
                 cols="4"
                 md="3"
                 xl="2"
-                v-for="w in $page.warframes.edges"
+                v-for="w in $page.normalWarframes.edges"
                 :key="w.id"
             >
                 <b-card
@@ -17,7 +17,7 @@
                     @click="$router.push(`/warframe/${w.node.name}`)"
                 >
                     <b-card-img
-                        :src="getImgUrl + w.node.imageName"
+                        :src="getImgUrl + w.node.image_name"
                     ></b-card-img>
 
                     <template #footer>
@@ -40,12 +40,12 @@
 
 <page-query>
 query {
-warframes: allWarframe(sortBy:"name" order: ASC) {
+normalWarframes: allWarframeNormal(sortBy:"name" order: ASC) {
 edges {
 node {
 id
 name
-imageName
+image_name
 }
 }
 }
