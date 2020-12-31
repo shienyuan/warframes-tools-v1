@@ -8,6 +8,8 @@
 const axios = require('axios');
 
 module.exports = async (api) => {
+    const baseUrl = process.env.GRIDSOME_BASE_URL;
+
     await api.loadSource(async ({ addCollection, addMetadata }) => {
         const mrcMethods = require('./data/masteryPoints.json');
         const mrcRanks = require('./data/masteryRanks.json');
@@ -34,11 +36,9 @@ module.exports = async (api) => {
         // warframe
 
         const warframeNormal = await axios.get(
-            'http://localhost:8081/warframe?type=normal'
+            `${baseUrl}/warframe?type=normal`
         );
-        const warframePrime = await axios.get(
-            'http://localhost:8081/warframe?type=prime'
-        );
+        const warframePrime = await axios.get(`${baseUrl}/warframe?type=prime`);
 
         const warframeNormalCol = addCollection({
             typeName: 'warframeNormal',
